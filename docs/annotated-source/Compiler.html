@@ -1,0 +1,4478 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Compiler.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="OSG.html">
+                OSG.js
+              </a>
+            
+              
+              <a class="source" href="BillboardAttribute.html">
+                BillboardAttribute.js
+              </a>
+            
+              
+              <a class="source" href="BlendColor.html">
+                BlendColor.js
+              </a>
+            
+              
+              <a class="source" href="BlendFunc.html">
+                BlendFunc.js
+              </a>
+            
+              
+              <a class="source" href="BoundingBox.html">
+                BoundingBox.js
+              </a>
+            
+              
+              <a class="source" href="BoundingSphere.html">
+                BoundingSphere.js
+              </a>
+            
+              
+              <a class="source" href="BufferArray.html">
+                BufferArray.js
+              </a>
+            
+              
+              <a class="source" href="BufferArrayProxy.html">
+                BufferArrayProxy.js
+              </a>
+            
+              
+              <a class="source" href="Camera.html">
+                Camera.js
+              </a>
+            
+              
+              <a class="source" href="ColorMask.html">
+                ColorMask.js
+              </a>
+            
+              
+              <a class="source" href="ComputeBoundsVisitor.html">
+                ComputeBoundsVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ComputeMatrixFromNodePath.html">
+                ComputeMatrixFromNodePath.js
+              </a>
+            
+              
+              <a class="source" href="CullFace.html">
+                CullFace.js
+              </a>
+            
+              
+              <a class="source" href="CullSettings.html">
+                CullSettings.js
+              </a>
+            
+              
+              <a class="source" href="CullStack.html">
+                CullStack.js
+              </a>
+            
+              
+              <a class="source" href="CullVisitor.html">
+                CullVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CullingSet.html">
+                CullingSet.js
+              </a>
+            
+              
+              <a class="source" href="Depth.html">
+                Depth.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrayLengths.html">
+                DrawArrayLengths.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrays.html">
+                DrawArrays.js
+              </a>
+            
+              
+              <a class="source" href="DrawElements.html">
+                DrawElements.js
+              </a>
+            
+              
+              <a class="source" href="EllipsoidModel.html">
+                EllipsoidModel.js
+              </a>
+            
+              
+              <a class="source" href="FrameBufferObject.html">
+                FrameBufferObject.js
+              </a>
+            
+              
+              <a class="source" href="FrameStamp.html">
+                FrameStamp.js
+              </a>
+            
+              
+              <a class="source" href="GLObject.html">
+                GLObject.js
+              </a>
+            
+              
+              <a class="source" href="Geometry.html">
+                Geometry.js
+              </a>
+            
+              
+              <a class="source" href="Image.html">
+                Image.js
+              </a>
+            
+              
+              <a class="source" href="ImageStream.html">
+                ImageStream.js
+              </a>
+            
+              
+              <a class="source" href="KdTree.html">
+                KdTree.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeBuilder.html">
+                KdTreeBuilder.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeRayIntersector.html">
+                KdTreeRayIntersector.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeSphereIntersector.html">
+                KdTreeSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="Light.html">
+                Light.js
+              </a>
+            
+              
+              <a class="source" href="LightSource.html">
+                LightSource.js
+              </a>
+            
+              
+              <a class="source" href="LineWidth.html">
+                LineWidth.js
+              </a>
+            
+              
+              <a class="source" href="Lod.html">
+                Lod.js
+              </a>
+            
+              
+              <a class="source" href="Map.html">
+                Map.js
+              </a>
+            
+              
+              <a class="source" href="Material.html">
+                Material.js
+              </a>
+            
+              
+              <a class="source" href="Math.html">
+                Math.js
+              </a>
+            
+              
+              <a class="source" href="Matrix.html">
+                Matrix.js
+              </a>
+            
+              
+              <a class="source" href="MatrixMemoryPool.html">
+                MatrixMemoryPool.js
+              </a>
+            
+              
+              <a class="source" href="MatrixTransform.html">
+                MatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="NodeVisitor.html">
+                NodeVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Notify.html">
+                Notify.js
+              </a>
+            
+              
+              <a class="source" href="Object.html">
+                Object.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="PagedLOD.html">
+                PagedLOD.js
+              </a>
+            
+              
+              <a class="source" href="Plane.html">
+                Plane.js
+              </a>
+            
+              
+              <a class="source" href="Polytope.html">
+                Polytope.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveFunctor.html">
+                PrimitiveFunctor.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveSet.html">
+                PrimitiveSet.js
+              </a>
+            
+              
+              <a class="source" href="Program.html">
+                Program.js
+              </a>
+            
+              
+              <a class="source" href="Projection.html">
+                Projection.js
+              </a>
+            
+              
+              <a class="source" href="Quat.html">
+                Quat.js
+              </a>
+            
+              
+              <a class="source" href="RenderBin.html">
+                RenderBin.js
+              </a>
+            
+              
+              <a class="source" href="RenderLeaf.html">
+                RenderLeaf.js
+              </a>
+            
+              
+              <a class="source" href="RenderStage.html">
+                RenderStage.js
+              </a>
+            
+              
+              <a class="source" href="Shader.html">
+                Shader.js
+              </a>
+            
+              
+              <a class="source" href="Shape.html">
+                Shape.js
+              </a>
+            
+              
+              <a class="source" href="Stack.html">
+                Stack.js
+              </a>
+            
+              
+              <a class="source" href="State.html">
+                State.js
+              </a>
+            
+              
+              <a class="source" href="StateAttribute.html">
+                StateAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StateGraph.html">
+                StateGraph.js
+              </a>
+            
+              
+              <a class="source" href="StateSet.html">
+                StateSet.js
+              </a>
+            
+              
+              <a class="source" href="Texture.html">
+                Texture.js
+              </a>
+            
+              
+              <a class="source" href="TextureCubeMap.html">
+                TextureCubeMap.js
+              </a>
+            
+              
+              <a class="source" href="TextureManager.html">
+                TextureManager.js
+              </a>
+            
+              
+              <a class="source" href="Timer.html">
+                Timer.js
+              </a>
+            
+              
+              <a class="source" href="Transform.html">
+                Transform.js
+              </a>
+            
+              
+              <a class="source" href="TransformEnums.html">
+                TransformEnums.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIndexFunctor.html">
+                TriangleIndexFunctor.js
+              </a>
+            
+              
+              <a class="source" href="Uniform.html">
+                Uniform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateVisitor.html">
+                UpdateVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Utils.html">
+                Utils.js
+              </a>
+            
+              
+              <a class="source" href="Vec2.html">
+                Vec2.js
+              </a>
+            
+              
+              <a class="source" href="Vec3.html">
+                Vec3.js
+              </a>
+            
+              
+              <a class="source" href="Vec4.html">
+                Vec4.js
+              </a>
+            
+              
+              <a class="source" href="Viewport.html">
+                Viewport.js
+              </a>
+            
+              
+              <a class="source" href="WebGLCaps.html">
+                WebGLCaps.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="Animation.html">
+                Animation.js
+              </a>
+            
+              
+              <a class="source" href="AnimationUpdateCallback.html">
+                AnimationUpdateCallback.js
+              </a>
+            
+              
+              <a class="source" href="BasicAnimationManager.html">
+                BasicAnimationManager.js
+              </a>
+            
+              
+              <a class="source" href="Bone.html">
+                Bone.js
+              </a>
+            
+              
+              <a class="source" href="Channel.html">
+                Channel.js
+              </a>
+            
+              
+              <a class="source" href="CollectAnimationUpdateCallbackVisitor.html">
+                CollectAnimationUpdateCallbackVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CollectBoneVisitor.html">
+                CollectBoneVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Easing.html">
+                Easing.js
+              </a>
+            
+              
+              <a class="source" href="FindNearestParentSkeleton.html">
+                FindNearestParentSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="Interpolator.html">
+                Interpolator.js
+              </a>
+            
+              
+              <a class="source" href="MorphAttribute.html">
+                MorphAttribute.js
+              </a>
+            
+              
+              <a class="source" href="MorphGeometry.html">
+                MorphGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigGeometry.html">
+                RigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigTransformHardware.html">
+                RigTransformHardware.js
+              </a>
+            
+              
+              <a class="source" href="Skeleton.html">
+                Skeleton.js
+              </a>
+            
+              
+              <a class="source" href="SkinningAttribute.html">
+                SkinningAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StackedMatrix.html">
+                StackedMatrix.js
+              </a>
+            
+              
+              <a class="source" href="StackedQuaternion.html">
+                StackedQuaternion.js
+              </a>
+            
+              
+              <a class="source" href="StackedRotateAxis.html">
+                StackedRotateAxis.js
+              </a>
+            
+              
+              <a class="source" href="StackedScale.html">
+                StackedScale.js
+              </a>
+            
+              
+              <a class="source" href="StackedTranslate.html">
+                StackedTranslate.js
+              </a>
+            
+              
+              <a class="source" href="Target.html">
+                Target.js
+              </a>
+            
+              
+              <a class="source" href="UpdateBone.html">
+                UpdateBone.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMatrixTransform.html">
+                UpdateMatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMorph.html">
+                UpdateMorph.js
+              </a>
+            
+              
+              <a class="source" href="UpdateRigGeometry.html">
+                UpdateRigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="UpdateSkeleton.html">
+                UpdateSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="channelType.html">
+                channelType.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="DatabasePager.html">
+                DatabasePager.js
+              </a>
+            
+              
+              <a class="source" href="Input.html">
+                Input.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="ReaderParser.html">
+                ReaderParser.js
+              </a>
+            
+              
+              <a class="source" href="osgDB.html">
+                osgDB.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulator.html">
+                FirstPersonManipulator.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorDeviceOrientationController.html">
+                FirstPersonManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorHammerController.html">
+                FirstPersonManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorStandardMouseKeyboardController.html">
+                FirstPersonManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorWebVRController.html">
+                FirstPersonManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="Manipulator.html">
+                Manipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulator.html">
+                OrbitManipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorDeviceOrientationController.html">
+                OrbitManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorEnums.html">
+                OrbitManipulatorEnums.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorGamePadController.html">
+                OrbitManipulatorGamePadController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorHammerController.html">
+                OrbitManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorLeapMotionController.html">
+                OrbitManipulatorLeapMotionController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorStandardMouseKeyboardController.html">
+                OrbitManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorWebVRController.html">
+                OrbitManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="SwitchManipulator.html">
+                SwitchManipulator.js
+              </a>
+            
+              
+              <a class="source" href="osgGA.html">
+                osgGA.js
+              </a>
+            
+              
+              <a class="source" href="osgNameSpace.html">
+                osgNameSpace.js
+              </a>
+            
+              
+              <a class="source" href="Compiler.html">
+                Compiler.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGenerator.html">
+                ShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGeneratorProxy.html">
+                ShaderGeneratorProxy.js
+              </a>
+            
+              
+              <a class="source" href="ShaderProcessor.html">
+                ShaderProcessor.js
+              </a>
+            
+              
+              <a class="source" href="node.html">
+                node.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="data.html">
+                data.js
+              </a>
+            
+              
+              <a class="source" href="functions.html">
+                functions.js
+              </a>
+            
+              
+              <a class="source" href="lights.html">
+                lights.js
+              </a>
+            
+              
+              <a class="source" href="morph.html">
+                morph.js
+              </a>
+            
+              
+              <a class="source" href="operations.html">
+                operations.js
+              </a>
+            
+              
+              <a class="source" href="shadows.html">
+                shadows.js
+              </a>
+            
+              
+              <a class="source" href="skinning.html">
+                skinning.js
+              </a>
+            
+              
+              <a class="source" href="textures.html">
+                textures.js
+              </a>
+            
+              
+              <a class="source" href="nodeFactory.html">
+                nodeFactory.js
+              </a>
+            
+              
+              <a class="source" href="osgShader.html">
+                osgShader.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="utils.html">
+                utils.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastAttribute.html">
+                ShadowCastAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastCompiler.html">
+                ShadowCastCompiler.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastShaderGenerator.html">
+                ShadowCastShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCasterVisitor.html">
+                ShadowCasterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ShadowFrustumIntersection.html">
+                ShadowFrustumIntersection.js
+              </a>
+            
+              
+              <a class="source" href="ShadowMap.html">
+                ShadowMap.js
+              </a>
+            
+              
+              <a class="source" href="ShadowReceiveAttribute.html">
+                ShadowReceiveAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowSettings.html">
+                ShadowSettings.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTechnique.html">
+                ShadowTechnique.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTexture.html">
+                ShadowTexture.js
+              </a>
+            
+              
+              <a class="source" href="ShadowedScene.html">
+                ShadowedScene.js
+              </a>
+            
+              
+              <a class="source" href="osgShadow.html">
+                osgShadow.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="Text.html">
+                Text.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+              
+              <a class="source" href="Composer.html">
+                Composer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGeometryVisitor.html">
+                DisplayGeometryVisitor.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraph.html">
+                DisplayGraph.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphNode.html">
+                DisplayGraphNode.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphRenderer.html">
+                DisplayGraphRenderer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayNormalVisitor.html">
+                DisplayNormalVisitor.js
+              </a>
+            
+              
+              <a class="source" href="GizmoGeometry.html">
+                GizmoGeometry.js
+              </a>
+            
+              
+              <a class="source" href="IntersectionVisitor.html">
+                IntersectionVisitor.js
+              </a>
+            
+              
+              <a class="source" href="LineSegmentIntersector.html">
+                LineSegmentIntersector.js
+              </a>
+            
+              
+              <a class="source" href="NodeGizmo.html">
+                NodeGizmo.js
+              </a>
+            
+              
+              <a class="source" href="ParameterVisitor.html">
+                ParameterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="PolytopeIntersector.html">
+                PolytopeIntersector.js
+              </a>
+            
+              
+              <a class="source" href="PolytopePrimitiveIntersector.html">
+                PolytopePrimitiveIntersector.js
+              </a>
+            
+              
+              <a class="source" href="SphereIntersector.html">
+                SphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TangentSpaceGenerator.html">
+                TangentSpaceGenerator.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIntersector.html">
+                TriangleIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TriangleSphereIntersector.html">
+                TriangleSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="WebVRCustom.html">
+                WebVRCustom.js
+              </a>
+            
+              
+              <a class="source" href="osgPool.html">
+                osgPool.js
+              </a>
+            
+              
+              <a class="source" href="osgUtil.html">
+                osgUtil.js
+              </a>
+            
+              
+              <a class="source" href="Renderer.html">
+                Renderer.js
+              </a>
+            
+              
+              <a class="source" href="Scene.html">
+                Scene.js
+              </a>
+            
+              
+              <a class="source" href="View.html">
+                View.js
+              </a>
+            
+              
+              <a class="source" href="Viewer.html">
+                Viewer.js
+              </a>
+            
+              
+              <a class="source" href="createStats.html">
+                createStats.js
+              </a>
+            
+              
+              <a class="source" href="DeviceOrientation.html">
+                DeviceOrientation.js
+              </a>
+            
+              
+              <a class="source" href="EventProxy.html">
+                EventProxy.js
+              </a>
+            
+              
+              <a class="source" href="GamePad.html">
+                GamePad.js
+              </a>
+            
+              
+              <a class="source" href="Hammer.html">
+                Hammer.js
+              </a>
+            
+              
+              <a class="source" href="LeapMotion.html">
+                LeapMotion.js
+              </a>
+            
+              
+              <a class="source" href="StandardMouseKeyboard.html">
+                StandardMouseKeyboard.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="osgViewer.html">
+                osgViewer.js
+              </a>
+            
+              
+              <a class="source" href="webgl-debug.html">
+                webgl-debug.js
+              </a>
+            
+              
+              <a class="source" href="webgl-utils.html">
+                webgl-utils.js
+              </a>
+            
+              
+              <a class="source" href="osgWrappers.html">
+                osgWrappers.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>Compiler.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">'use strict'</span>;
+<span class="hljs-keyword">var</span> Notify = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Notify'</span> );
+<span class="hljs-keyword">var</span> MACROUTILS = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Utils'</span> );
+<span class="hljs-keyword">var</span> Uniform = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Uniform'</span> );
+<span class="hljs-keyword">var</span> factory = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osgShader/nodeFactory'</span> );
+
+<span class="hljs-keyword">var</span> Compiler = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> attributes, textureAttributes, shaderProcessor </span>) </span>{
+    <span class="hljs-keyword">this</span>._attributes = attributes;
+    <span class="hljs-keyword">this</span>._textureAttributes = textureAttributes;
+
+    <span class="hljs-keyword">this</span>._activeNodeList = {};
+    <span class="hljs-keyword">this</span>._compiledNodeList = {};
+
+    <span class="hljs-keyword">this</span>._variables = {};
+    <span class="hljs-keyword">this</span>._varyings = {};
+    <span class="hljs-keyword">this</span>._vertexShader = [];
+    <span class="hljs-keyword">this</span>._fragmentShader = [];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>global stuffs</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._shaderProcessor = shaderProcessor;
+    <span class="hljs-keyword">this</span>._texturesByName = {};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>TODO: Have to handle better textures
+4 separate loop over texture list: one here, one for declareTexture, 2 for vertexShader (varying decl + varying store)
+(not counting loops done above in shader generator)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+    <span class="hljs-keyword">this</span>._shadowsTextures = [];
+    <span class="hljs-keyword">this</span>._lights = [];
+    <span class="hljs-keyword">this</span>._shadows = [];
+    <span class="hljs-keyword">this</span>._textures = [];
+    <span class="hljs-keyword">this</span>._material = <span class="hljs-literal">null</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>LOW-LEVEL info
+shared between VS and FS pass</p>
+<p>List what we’ll use
+allowing not to try
+to compute varying for nothing
+and interpolate varying for nothing
+default is nearly all disabled until proven otherwise
+but for texcoord.
+this._shaderAttributes = {
+    ‘Vertex’: true,
+    ‘VertexColor’: true,
+    ‘Normal’: true
+};</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._shaderAttributes = {
+        <span class="hljs-string">'Vertex'</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-string">'VertexColor'</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-string">'Normal'</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-string">'Tangent'</span>: <span class="hljs-literal">false</span>
+    };</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>High-Level Info, maybe specific
+to Material “light/ilb” Compilation
+shared between VS and FS pass</p>
+<p>This hints at current compiler is already too specialized
+and we should make a more abstract One the Parent class
+and this one one that inherits and add light, shadow, etc.
+(material?)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._isLighted = <span class="hljs-literal">false</span>; <span class="hljs-comment">// either shadeless, or no light (beware ibl)</span>
+    <span class="hljs-keyword">this</span>._isShadeless = <span class="hljs-literal">false</span>;
+    <span class="hljs-keyword">this</span>._isBillboard = <span class="hljs-literal">false</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>from Attributes to variables
+to build shader nodes graph from</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.initAttributes();
+    <span class="hljs-keyword">this</span>.initTextureAttributes();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>no need to test light</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">var</span> hasMaterial = !!<span class="hljs-keyword">this</span>._material;
+    <span class="hljs-keyword">this</span>._isLighted = hasMaterial &amp;&amp; <span class="hljs-keyword">this</span>._lights.length &gt; <span class="hljs-number">0</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>backup shader, FS just output ‘fofd’</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._isVertexColored = hasMaterial;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>Important: if not using Compiler for Both VS and FS
+Check either of those
+it allow override by custom Processor of some check
+between the VS &amp; FS pass (varying mostly)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>._customVertexShader = <span class="hljs-literal">false</span>;
+    <span class="hljs-keyword">this</span>._customFragmentShader = <span class="hljs-literal">false</span>;
+};
+
+Compiler.prototype = {
+
+    initAttributes: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> attributes = <span class="hljs-keyword">this</span>._attributes;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>separate Material / Light / Texture
+because this shader generator is specific for this</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> lights = <span class="hljs-keyword">this</span>._lights;
+        <span class="hljs-keyword">var</span> shadows = <span class="hljs-keyword">this</span>._shadows;
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, l = attributes.length; i &lt; l; i++ ) {
+
+            <span class="hljs-keyword">var</span> type = attributes[ i ].className();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>Test one light at a time</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'Light'</span> ) { <span class="hljs-comment">// &amp;&amp; lights.length === 0) {</span>
+
+                lights.push( attributes[ i ] );
+
+
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'Material'</span> ) {
+
+                <span class="hljs-keyword">this</span>._material = attributes[ i ];
+
+
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'ShadowReceiveAttribute'</span> ) {
+
+                shadows.push( attributes[ i ] );
+
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'Billboard'</span> ) {
+                <span class="hljs-keyword">this</span>._isBillboard = !!attributes[ i ];
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'SkinningAttribute'</span> ) {
+                <span class="hljs-keyword">this</span>._skinningAttribute = attributes[ i ];
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( type === <span class="hljs-string">'MorphAttribute'</span> ) {
+                <span class="hljs-keyword">this</span>._morphAttribute = attributes[ i ];
+            }
+        }
+    },
+
+    initTextureAttributes: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+        <span class="hljs-keyword">var</span> textureAttributes = <span class="hljs-keyword">this</span>._textureAttributes;
+        <span class="hljs-keyword">var</span> texturesNum = textureAttributes.length;
+        <span class="hljs-keyword">this</span>._textures.length = <span class="hljs-keyword">this</span>._shadowsTextures.length = texturesNum;
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>; j &lt; texturesNum; j++ ) {
+            <span class="hljs-keyword">var</span> tu = textureAttributes[ j ];
+            <span class="hljs-keyword">if</span> ( tu === <span class="hljs-literal">undefined</span> )
+                <span class="hljs-keyword">continue</span>;
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> t = <span class="hljs-number">0</span>, tl = tu.length; t &lt; tl; t++ ) {
+                <span class="hljs-keyword">this</span>.registerTextureAttributes( tu[ t ], j );
+            }
+        }
+    },
+
+    registerTextureAttributes: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> tuTarget, tunit </span>) </span>{
+        <span class="hljs-keyword">var</span> tType = tuTarget.className();
+        <span class="hljs-keyword">if</span> ( tType === <span class="hljs-string">'Texture'</span> ) <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.registerTexture( tuTarget, tunit );
+        <span class="hljs-keyword">if</span> ( tType === <span class="hljs-string">'ShadowTexture'</span> ) <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.registerTextureShadow( tuTarget, tunit );
+    },
+
+    registerTexture: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> tuTarget, texUnit </span>) </span>{
+        <span class="hljs-keyword">var</span> tName = tuTarget.getName();
+        <span class="hljs-keyword">if</span> ( !tName ) {
+            tName = <span class="hljs-string">'Texture'</span> + texUnit;
+            tuTarget.setName( tName );
+        }
+        <span class="hljs-keyword">this</span>._textures[ texUnit ] = tuTarget;
+
+        <span class="hljs-keyword">this</span>._texturesByName[ tName ] = {
+            texture: tuTarget,
+            variable: <span class="hljs-literal">undefined</span>,
+            textureUnit: texUnit
+        };
+    },
+
+    registerTextureShadow: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> tuTarget, texUnit </span>) </span>{
+        <span class="hljs-keyword">var</span> tName = tuTarget.getName();
+        <span class="hljs-keyword">if</span> ( !tName ) {
+            tName = <span class="hljs-string">'Texture'</span> + texUnit;
+            tuTarget.setName( tName );
+        }
+        <span class="hljs-keyword">this</span>._shadowsTextures[ texUnit ] = tuTarget;
+
+        <span class="hljs-keyword">this</span>._texturesByName[ tName ] = {
+            texture: tuTarget,
+            variable: <span class="hljs-literal">undefined</span>,
+            textureUnit: texUnit,
+            shadow: <span class="hljs-literal">true</span>
+        };
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>cache all requested node, so that we can list
+and log unused Node that where called
+or/cache unique or predefined node
+thus avoid mutiple getNode of a
+Node that HAS to be unique</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getNode: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> <span class="hljs-comment">/*name, arg1, etc*/</span></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>check unique Node
+for predefined GL variables
+gl_FragCoord, gl_Position, etc
+Extend to Varying</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> n = factory.getNode.apply( factory, <span class="hljs-built_in">arguments</span> );
+        <span class="hljs-keyword">var</span> cacheID = n.getID();
+        <span class="hljs-keyword">this</span>._activeNodeList[ cacheID ] = n;
+        <span class="hljs-keyword">return</span> n;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>during compilation we pop
+all node we do encounter
+so that we can warn about
+“leftover” once compilation
+is finished
+Note: same node may be marked multiple time
+do not use it as a “once and for all mark thing”</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    markNodeAsVisited: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> n </span>) </span>{
+        <span class="hljs-keyword">var</span> cacheID = n.getID();
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._activeNodeList[ cacheID ] === n ) {
+            <span class="hljs-keyword">this</span>._compiledNodeList[ cacheID ] = n;
+        } <span class="hljs-keyword">else</span> {
+            Notify.warn( <span class="hljs-string">'Node not requested by using Compiler getNode and/or not registered in nodeFactory '</span> + n.toString() );
+        }
+    },
+
+    getVariable: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> nameID </span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._variables[ nameID ];
+    },
+
+    getAttributeType: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type </span>) </span>{
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword">this</span>._attributes.length; i++ ) {
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._attributes[ i ].getType() === type )
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._attributes[ i ];
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>TODO: add Precision qualifier
+if doesn’t exist create a new on
+if nameID given and var already exist, create a varname +</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createVariable: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, varname, deepness </span>) </span>{
+
+        <span class="hljs-keyword">var</span> nameID = varname;
+
+        <span class="hljs-keyword">if</span> ( nameID === <span class="hljs-literal">undefined</span> ) {
+
+            <span class="hljs-keyword">var</span> len = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._variables ).length;
+            nameID = <span class="hljs-string">'tmp_'</span> + len;
+
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._variables[ nameID ] ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>create a new variable
+if we want to reuse a variable we should NOT
+call this function in the first place and do the
+test before…
+however for uniform, varying and sampler, we return
+the variable if it already exists, because they are
+meant to be read only</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            nameID = nameID + deepness;
+            <span class="hljs-keyword">if</span> ( deepness === <span class="hljs-literal">undefined</span> ) {
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.createVariable( type, varname, <span class="hljs-number">1</span> );
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._variables[ nameID ] ) {
+                deepness++;
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.createVariable( type, varname, deepness );
+            }
+
+        }
+
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Variable'</span>, type, nameID );
+        <span class="hljs-keyword">this</span>._variables[ nameID ] = v;
+        <span class="hljs-keyword">return</span> v;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <p>Map of uniform from a StateAttribute or TextureStateAttribute</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateUniformFromUniformMap: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> uniforms, prefix </span>) </span>{
+        <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( uniforms );
+        <span class="hljs-keyword">var</span> object = {};
+
+        <span class="hljs-keyword">var</span> prefixUniform = prefix ? prefix : <span class="hljs-string">''</span>;
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; keys.length; i++ ) {
+            <span class="hljs-keyword">var</span> k = prefixUniform + keys[ i ];
+            object[ k ] = <span class="hljs-keyword">this</span>.getOrCreateUniform( uniforms[ keys[ i ] ] );
+        }
+
+        <span class="hljs-keyword">return</span> object;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>specialized for texture, enforcing last parameter usage.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateTextureStateAttributeUniforms: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> stateAttribute, prefix, unit </span>) </span>{
+
+        <span class="hljs-keyword">var</span> uniforms = stateAttribute.getOrCreateUniforms( unit );
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateUniformFromUniformMap( uniforms, prefix );
+    },
+
+    getOrCreateStateAttributeUniforms: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> stateAttribute, prefix </span>) </span>{
+
+        <span class="hljs-keyword">var</span> uniforms = stateAttribute.getOrCreateUniforms();
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateUniformFromUniformMap( uniforms, prefix );
+    },
+
+    getOrCreateUniform: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, varname, size </span>) </span>{
+
+        <span class="hljs-keyword">var</span> nameID = varname;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>accept uniform as parameter to simplify code</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( type <span class="hljs-keyword">instanceof</span> Uniform ) {
+
+            <span class="hljs-keyword">var</span> uniform = type;
+            type = uniform.getType();
+            nameID = uniform.getName();
+
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( nameID === <span class="hljs-literal">undefined</span> ) {
+            Notify.error( <span class="hljs-string">'Cannot create unamed Uniform'</span> );
+        }
+
+
+        <span class="hljs-keyword">var</span> exist = <span class="hljs-keyword">this</span>._variables[ nameID ];
+        <span class="hljs-keyword">if</span> ( exist ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>see comment in Variable function</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">if</span> ( exist.getType() === type ) {
+                <span class="hljs-keyword">return</span> exist;
+            }
+            <span class="hljs-comment">/*develblock:start*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>texture has a particular “dual” type of uniform
+a sampler2D
+a int pointing to the texture unit the sampler2D represents</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">if</span> ( exist.getType() === <span class="hljs-string">'sampler2D'</span> &amp;&amp; type !== <span class="hljs-string">'sampler2D'</span> ) {
+                Notify.error( <span class="hljs-string">'Same uniform, but different type'</span> );
+            }
+            <span class="hljs-comment">/*develblock:end*/</span>
+        }
+
+
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Uniform'</span>, type, nameID, size );
+        <span class="hljs-keyword">this</span>._variables[ nameID ] = v;
+        <span class="hljs-keyword">return</span> v;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>make sure we get correct Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateAttribute: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, nameID </span>) </span>{
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._fragmentShaderMode ) {
+            Notify.error( <span class="hljs-string">'No Vertex Attribute in Fragment Shader'</span> );
+        }
+
+        <span class="hljs-keyword">var</span> exist = <span class="hljs-keyword">this</span>._variables[ nameID ];
+        <span class="hljs-keyword">if</span> ( exist ) {
+
+            <span class="hljs-comment">/*develblock:start*/</span>
+            <span class="hljs-keyword">if</span> ( exist.getType() !== type ) {
+                Notify.error( <span class="hljs-string">'Same attribute, but different type'</span> );
+            }
+            <span class="hljs-comment">/*develblock:end*/</span>
+
+            <span class="hljs-keyword">return</span> exist;
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>adds the reference for Fragment Shader
+aknowledging data binded
+and that varying data will be available accordingly</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>._shaderAttributes[ nameID ] = <span class="hljs-literal">true</span>;
+
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Attribute'</span>, type, nameID );
+        <span class="hljs-keyword">this</span>._variables[ nameID ] = v;
+        <span class="hljs-keyword">return</span> v;
+    },
+
+    getOrCreateConstant: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, varname </span>) </span>{
+        <span class="hljs-keyword">var</span> nameID = varname;
+        <span class="hljs-keyword">if</span> ( nameID === <span class="hljs-literal">undefined</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <p>TODO: temp constant ? or enforcing reuse ?
+maybe could parse variable to find other constant
+but would need having scope info</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> len = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._variables ).length;
+            nameID = <span class="hljs-string">'tmp_'</span> + len;
+
+        } <span class="hljs-keyword">else</span> {
+
+            <span class="hljs-keyword">var</span> exist = <span class="hljs-keyword">this</span>._variables[ nameID ];
+            <span class="hljs-keyword">if</span> ( exist ) {
+
+                <span class="hljs-comment">/*develblock:start*/</span>
+                <span class="hljs-keyword">if</span> ( exist.getType() !== type ) {
+                    Notify.error( <span class="hljs-string">'Same constant name, but different type'</span> );
+                }
+                <span class="hljs-comment">/*develblock:end*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              <p>see comment in Variable function</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">return</span> exist;
+            }
+
+        }
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Constant'</span>, type, nameID );
+        <span class="hljs-keyword">this</span>._variables[ nameID ] = v;
+        <span class="hljs-keyword">return</span> v;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-26">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-26">&#182;</a>
+              </div>
+              <p>make sure we get correct Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateVarying: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, nameID </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-27">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-27">&#182;</a>
+              </div>
+              <p>make sure you don’t create varying out of thin air</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( nameID === <span class="hljs-literal">undefined</span> ) {
+            Notify.error( <span class="hljs-string">'Error: Mandatory to name varying (as you need to retrieve them)'</span> );
+        }
+
+        <span class="hljs-keyword">var</span> exist = <span class="hljs-keyword">this</span>._variables[ nameID ];
+        <span class="hljs-keyword">if</span> ( exist ) {
+
+            <span class="hljs-comment">/*develblock:start*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-28">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-28">&#182;</a>
+              </div>
+              <p>something went wrong: you created a variable and try to access it like a varying</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._varyings[ nameID ] )
+                Notify.error( <span class="hljs-string">'Error: requesting a varying not declared with getOrCreateVarying previously'</span> );
+
+            <span class="hljs-keyword">if</span> ( exist.getType() !== type ) {
+                Notify.error( <span class="hljs-string">'Error: Same varying, but different type'</span> );
+            }
+            <span class="hljs-comment">/*develblock:end*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-29">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-29">&#182;</a>
+              </div>
+              <p>see comment in Variable function</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">return</span> exist;
+        } <span class="hljs-keyword">else</span> {
+            exist = <span class="hljs-keyword">this</span>._varyings[ nameID ];
+            <span class="hljs-keyword">if</span> ( exist ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-30">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-30">&#182;</a>
+              </div>
+              <p>varying was declared in Vertex Shader
+just add it to variables cache.
+as that cache is not shared between VS and PS</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">this</span>._variables[ nameID ] = exist;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-31">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-31">&#182;</a>
+              </div>
+              <p>ensure we have it in active node list, could come from VS varying list</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._fragmentShaderMode &amp;&amp; !<span class="hljs-keyword">this</span>._customVertexShader &amp;&amp; ( !<span class="hljs-keyword">this</span>._activeNodeList[ exist.getID() ] || <span class="hljs-keyword">this</span>._activeNodeList[ exist.getID() ] !== exist ) ) {
+
+                    Notify.error( <span class="hljs-string">'Error: Varying in Fragment not declared in Vertex shader: '</span> + nameID + <span class="hljs-string">' '</span> + type );
+                }
+                <span class="hljs-keyword">return</span> exist;
+            }
+        }
+
+        <span class="hljs-comment">/*develblock:start*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-32">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-32">&#182;</a>
+              </div>
+              <p>if it’s not in Varying Cache, but requested from fragment shader
+it means =&gt; error</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._fragmentShaderMode &amp;&amp; !<span class="hljs-keyword">this</span>._customVertexShader ) {
+            Notify.error( <span class="hljs-string">'Error: requesting a varying not declared in Vertex Shader Graph.( if a Custom Vertex Shader in a custom processor, add this._customVertexShader to your custom processor): '</span> + nameID + <span class="hljs-string">' '</span> + type );
+        }
+        <span class="hljs-comment">/*develblock:end*/</span>
+
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Varying'</span>, type, nameID );
+        <span class="hljs-keyword">this</span>._variables[ nameID ] = v;
+        <span class="hljs-keyword">this</span>._varyings[ nameID ] = v;
+
+        <span class="hljs-keyword">return</span> v;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-33">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-33">&#182;</a>
+              </div>
+              <p>make sure we get correct Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateSampler: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, varname </span>) </span>{
+
+        <span class="hljs-keyword">if</span> ( varname === <span class="hljs-literal">undefined</span> ) {
+            Notify.error( <span class="hljs-string">'No name given for sampler type : '</span> + type );
+        }
+
+        <span class="hljs-keyword">var</span> exist = <span class="hljs-keyword">this</span>._variables[ varname ];
+        <span class="hljs-keyword">if</span> ( exist ) {
+            <span class="hljs-keyword">return</span> exist; <span class="hljs-comment">// see comment in Variable function</span>
+        }
+
+        <span class="hljs-keyword">var</span> v = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Sampler'</span>, type, varname );
+        <span class="hljs-keyword">this</span>._variables[ varname ] = v;
+
+        <span class="hljs-keyword">return</span> v;
+    },
+
+    getOrCreateInputTangent: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'FragTangent'</span> );
+    },
+
+    getOrCreateFrontTangent: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> frontTangent = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'frontTangent'</span> );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'FrontNormal'</span> ).inputs( {
+            normal: <span class="hljs-keyword">this</span>.getOrCreateInputTangent()
+        } ).outputs( {
+            normal: frontTangent
+        } );
+
+        <span class="hljs-keyword">return</span> frontTangent;
+    },
+
+    getOrCreateInputNormal: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'FragNormal'</span> );
+    },
+
+    getOrCreateFrontNormal: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> inputNormal = <span class="hljs-keyword">this</span>.getOrCreateInputNormal();
+        <span class="hljs-keyword">var</span> frontNormal = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'frontNormal'</span> );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'FrontNormal'</span> ).inputs( {
+            normal: inputNormal
+        } ).outputs( {
+            normal: frontNormal
+        } );
+
+        <span class="hljs-keyword">return</span> frontNormal;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-34">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-34">&#182;</a>
+              </div>
+              <p>return a Vec4 so that we have the .w
+Allowing to know homogenous/ndc transfor
+(help linearizing depth casting for example)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateInputPosition: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'FragEyeVector'</span> );
+    },
+
+
+    getOrCreateNormalizedNormal: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> normal = <span class="hljs-keyword">this</span>._variables[ <span class="hljs-string">'normal'</span> ];
+        <span class="hljs-keyword">if</span> ( normal )
+            <span class="hljs-keyword">return</span> normal;
+        <span class="hljs-keyword">var</span> out = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normal'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Normalize'</span> ).inputs( {
+            vec: <span class="hljs-keyword">this</span>.getOrCreateFrontNormal()
+        } ).outputs( {
+            vec: out
+        } );
+        <span class="hljs-keyword">return</span> out;
+    },
+    getOrCreateNormalizedPosition: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> eye = <span class="hljs-keyword">this</span>._variables[ <span class="hljs-string">'eyeVector'</span> ];
+        <span class="hljs-keyword">if</span> ( eye )
+            <span class="hljs-keyword">return</span> eye;
+        <span class="hljs-keyword">var</span> nor = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">var</span> castEye = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'SetFromNode'</span> ).inputs( <span class="hljs-keyword">this</span>.getOrCreateInputPosition() ).outputs( castEye );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Normalize'</span> ).inputs( {
+            vec: castEye
+        } ).outputs( {
+            vec: nor
+        } );
+        <span class="hljs-keyword">var</span> out = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'eyeVector'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Mult'</span> ).inputs( nor, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'float'</span> ).setValue( <span class="hljs-string">'-1.0'</span> ) ).outputs( out );
+        <span class="hljs-keyword">return</span> out;
+    },
+
+    getPremultAlpha: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> finalColor, alpha </span>) </span>{
+
+        <span class="hljs-keyword">if</span> ( alpha === <span class="hljs-literal">undefined</span> )
+            <span class="hljs-keyword">return</span> finalColor;
+
+        <span class="hljs-keyword">var</span> premultAlpha = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span> );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'PreMultAlpha'</span> ).inputs( {
+            color: finalColor,
+            alpha: alpha
+        } ).outputs( {
+            color: premultAlpha
+        } );
+
+        <span class="hljs-keyword">return</span> premultAlpha;
+    },
+
+
+    getColorsRGB: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> finalColor </span>) </span>{
+        <span class="hljs-keyword">var</span> finalSrgbColor = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'LinearTosRGB'</span> ).inputs( {
+            color: finalColor
+        } ).outputs( {
+            color: finalSrgbColor
+        } );
+
+        <span class="hljs-keyword">return</span> finalSrgbColor;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-35">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-35">&#182;</a>
+              </div>
+              <p>Declare variable / varying to handle vertex color
+return a variable that contains the following operation
+newDiffuseColor = diffuseColor * vertexColor
+TODO: this code should move in the shader instead</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getVertexColor: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> diffuseColor </span>) </span>{
+
+        <span class="hljs-keyword">if</span> ( diffuseColor === <span class="hljs-literal">undefined</span> )
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+
+        <span class="hljs-keyword">var</span> vertexColor = <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'VertexColor'</span> );
+        <span class="hljs-keyword">var</span> vertexColorUniform = <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'float'</span>, <span class="hljs-string">'ArrayColorEnabled'</span> );
+        <span class="hljs-keyword">var</span> tmp = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span> );
+
+        <span class="hljs-keyword">var</span> str = [ <span class="hljs-string">''</span>,
+            <span class="hljs-string">'%color.rgb = %diffuse.rgb;'</span>,
+            <span class="hljs-string">'if ( %hasVertexColor == 1.0)'</span>,
+            <span class="hljs-string">'  %color *= %vertexColor.rgba;'</span>
+        ].join( <span class="hljs-string">'\n'</span> );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( str ).inputs( {
+            diffuse: diffuseColor,
+            hasVertexColor: vertexColorUniform,
+            vertexColor: vertexColor
+        } ).outputs( {
+            color: tmp
+        } ).comment( <span class="hljs-string">'diffuse color = diffuse color * vertex color'</span> );
+
+        <span class="hljs-keyword">return</span> tmp;
+    },
+
+
+    getDiffuseColorFromTextures: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+        <span class="hljs-keyword">var</span> texturesInput = [];
+        <span class="hljs-keyword">var</span> textures = <span class="hljs-keyword">this</span>._texturesByName;
+
+        <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( textures );
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; keys.length; i++ ) {
+            <span class="hljs-keyword">var</span> texture = textures[ keys[ i ] ];
+
+            <span class="hljs-keyword">if</span> ( !texture )
+                <span class="hljs-keyword">continue</span>;
+
+            <span class="hljs-keyword">if</span> ( texture.shadow )
+                <span class="hljs-keyword">continue</span>;
+
+            texturesInput.push( texture.variable );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-36">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-36">&#182;</a>
+              </div>
+              <p>if multi texture multiply them all with diffuse
+but if only one, return the first</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( texturesInput.length &gt; <span class="hljs-number">1</span> ) {
+
+            <span class="hljs-keyword">var</span> texAccum = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'texDiffuseAccum'</span> );
+
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Mult'</span> ).inputs( texturesInput ).outputs( texAccum );
+            <span class="hljs-keyword">return</span> texAccum;
+
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( texturesInput.length === <span class="hljs-number">1</span> ) {
+
+            <span class="hljs-keyword">return</span> texturesInput[ <span class="hljs-number">0</span> ];
+        }
+
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-37">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-37">&#182;</a>
+              </div>
+              <p>return the first texture valid in texture unit</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getFirstValidTexture: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+        <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._texturesByName );
+        <span class="hljs-keyword">if</span> ( !keys.length )
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._texturesByName[ keys[ <span class="hljs-number">0</span> ] ].variable;
+
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-38">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-38">&#182;</a>
+              </div>
+              <p>declare sampler2D or samplerCube
+declare varying FragTexCoordX corresponding to the texture unit
+create a textureNode that could be referenced later by the compiler</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    declareTexture: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> unit, texture </span>) </span>{
+
+        <span class="hljs-keyword">var</span> samplerName = <span class="hljs-string">'Texture'</span> + unit.toString();
+        <span class="hljs-keyword">var</span> textureSampler = <span class="hljs-keyword">this</span>.getVariable( samplerName );
+        <span class="hljs-keyword">if</span> ( !textureSampler ) {
+            <span class="hljs-keyword">if</span> ( texture.className() === <span class="hljs-string">'Texture'</span> ) {
+                textureSampler = <span class="hljs-keyword">this</span>.getOrCreateSampler( <span class="hljs-string">'sampler2D'</span>, samplerName );
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( texture.className() === <span class="hljs-string">'TextureCubeMap'</span> ) {
+                textureSampler = <span class="hljs-keyword">this</span>.getOrCreateSampler( <span class="hljs-string">'samplerCube'</span>, samplerName );
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( texture.className() === <span class="hljs-string">'ShadowTexture'</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-39">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-39">&#182;</a>
+              </div>
+              <p>don’t pre-declare texture for shadow
+as it’s uniform node caching/get/compilation must not
+get the dual int/sampler2D thing.</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-40">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-40">&#182;</a>
+              </div>
+              <p>textureSampler = this.getOrCreateSampler( ‘sampler2D’, samplerName );
+return;</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+                <span class="hljs-keyword">return</span>;
+            }
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-41">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-41">&#182;</a>
+              </div>
+              <p>texture coordinates are automatically mapped to unit texture number
+it means that for Texture0 we will search for FragTexCoord0,
+Texture1 -&gt; FragTexCoord1 …</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> texCoordUnit = unit;
+        <span class="hljs-keyword">var</span> texCoord = <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'FragTexCoord'</span> + texCoordUnit );
+        <span class="hljs-keyword">if</span> ( texCoord === <span class="hljs-literal">undefined</span> ) {
+            texCoord = <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec2'</span>, <span class="hljs-string">'FragTexCoord'</span> + texCoordUnit );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-42">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-42">&#182;</a>
+              </div>
+              <p>instanciate and reference a texture node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> output = <span class="hljs-keyword">this</span>.createTextureRGBA( texture, textureSampler, texCoord );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-43">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-43">&#182;</a>
+              </div>
+              <p>this part would need to be checked/updated
+not sure texturesByName makes sense</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> nameID = texture.getName();
+        <span class="hljs-keyword">if</span> ( nameID === <span class="hljs-literal">undefined</span> ) {
+            nameID = <span class="hljs-string">'Texture'</span> + texCoordUnit;
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-44">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-44">&#182;</a>
+              </div>
+              <p>create/update texture entry (texture, textureUnit)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> textureMaterial = <span class="hljs-keyword">this</span>._texturesByName[ nameID ];
+        <span class="hljs-keyword">if</span> ( textureMaterial === <span class="hljs-literal">undefined</span> ) {
+
+            <span class="hljs-keyword">this</span>._texturesByName[ nameID ] = {
+                variable: output,
+                textureUnit: unit
+            };
+
+        } <span class="hljs-keyword">else</span> {
+
+            textureMaterial.variable = output;
+            textureMaterial.textureUnit = unit;
+
+        }
+
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-45">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-45">&#182;</a>
+              </div>
+              <p>check for all textures found in the State
+and reference sampler associated to texture and uv channels</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    declareTextures: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+        <span class="hljs-keyword">var</span> textures = <span class="hljs-keyword">this</span>._textures;
+        <span class="hljs-keyword">var</span> nbTextures = textures.length;
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> t = <span class="hljs-number">0</span>, tl = nbTextures; t &lt; tl; t++ ) {
+
+            <span class="hljs-keyword">var</span> texture = textures[ t ];
+            <span class="hljs-keyword">if</span> ( !texture )
+                <span class="hljs-keyword">continue</span>;
+
+            <span class="hljs-keyword">if</span> ( texture.getType() === <span class="hljs-string">'Texture'</span> ) {
+
+                <span class="hljs-keyword">this</span>.declareTexture( <span class="hljs-keyword">this</span>.getTexCoordUnit( t ), texture );
+            }
+
+        }
+    },
+    createShadowingLight: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> light, inputs, lightedOutput </span>) </span>{
+
+        <span class="hljs-keyword">var</span> k;
+        <span class="hljs-keyword">var</span> shadow;
+        <span class="hljs-keyword">var</span> shadowTexture;
+        <span class="hljs-keyword">var</span> hasShadows = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">var</span> shadowTextures = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>( <span class="hljs-keyword">this</span>._shadowsTextures.length );
+        <span class="hljs-keyword">var</span> lightIndex = <span class="hljs-number">-1</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-46">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-46">&#182;</a>
+              </div>
+              <p>seach current light its corresponding shadow and shadowTextures.
+if none, no shadow, hop we go.
+TODO: harder Link shadowTexture and shadowAttribute ?
+TODO: multi shadow textures for 1 light</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> lightNum = light.getLightNumber();
+        <span class="hljs-keyword">for</span> ( k = <span class="hljs-number">0</span>; k &lt; <span class="hljs-keyword">this</span>._shadows.length; k++ ) {
+            shadow = <span class="hljs-keyword">this</span>._shadows[ k ];
+            <span class="hljs-keyword">if</span> ( shadow.getLightNumber() !== lightNum ) <span class="hljs-keyword">continue</span>;
+
+            lightIndex = k;
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> p = <span class="hljs-number">0</span>; p &lt; <span class="hljs-keyword">this</span>._shadowsTextures.length; p++ ) {
+                shadowTexture = <span class="hljs-keyword">this</span>._shadowsTextures[ p ];
+                <span class="hljs-keyword">if</span> ( shadowTexture &amp;&amp; shadowTexture.getLightUnit() === lightNum ) {
+                    shadowTextures[ p ] = shadowTexture;
+                    hasShadows = <span class="hljs-literal">true</span>;
+                }
+            }
+        }
+        <span class="hljs-keyword">if</span> ( !hasShadows ) <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-47">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-47">&#182;</a>
+              </div>
+              <p>Varyings</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> vertexWorld = <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'WorldPosition'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-48">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-48">&#182;</a>
+              </div>
+              <p>asserted we have a shadow we do the shadow node allocation
+and mult with lighted output</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shadowedOutput = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'float'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-49">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-49">&#182;</a>
+              </div>
+              <p>shadow Attribute uniforms</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shadowUniforms = <span class="hljs-keyword">this</span>.getOrCreateStateAttributeUniforms( <span class="hljs-keyword">this</span>._shadows[ lightIndex ], <span class="hljs-string">'shadow'</span> );
+        <span class="hljs-keyword">var</span> shadowInputs = MACROUTILS.objectMix( inputs, shadowUniforms );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-50">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-50">&#182;</a>
+              </div>
+              <p>shadowTexture  Attribute uniforms AND varying
+TODO: better handle multi texture shadow (CSM/PSM/etc.)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">for</span> ( k = <span class="hljs-number">0</span>; k &lt; shadowTextures.length; k++ ) {
+            shadowTexture = shadowTextures[ k ];
+            <span class="hljs-keyword">if</span> ( shadowTexture ) {
+                shadowInputs = <span class="hljs-keyword">this</span>.createShadowTextureInputVarying( shadowTexture, shadowInputs, vertexWorld, k );
+            }
+
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-51">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-51">&#182;</a>
+              </div>
+              <p>TODO: shadow Attributes in node, is this the legit way</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'ShadowReceive'</span> ).inputs( inputs ).outputs( {
+            float: shadowedOutput
+        } ).setShadowAttribute( shadow );
+
+        <span class="hljs-keyword">var</span> lightAndShadowTempOutput = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'lightAndShadowTempOutput'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Mult'</span> ).inputs( lightedOutput, shadowedOutput ).outputs( lightAndShadowTempOutput );
+        <span class="hljs-keyword">return</span> lightAndShadowTempOutput;
+
+    },
+
+    createShadowTextureInputVarying: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> shadowTexture, inputs, vertexWorld, tUnit </span>) </span>{
+        <span class="hljs-keyword">var</span> shadowTexSamplerName = <span class="hljs-string">'Texture'</span> + tUnit;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-52">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-52">&#182;</a>
+              </div>
+              <p>we declare first this uniform so that the Int one </p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> tex = <span class="hljs-keyword">this</span>.getOrCreateSampler( <span class="hljs-string">'sampler2D'</span>, shadowTexSamplerName );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-53">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-53">&#182;</a>
+              </div>
+              <p>per texture uniforms</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shadowTextureUniforms = <span class="hljs-keyword">this</span>.getOrCreateTextureStateAttributeUniforms( shadowTexture, <span class="hljs-string">'shadowTexture'</span>, tUnit );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-54">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-54">&#182;</a>
+              </div>
+              <p>UGLY REMOVAL: special case of the sampler texture as method above create
+unforms for all shadow texture uniform,
+including texture unit Int ‘Texture0’ which becomes
+‘shadowTextureTexture0’ which we won’t use
+so we remove it from adding it here</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> id = shadowTextureUniforms[ <span class="hljs-string">'shadowTexture'</span> + shadowTexSamplerName ].getID();
+        shadowTextureUniforms[ <span class="hljs-string">'shadowTexture'</span> + shadowTexSamplerName ] = <span class="hljs-literal">undefined</span>;
+        <span class="hljs-keyword">this</span>._variables[ shadowTexSamplerName ] = tex; <span class="hljs-comment">// the uniform Int overrided our sampler2D, so we add it back</span>
+        <span class="hljs-keyword">delete</span> <span class="hljs-keyword">this</span>._activeNodeList[ id ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-55">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-55">&#182;</a>
+              </div>
+              <p>end UGLY REMOVAL</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-keyword">var</span> inputsShadow = MACROUTILS.objectMix( inputs, shadowTextureUniforms );
+
+        inputsShadow.shadowTexture = tex;
+
+        <span class="hljs-keyword">var</span> shadowVarying = {
+            vertexWorld: vertexWorld,
+            lightEyeDir: inputsShadow.lightEyeDir,
+            lightNDL: inputsShadow.lightNDL
+        };
+        inputsShadow = MACROUTILS.objectMix( inputsShadow, shadowVarying );
+        <span class="hljs-keyword">return</span> inputsShadow;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-56">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-56">&#182;</a>
+              </div>
+              <p>Shared var between lights and shadows</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createCommonLightingVars: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> materials, enumLights, numLights </span>) </span>{
+
+        <span class="hljs-keyword">if</span> ( numLights === <span class="hljs-number">0</span> )
+            <span class="hljs-keyword">return</span> {};
+
+        <span class="hljs-keyword">var</span> lighted = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'bool'</span>, <span class="hljs-string">'lighted'</span> );
+        <span class="hljs-keyword">var</span> lightPos = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'lightEyePos'</span> );
+        <span class="hljs-keyword">var</span> lightDir = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'lightEyeDir'</span> );
+        <span class="hljs-keyword">var</span> lightNDL = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'float'</span>, <span class="hljs-string">'lightNDL'</span> );
+
+        <span class="hljs-keyword">return</span> {
+            lighted: lighted,
+            lightEyePos: lightPos,
+            lightEyeDir: lightDir,
+            lightNDL: lightNDL
+        };
+
+    },
+
+    createLighting: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> materials, overrideNodeName </span>) </span>{
+
+        <span class="hljs-keyword">var</span> output = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">var</span> lightOutputVarList = [];
+
+        <span class="hljs-keyword">var</span> enumToNodeName = overrideNodeName || {
+            DIRECTION: <span class="hljs-string">'SunLight'</span>,
+            SPOT: <span class="hljs-string">'SpotLight'</span>,
+            POINT: <span class="hljs-string">'PointLight'</span>,
+            HEMI: <span class="hljs-string">'HemiLight'</span>
+        };
+
+        <span class="hljs-keyword">var</span> lightOutShadowIn = <span class="hljs-keyword">this</span>.createCommonLightingVars( materials, enumToNodeName, <span class="hljs-keyword">this</span>._lights.length );
+
+        <span class="hljs-keyword">var</span> materialUniforms = <span class="hljs-keyword">this</span>.getOrCreateStateAttributeUniforms( <span class="hljs-keyword">this</span>._material, <span class="hljs-string">'material'</span> );
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-keyword">this</span>._lights.length; i++ ) {
+
+            <span class="hljs-keyword">var</span> light = <span class="hljs-keyword">this</span>._lights[ i ];
+
+            <span class="hljs-keyword">var</span> lightedOutput = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+            <span class="hljs-keyword">var</span> nodeName = enumToNodeName[ light.getLightType() ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-57">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-57">&#182;</a>
+              </div>
+              <p>create uniforms from stateAttribute and mix them with materials
+to pass the result as input for light node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> lightUniforms = <span class="hljs-keyword">this</span>.getOrCreateStateAttributeUniforms( <span class="hljs-keyword">this</span>._lights[ i ], <span class="hljs-string">'light'</span> );
+
+            <span class="hljs-keyword">var</span> inputs = MACROUTILS.objectMix( {}, lightUniforms );
+            inputs = MACROUTILS.objectMix( inputs, materialUniforms );
+            inputs = MACROUTILS.objectMix( inputs, materials );
+            inputs = MACROUTILS.objectMix( inputs, lightOutShadowIn );
+
+            <span class="hljs-keyword">if</span> ( !inputs.normal )
+                inputs.normal = <span class="hljs-keyword">this</span>.getOrCreateNormalizedNormal();
+            <span class="hljs-keyword">if</span> ( !inputs.eyeVector )
+                inputs.eyeVector = <span class="hljs-keyword">this</span>.getOrCreateNormalizedPosition();
+
+            <span class="hljs-keyword">this</span>.getNode( nodeName ).inputs( inputs ).outputs( {
+                color: lightedOutput
+            } );
+
+            <span class="hljs-keyword">var</span> shadowedOutput = <span class="hljs-keyword">this</span>.createShadowingLight( light, inputs, lightedOutput );
+            <span class="hljs-keyword">if</span> ( shadowedOutput ) {
+                lightOutputVarList.push( shadowedOutput );
+            } <span class="hljs-keyword">else</span> {
+                lightOutputVarList.push( lightedOutput );
+            }
+
+            <span class="hljs-keyword">var</span> lightMatAmbientOutput = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'lightMatAmbientOutput'</span> );
+
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Mult'</span> ).inputs( inputs.materialambient, lightUniforms.lightambient ).outputs( lightMatAmbientOutput );
+
+
+            lightOutputVarList.push( lightMatAmbientOutput );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-58">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-58">&#182;</a>
+              </div>
+              <p>do not delete on the assumption that light list is always filled
+in case CreateLighting is called with a empty lightList
+when Compiler is overriden.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( lightOutputVarList.length === <span class="hljs-number">0</span> )
+            lightOutputVarList.push( <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> ).setValue( <span class="hljs-string">'vec3(0.0)'</span> ) );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Add'</span> ).inputs( lightOutputVarList ).outputs( output );
+
+        <span class="hljs-keyword">return</span> output;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-59">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-59">&#182;</a>
+              </div>
+              <p>but we could later implement srgb inside and read differents flag
+as read only in the texture</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createTextureRGBA: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> texture, textureSampler, texCoord </span>) </span>{
+
+        <span class="hljs-keyword">var</span> texel = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'TextureRGBA'</span> ).inputs( {
+            sampler: textureSampler,
+            uv: texCoord
+        } ).outputs( {
+            color: texel
+        } );
+
+        <span class="hljs-keyword">return</span> texel;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-60">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-60">&#182;</a>
+              </div>
+              <p>TODO: add a visitor to debug the graph</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    traverse: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> functor, node </span>) </span>{
+
+        <span class="hljs-keyword">var</span> inputs = node.getInputs();
+        <span class="hljs-keyword">if</span> ( !<span class="hljs-built_in">Array</span>.isArray( inputs ) ) {
+            <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( inputs );
+            <span class="hljs-keyword">var</span> objectToArray = [];
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>; j &lt; keys.length; j++ )
+                objectToArray.push( inputs[ keys[ j ] ] );
+            inputs = objectToArray;
+        }
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, l = inputs.length; i &lt; l; i++ ) {
+            node.checkInputsOutputs();
+
+            <span class="hljs-keyword">var</span> child = inputs[ i ];
+
+            <span class="hljs-keyword">if</span> ( child !== <span class="hljs-literal">undefined</span> &amp;&amp;
+                child !== node ) {
+                <span class="hljs-keyword">this</span>.traverse( functor, child );
+            }
+        }
+        functor.call( functor, node );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-61">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-61">&#182;</a>
+              </div>
+              <p>keep trace we visited.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.markNodeAsVisited( node );
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-62">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-62">&#182;</a>
+              </div>
+              <p>Gather a particular output field
+for now one of
+[‘define’, ‘extensions’]</p>
+<p>from a nodeGraph</p>
+<p>In case a node of same Type
+have different outputs (shadow with different defines)
+it use ID rather than Type as map index
+UNIQUE PER TYPE
+TODO: adds includes so that we can remove it from
+the eval Global Functions ?</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    evaluateAndGatherField: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> nodes, field </span>) </span>{
+
+        <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+
+            <span class="hljs-keyword">var</span> idx = node.getType();
+            <span class="hljs-keyword">if</span> ( idx === <span class="hljs-literal">undefined</span> || idx === <span class="hljs-string">''</span> ) {
+                Notify.error( <span class="hljs-string">'Your node '</span> + node + <span class="hljs-string">' has no type'</span> );
+            }
+            <span class="hljs-keyword">if</span> ( node[ field ] &amp;&amp; <span class="hljs-keyword">this</span>._map[ idx ] === <span class="hljs-literal">undefined</span> ) {
+
+                <span class="hljs-keyword">this</span>._map[ idx ] = <span class="hljs-literal">true</span>;
+                <span class="hljs-keyword">var</span> c = node[ field ]();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-63">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-63">&#182;</a>
+              </div>
+              <p>push all elements of the array on text array
+node<a href="">field</a>  must return an array</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-built_in">Array</span>.prototype.push.apply( <span class="hljs-keyword">this</span>._text, c );
+
+            }
+
+        };
+
+        func._map = {};
+        func._text = [];
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = nodes.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">this</span>.traverse( func, nodes[ j ] );
+        }
+
+        <span class="hljs-keyword">return</span> func._text;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-64">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-64">&#182;</a>
+              </div>
+              <p>Gather a functions declartions of nodes
+from a nodeGraph
+(for now pragma include done here too. could be done with define/etc…)
+Node of same Type has to share
+exact same “node.globalFunctionDeclaration” output
+as it use Type rather than ID as map index</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    evaluateGlobalFunctionDeclaration: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> nodes </span>) </span>{
+
+        <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-65">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-65">&#182;</a>
+              </div>
+              <p>UNIQUE PER TYPE</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> idx = node.getType();
+
+            <span class="hljs-keyword">if</span> ( idx === <span class="hljs-literal">undefined</span> || idx === <span class="hljs-string">''</span> ) {
+                Notify.error( <span class="hljs-string">'Your node '</span> + node + <span class="hljs-string">' has no type'</span> );
+            }
+            <span class="hljs-keyword">if</span> ( node.globalFunctionDeclaration &amp;&amp;
+                <span class="hljs-keyword">this</span>._map[ idx ] === <span class="hljs-literal">undefined</span> ) {
+
+                <span class="hljs-keyword">this</span>._map[ idx ] = <span class="hljs-literal">true</span>;
+                <span class="hljs-keyword">var</span> c = node.globalFunctionDeclaration();
+                <span class="hljs-keyword">if</span> ( c !== <span class="hljs-literal">undefined</span> ) {
+                    <span class="hljs-keyword">this</span>._text.push( c );
+                }
+
+            }
+
+        };
+
+        func._map = {};
+        func._text = [];
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = nodes.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">this</span>.traverse( func, nodes[ j ] );
+        }
+
+        <span class="hljs-keyword">return</span> func._text.join( <span class="hljs-string">'\n'</span> );
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-66">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-66">&#182;</a>
+              </div>
+              <p>Gather a Variables declarations of nodes
+from a nodeGraph to be outputted
+outside the VOID MAIN code
+( Uniforms, Varying )
+Node of same Type has different output
+as it use Type rather than ID as map index</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    evaluateGlobalVariableDeclaration: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> nodes </span>) </span>{
+
+        <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-67">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-67">&#182;</a>
+              </div>
+              <p>UNIQUE PER NODE</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> idx = node.getID();
+
+            <span class="hljs-keyword">if</span> ( node.globalDeclaration &amp;&amp;
+                <span class="hljs-keyword">this</span>._map[ idx ] === <span class="hljs-literal">undefined</span> ) {
+
+                <span class="hljs-keyword">this</span>._map[ idx ] = <span class="hljs-literal">true</span>;
+                <span class="hljs-keyword">var</span> c = node.globalDeclaration();
+                <span class="hljs-keyword">if</span> ( c !== <span class="hljs-literal">undefined</span> ) {
+                    <span class="hljs-keyword">this</span>._text.push( c );
+                }
+            }
+        };
+
+        func._map = {};
+        func._text = [];
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = nodes.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">this</span>.traverse( func, nodes[ j ] );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-68">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-68">&#182;</a>
+              </div>
+              <p>Attribute 0 Must Be vertex
+perf warning in console otherwiser in opengl Desktop</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( func._text.length ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-69">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-69">&#182;</a>
+              </div>
+              <p>sort in alphabetical order
+attr, unif, sample, varying</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            func._text.sort();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-70">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-70">&#182;</a>
+              </div>
+              <p>now sort Attributes
+making sure Vertex is always coming first</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> toShift = [];
+            <span class="hljs-keyword">for</span> ( j = <span class="hljs-number">0</span>; j &lt; func._text.length; j++ ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-71">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-71">&#182;</a>
+              </div>
+              <p>found vertex, break</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">if</span> ( func._text[ <span class="hljs-number">0</span> ].indexOf( <span class="hljs-string">'Vertex'</span> ) !== <span class="hljs-number">-1</span> ) <span class="hljs-keyword">break</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-72">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-72">&#182;</a>
+              </div>
+              <p>not yet, keep referenc to push after vertex</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                toShift.push( func._text.shift() ); <span class="hljs-comment">// remove</span>
+            }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-73">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-73">&#182;</a>
+              </div>
+              <p>Add after vertex all the  found attributes</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            func._text.splice( <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, toShift.join( <span class="hljs-string">'\n'</span> ) );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-74">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-74">&#182;</a>
+              </div>
+              <p>beautify/formatting with empty line between type of var</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> type = func._text[ <span class="hljs-number">0</span> ][ <span class="hljs-number">0</span> ];
+            <span class="hljs-keyword">var</span> len = func._text.length;
+            <span class="hljs-keyword">for</span> ( j = <span class="hljs-number">0</span>; j &lt; len; j++ ) {
+                <span class="hljs-keyword">if</span> ( func._text[ j ][ <span class="hljs-number">0</span> ] !== type ) {
+                    type = func._text[ j ][ <span class="hljs-number">0</span> ];
+                    func._text.splice( j, <span class="hljs-number">0</span>, <span class="hljs-string">''</span> );
+                    len++;
+                }
+            }
+        }
+        <span class="hljs-keyword">return</span> func._text.join( <span class="hljs-string">'\n'</span> );
+    },
+
+
+    evaluate: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> nodes </span>) </span>{
+
+        <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+
+            <span class="hljs-keyword">var</span> id = node.getID();
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._mapTraverse[ id ] !== <span class="hljs-literal">undefined</span> ) {
+                <span class="hljs-keyword">return</span>;
+            }
+
+            <span class="hljs-keyword">var</span> c = node.computeShader();
+            <span class="hljs-keyword">if</span> ( c !== <span class="hljs-literal">undefined</span> ) {
+
+                <span class="hljs-keyword">if</span> ( node.getComment !== <span class="hljs-literal">undefined</span> ) {
+
+                    <span class="hljs-keyword">var</span> comment = node.getComment();
+                    <span class="hljs-keyword">if</span> ( comment !== <span class="hljs-literal">undefined</span> ) {
+                        <span class="hljs-keyword">this</span>._text.push( comment );
+                    }
+
+                }
+
+                <span class="hljs-keyword">this</span>._text.push( c );
+            }
+            <span class="hljs-keyword">this</span>._mapTraverse[ id ] = <span class="hljs-literal">true</span>;
+        };
+
+        func._text = [];
+        func._mapTraverse = [];
+
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = nodes.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">this</span>.traverse( func, nodes[ j ] );
+        }
+        <span class="hljs-keyword">return</span> func._text.join( <span class="hljs-string">'\n'</span> );
+    },
+
+    getTexCoordUnit: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> id </span>) </span>{
+        <span class="hljs-keyword">var</span> texture = <span class="hljs-keyword">this</span>._textures[ id ];
+        <span class="hljs-keyword">if</span> ( texture === <span class="hljs-literal">undefined</span> )
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+
+        <span class="hljs-keyword">var</span> textureMaterial = <span class="hljs-keyword">this</span>._texturesByName[ texture.getName() ];
+        <span class="hljs-keyword">if</span> ( !textureMaterial )
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">undefined</span>;
+
+        <span class="hljs-keyword">var</span> texCoordUnit = textureMaterial.textureUnit;
+        <span class="hljs-keyword">if</span> ( texCoordUnit === <span class="hljs-literal">undefined</span> )
+            textureMaterial.textureUnit = texCoordUnit = id;
+        <span class="hljs-keyword">return</span> texCoordUnit;
+    },
+
+
+    getOrCreateProjectionMatrix: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ProjectionMatrix'</span> );
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-75">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-75">&#182;</a>
+              </div>
+              <p>reusable BoneMatrix between Vertex, Normal, Tangent
+Manadatory: scale animations must be uniform scale</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    getOrCreateBoneMatrix: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> boneMatrix = <span class="hljs-keyword">this</span>._variables[ <span class="hljs-string">'boneMatrix'</span> ];
+        <span class="hljs-keyword">if</span> ( boneMatrix )
+            <span class="hljs-keyword">return</span> boneMatrix;
+
+        boneMatrix = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'boneMatrix'</span> );
+
+        <span class="hljs-keyword">var</span> inputWeights = <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'Weights'</span> );
+        <span class="hljs-keyword">var</span> inputBones = <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'Bones'</span> );
+        <span class="hljs-keyword">var</span> matrixPalette = <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'uBones'</span>, <span class="hljs-keyword">this</span>._skinningAttribute.getBoneUniformSize() );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Skinning'</span> ).inputs( {
+            weights: inputWeights,
+            bonesIndex: inputBones,
+            matrixPalette: matrixPalette
+        } ).outputs( {
+            mat4: boneMatrix
+        } );
+
+        <span class="hljs-keyword">return</span> boneMatrix;
+    },
+    getTarget: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> name, i </span>) </span>{
+        <span class="hljs-keyword">var</span> type = name.indexOf( <span class="hljs-string">'Tangent'</span> ) !== <span class="hljs-number">-1</span> ? <span class="hljs-string">'vec4'</span> : <span class="hljs-string">'vec3'</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getOrCreateAttribute( type, name + <span class="hljs-string">'_'</span> + i );
+    },
+    morphTangentApproximation: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> inputVertex, outputVertex </span>) </span>{
+        <span class="hljs-keyword">var</span> normalizedMorph;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-76">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-76">&#182;</a>
+              </div>
+              <p>kind of tricky, here we retrieve the normalized normal after morphing
+if there is no rigging we do not recompute it</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._skinningAttribute ) {
+
+            normalizedMorph = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Normalize'</span> ).inputs( {
+                vec: <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'normalMorph'</span> )
+            } ).outputs( {
+                vec: normalizedMorph
+            } );
+
+        } <span class="hljs-keyword">else</span> {
+            normalizedMorph = <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'normalAttribute'</span> );
+        }
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( <span class="hljs-string">'%out = %tangent.rgb - dot(%tangent.rgb, %normal) * %normal;'</span> ).inputs( {
+            tangent: inputVertex,
+            normal: normalizedMorph
+        } ).outputs( {
+            out: outputVertex
+        } );
+
+        <span class="hljs-keyword">return</span> outputVertex;
+    },
+    morphTransformVec3: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> inputVertex, outputVertex, targetName </span>) </span>{
+
+        <span class="hljs-keyword">var</span> approx = <span class="hljs-literal">false</span>; <span class="hljs-comment">// on mobile ?</span>
+        <span class="hljs-keyword">var</span> morph = <span class="hljs-keyword">this</span>._morphAttribute;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-77">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-77">&#182;</a>
+              </div>
+              <p>compute morph tangent (getOrCreateNormalAttribute will create the ‘normalMorph’ variable)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( approx &amp;&amp; targetName === <span class="hljs-string">'Tangent'</span> &amp;&amp; <span class="hljs-keyword">this</span>.getOrCreateNormalAttribute() &amp;&amp; morph &amp;&amp; morph.hasTarget( <span class="hljs-string">'Normal'</span> ) ) {
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.morphTangentApproximation( inputVertex, outputVertex );
+        }
+
+        <span class="hljs-keyword">var</span> inputs = {
+            vertex: inputVertex,
+            weights: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'uTargetWeights'</span> )
+        };
+
+        <span class="hljs-keyword">var</span> numTargets = <span class="hljs-keyword">this</span>._morphAttribute.getNumTargets();
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; numTargets; i++ )
+            inputs[ <span class="hljs-string">'target'</span> + i ] = <span class="hljs-keyword">this</span>.getTarget( targetName || inputVertex.getVariable(), i );
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Morph'</span> ).inputs( inputs ).outputs( {
+            out: outputVertex
+        } );
+
+        <span class="hljs-keyword">return</span> outputVertex;
+    },
+    skinTransformVertex: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> inputVertex, outputVertex </span>) </span>{
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).setInverse( <span class="hljs-literal">true</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateBoneMatrix(),
+            vec: inputVertex
+        } ).outputs( {
+            vec: outputVertex
+        } );
+        <span class="hljs-keyword">return</span> outputVertex;
+    },
+    skinTransformNormal: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> inputVertex, outputVertex </span>) </span>{
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultDirection'</span> ).setInverse( <span class="hljs-literal">true</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateBoneMatrix(),
+            vec: inputVertex
+        } ).outputs( {
+            vec: outputVertex
+        } );
+        <span class="hljs-keyword">return</span> outputVertex;
+    },
+    getOrCreateVertexAttribute: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> vecOut = <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'vertexAttribute'</span> );
+        <span class="hljs-keyword">if</span> ( vecOut ) <span class="hljs-keyword">return</span> vecOut;
+
+        <span class="hljs-keyword">var</span> hasMorph = <span class="hljs-keyword">this</span>._morphAttribute &amp;&amp; <span class="hljs-keyword">this</span>._morphAttribute.hasTarget( <span class="hljs-string">'Vertex'</span> );
+
+        <span class="hljs-keyword">var</span> inputVertex = <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'Vertex'</span> );
+        <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._skinningAttribute &amp;&amp; !hasMorph ) <span class="hljs-keyword">return</span> inputVertex;
+
+        vecOut = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'vertexAttribute'</span> );
+
+        <span class="hljs-keyword">if</span> ( hasMorph &amp;&amp; !<span class="hljs-keyword">this</span>._skinningAttribute ) <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.morphTransformVec3( inputVertex, vecOut );
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( !hasMorph &amp;&amp; <span class="hljs-keyword">this</span>._skinningAttribute ) <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.skinTransformVertex( inputVertex, vecOut );
+
+        <span class="hljs-keyword">var</span> tmpMorph = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">this</span>.morphTransformVec3( inputVertex, tmpMorph );
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.skinTransformVertex( tmpMorph, vecOut );
+    },
+    getOrCreateNormalAttribute: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> vecOut = <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'normalAttribute'</span> );
+        <span class="hljs-keyword">if</span> ( vecOut ) <span class="hljs-keyword">return</span> vecOut;
+
+        <span class="hljs-keyword">var</span> hasMorph = <span class="hljs-keyword">this</span>._morphAttribute &amp;&amp; <span class="hljs-keyword">this</span>._morphAttribute.hasTarget( <span class="hljs-string">'Normal'</span> );
+
+        <span class="hljs-keyword">var</span> inputNormal = <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'Normal'</span> );
+        <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._skinningAttribute &amp;&amp; !hasMorph ) <span class="hljs-keyword">return</span> inputNormal;
+
+        <span class="hljs-keyword">var</span> tmpAnim;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-78">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-78">&#182;</a>
+              </div>
+              <p>we name the morph variable in case we want to infer the tangent from the morph normal</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( hasMorph &amp;&amp; !<span class="hljs-keyword">this</span>._skinningAttribute ) {
+            tmpAnim = <span class="hljs-keyword">this</span>.morphTransformVec3( inputNormal, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normalMorph'</span> ) );
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( !hasMorph &amp;&amp; <span class="hljs-keyword">this</span>._skinningAttribute ) {
+            tmpAnim = <span class="hljs-keyword">this</span>.skinTransformNormal( inputNormal, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normalSkin'</span> ) );
+        } <span class="hljs-keyword">else</span> {
+
+            tmpAnim = <span class="hljs-keyword">this</span>.morphTransformVec3( inputNormal, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normalMorph'</span> ) );
+            tmpAnim = <span class="hljs-keyword">this</span>.skinTransformNormal( tmpAnim, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normalSkin'</span> ) );
+
+        }
+
+        vecOut = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'normalAttribute'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Normalize'</span> ).inputs( {
+            vec: tmpAnim
+        } ).outputs( {
+            vec: vecOut
+        } );
+
+        <span class="hljs-keyword">return</span> vecOut;
+    },
+    getOrCreateTangentAttribute: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> vecOut = <span class="hljs-keyword">this</span>.getVariable( <span class="hljs-string">'tangentAttribute'</span> );
+        <span class="hljs-keyword">if</span> ( vecOut ) <span class="hljs-keyword">return</span> vecOut;
+
+        <span class="hljs-keyword">var</span> hasMorph = <span class="hljs-keyword">this</span>._morphAttribute &amp;&amp; <span class="hljs-keyword">this</span>._morphAttribute.hasTarget( <span class="hljs-string">'Tangent'</span> );
+
+        <span class="hljs-keyword">var</span> inputTangent = <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'Tangent'</span> );
+        <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._skinningAttribute &amp;&amp; !hasMorph ) <span class="hljs-keyword">return</span> inputTangent;
+
+        <span class="hljs-keyword">var</span> tmpAnim;
+
+        <span class="hljs-keyword">if</span> ( hasMorph &amp;&amp; !<span class="hljs-keyword">this</span>._skinningAttribute ) {
+            tmpAnim = <span class="hljs-keyword">this</span>.morphTransformVec3( inputTangent, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'tangentMorph'</span> ) );
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( !hasMorph &amp;&amp; <span class="hljs-keyword">this</span>._skinningAttribute ) {
+            tmpAnim = <span class="hljs-keyword">this</span>.skinTransformNormal( inputTangent, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'tangentSkin'</span> ) );
+        } <span class="hljs-keyword">else</span> {
+
+            tmpAnim = <span class="hljs-keyword">this</span>.morphTransformVec3( inputTangent, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'tangentMorph'</span> ), <span class="hljs-string">'Tangent'</span> );
+            tmpAnim = <span class="hljs-keyword">this</span>.skinTransformNormal( tmpAnim, <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'tangentSkin'</span> ) );
+
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-79">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-79">&#182;</a>
+              </div>
+              <p>normalize</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> tangNorm = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Normalize'</span> ).inputs( {
+            vec: tmpAnim
+        } ).outputs( {
+            vec: tangNorm
+        } );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-80">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-80">&#182;</a>
+              </div>
+              <p>apply back the alpha</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        vecOut = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'tangentAttribute'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'SetAlpha'</span> ).inputs( {
+            color: tangNorm,
+            alpha: inputTangent
+        } ).outputs( {
+            color: vecOut
+        } );
+
+        <span class="hljs-keyword">return</span> vecOut;
+    },
+    declareVertexTransformShadeless: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> glPosition </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-81">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-81">&#182;</a>
+              </div>
+              <p>No light</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> tempViewSpace = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec4'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-82">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-82">&#182;</a>
+              </div>
+              <p>viewSpace</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ModelViewMatrix'</span> ),
+            vec: <span class="hljs-keyword">this</span>.getOrCreateVertexAttribute()
+        } ).outputs( {
+            vec: tempViewSpace
+        } );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-83">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-83">&#182;</a>
+              </div>
+              <p>glpos</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateProjectionMatrix(),
+            vec: tempViewSpace
+        } ).outputs( {
+            vec: glPosition
+        } );
+
+    },
+
+    declareVertexTransformBillboard: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> glPosition </span>) </span>{
+        <span class="hljs-keyword">this</span>.getOrCreateInputPosition();
+        <span class="hljs-keyword">var</span> billboard = [ <span class="hljs-string">'%glPosition = %ProjectionMatrix * ( vec4( %Vertex, 1.0 ) + vec4( %ModelViewMatrix[ 3 ].xyz, 0.0 ) );'</span>, ];
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( billboard.join( <span class="hljs-string">'\n'</span> ) ).inputs( {
+            ModelViewMatrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ModelViewMatrix'</span> ),
+            Vertex: <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'Vertex'</span> ),
+            ProjectionMatrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ProjectionMatrix'</span> )
+        } ).outputs( {
+            glPosition: glPosition
+        } );
+    },
+
+    needTangent: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-84">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-84">&#182;</a>
+              </div>
+              <p>the application choose whether or not to use tangent</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    },
+    declareVertexTransformLighted: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> glPosition </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-85">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-85">&#182;</a>
+              </div>
+              <p>FragNormal</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultDirection'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'NormalMatrix'</span> ),
+            vec: <span class="hljs-keyword">this</span>.getOrCreateNormalAttribute()
+        } ).outputs( {
+            vec: <span class="hljs-keyword">this</span>.getOrCreateInputNormal()
+        } );
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>.needTangent() ) {
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultDirection'</span> ).setForceComplement( <span class="hljs-literal">false</span> ).inputs( {
+                matrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'NormalMatrix'</span> ),
+                vec: <span class="hljs-keyword">this</span>.getOrCreateTangentAttribute()
+            } ).outputs( {
+                vec: <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'FragTangent'</span> )
+            } );
+        }
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._isBillboard )
+            <span class="hljs-keyword">this</span>.declareVertexTransformBillboard( glPosition );
+        <span class="hljs-keyword">else</span>
+            <span class="hljs-keyword">this</span>.declareTransformWithEyeSpace( glPosition );
+
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-86">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-86">&#182;</a>
+              </div>
+              <p>Transform Position into NDC
+but keep intermediary result
+FragEye which is in Camera/Eye space
+(most light computation are in eye space)
+(better precision, particulary if camera is far from World 0.0.0)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    declareTransformWithEyeSpace: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> glPosition </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-87">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-87">&#182;</a>
+              </div>
+              <p>FragEye
+need vec4 for linearization of depth</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> tempViewSpace = <span class="hljs-keyword">this</span>.getOrCreateInputPosition();
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ModelViewMatrix'</span> ),
+            vec: <span class="hljs-keyword">this</span>.getOrCreateVertexAttribute()
+        } ).outputs( {
+            vec: tempViewSpace
+        } );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-88">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-88">&#182;</a>
+              </div>
+              <p>glpos</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateProjectionMatrix(),
+            vec: tempViewSpace
+        } ).outputs( {
+            vec: glPosition
+        } );
+    },
+
+    declareVertexTransformShadowed: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> <span class="hljs-comment">/*glPosition*/</span></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-89">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-89">&#182;</a>
+              </div>
+              <p>worldpos</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'MatrixMultPosition'</span> ).inputs( {
+            matrix: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'mat4'</span>, <span class="hljs-string">'ModelWorldMatrix'</span> ),
+            vec: <span class="hljs-keyword">this</span>.getOrCreateVertexAttribute()
+        } ).outputs( {
+            vec: <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec3'</span>, <span class="hljs-string">'WorldPosition'</span> )
+        } );
+
+    },
+
+    isShadowed: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-90">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-90">&#182;</a>
+              </div>
+              <p>if no light, no shadow</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._isLighted )
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, ll = <span class="hljs-keyword">this</span>._shadowsTextures.length; i &lt; ll; i++ ) {
+
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._shadowsTextures[ i ] !== <span class="hljs-literal">undefined</span> )
+                <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-91">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-91">&#182;</a>
+              </div>
+              <ul>
+<li>check Precision qualifier on vertex Attributes</li>
+<li>check Precision qualifier on vertex Attributes Varying</li>
+</ul>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    declareVertexTransforms: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> glPosition </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-92">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-92">&#182;</a>
+              </div>
+              <p>Make only necessary operation and varying</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._isLighted || <span class="hljs-keyword">this</span>._shaderAttributes[ <span class="hljs-string">'Normal'</span> ] ) {
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>.isShadowed() ) {
+                <span class="hljs-keyword">this</span>.declareVertexTransformShadowed( glPosition );
+            }
+            <span class="hljs-keyword">this</span>.declareVertexTransformLighted( glPosition );
+
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._isBillboard )
+                <span class="hljs-keyword">this</span>.declareVertexTransformBillboard( glPosition );
+            <span class="hljs-keyword">else</span>
+                <span class="hljs-keyword">this</span>.declareVertexTransformShadeless( glPosition );
+        }
+    },
+
+    declareVertexTextureCoords: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> <span class="hljs-comment">/*glPosition*/</span></span>) </span>{
+
+        <span class="hljs-keyword">var</span> texCoordMap = {};
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> tt = <span class="hljs-number">0</span>; tt &lt; <span class="hljs-keyword">this</span>._textures.length; tt++ ) {
+            <span class="hljs-keyword">var</span> texCoordUnit = <span class="hljs-keyword">this</span>.getTexCoordUnit( tt );
+            <span class="hljs-keyword">if</span> ( texCoordUnit === <span class="hljs-literal">undefined</span> || texCoordMap[ texCoordUnit ] !== <span class="hljs-literal">undefined</span> )
+                <span class="hljs-keyword">continue</span>;
+
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'SetFromNode'</span> ).inputs( <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec2'</span>, <span class="hljs-string">'TexCoord'</span> + texCoordUnit ) ).outputs(
+                <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec2'</span>, <span class="hljs-string">'FragTexCoord'</span> + texCoordUnit )
+            );
+
+            texCoordMap[ texCoordUnit ] = <span class="hljs-literal">true</span>;
+        }
+    },
+
+    declareVertexMain: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-93">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-93">&#182;</a>
+              </div>
+              <p>the mandatory output is glPosition</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> glPosition = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'glPosition'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-94">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-94">&#182;</a>
+              </div>
+              <p>shader graph can have multiple output (glPointsize, varyings)
+here named roots
+all outputs must be pushed inside</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> roots = [];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-95">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-95">&#182;</a>
+              </div>
+              <p>roots is</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.declareVertexTransforms( glPosition, roots );
+        <span class="hljs-keyword">this</span>.declareVertexTextureCoords( glPosition, roots );
+
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._isVertexColored ) {
+            <span class="hljs-keyword">var</span> vertexDynamicColoring = [ <span class="hljs-string">''</span>,
+                <span class="hljs-string">'if ( %ArrayColorEnabled == 1.0 ) '</span>,
+                <span class="hljs-string">'    %VertexColor = %Color;'</span>,
+                <span class="hljs-string">'  else'</span>,
+                <span class="hljs-string">'    %VertexColor = vec4(1.0,1.0,1.0,1.0);'</span>
+            ];
+
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( vertexDynamicColoring.join( <span class="hljs-string">'\n'</span> ) ).inputs( {
+                ArrayColorEnabled: <span class="hljs-keyword">this</span>.getOrCreateUniform( <span class="hljs-string">'float'</span>, <span class="hljs-string">'ArrayColorEnabled'</span> ),
+                Color: <span class="hljs-keyword">this</span>.getOrCreateAttribute( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'Color'</span> )
+            } ).outputs( {
+                VertexColor: <span class="hljs-keyword">this</span>.getOrCreateVarying( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'VertexColor'</span> )
+            } );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-96">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-96">&#182;</a>
+              </div>
+              <p>TODO: add this for POINT RENDERING ONLY</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> str = <span class="hljs-string">'%out = %input;'</span>;
+        <span class="hljs-keyword">var</span> glPointSize = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'glPointSize'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( str ).inputs( {
+            input: <span class="hljs-keyword">this</span>.getOrCreateConstant( <span class="hljs-string">'float'</span>, <span class="hljs-string">'unitFloat'</span> ).setValue( <span class="hljs-string">'1.0'</span> )
+        } ).outputs( {
+            out: glPointSize
+        } );
+        roots.push( glPointSize );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-97">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-97">&#182;</a>
+              </div>
+              <p>Because of a weird bug on iOS
+glPosition should be computed in the vertex shader before some varyings</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        roots.push( glPosition );
+
+        <span class="hljs-keyword">var</span> vars = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._varyings );
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = vars.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">var</span> varying = <span class="hljs-keyword">this</span>._varyings[ vars[ j ] ];
+            <span class="hljs-keyword">if</span> ( varying !== <span class="hljs-literal">undefined</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-98">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-98">&#182;</a>
+              </div>
+              <p>make sure we link all vertex shader output
+to the finale Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                roots.push( varying );
+            }
+        }
+
+        <span class="hljs-keyword">return</span> roots;
+
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-99">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-99">&#182;</a>
+              </div>
+              <p>Meanwhile, here it is.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createVertexShaderGraph: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.declareVertexMain();
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-100">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-100">&#182;</a>
+              </div>
+              <p>The Compiler Main Code
+called on Vertex or Fragment Shader Graph</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createShaderFromGraphs: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> roots, type </span>) </span>{
+        <span class="hljs-keyword">this</span>._compiledNodeList = {};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-101">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-101">&#182;</a>
+              </div>
+              <p>list all vars</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> vars = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._variables );
+        <span class="hljs-keyword">var</span> variables = [];
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = vars.length; j &lt; jl; j++ ) {
+
+            <span class="hljs-keyword">var</span> varNode = <span class="hljs-keyword">this</span>._variables[ vars[ j ] ];
+            <span class="hljs-keyword">var</span> d = varNode.declare();
+            <span class="hljs-keyword">if</span> ( d ) {
+                variables.push( d );
+            }
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-102">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-102">&#182;</a>
+              </div>
+              <p>defines and extensions are added by process shader</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> extensions = <span class="hljs-keyword">this</span>.evaluateExtensions( roots );
+        <span class="hljs-keyword">var</span> defines = <span class="hljs-keyword">this</span>.evaluateDefines( roots );
+
+        <span class="hljs-keyword">var</span> shaderStack = [];
+        shaderStack.push( <span class="hljs-string">'\n'</span> );
+        shaderStack.push( <span class="hljs-keyword">this</span>.evaluateGlobalVariableDeclaration( roots ) );
+        shaderStack.push( <span class="hljs-string">'\n'</span> );
+        shaderStack.push( <span class="hljs-keyword">this</span>.evaluateGlobalFunctionDeclaration( roots ) );
+
+
+        shaderStack.push( <span class="hljs-string">'void main() {'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-103">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-103">&#182;</a>
+              </div>
+              <p>declare variables in main</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( variables.length !== <span class="hljs-number">0</span> ) {
+            shaderStack.push( <span class="hljs-string">'// vars\n'</span> );
+            shaderStack.push( variables.join( <span class="hljs-string">' '</span> ) );
+            shaderStack.push( <span class="hljs-string">'\n// end vars\n'</span> );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-104">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-104">&#182;</a>
+              </div>
+              <p>make sure we have at least one output</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( roots.length === <span class="hljs-number">0</span> ) {
+            Notify.error( <span class="hljs-string">'shader without any final Node output (need at least one)'</span> );
+        }
+        shaderStack.push( <span class="hljs-keyword">this</span>.evaluate( roots ) );
+
+        shaderStack.push( <span class="hljs-string">'}'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-105">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-105">&#182;</a>
+              </div>
+              <p>Shader Graph has been outputed an array of string
+we concatenate it to a shader string program</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shaderStr = shaderStack.join( <span class="hljs-string">'\n'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-106">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-106">&#182;</a>
+              </div>
+              <p>Process defines, add precision, resolve include pragma</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shader = <span class="hljs-keyword">this</span>._shaderProcessor.processShader( shaderStr, defines, extensions, type );
+
+        <span class="hljs-comment">/*develblock:start*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-107">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-107">&#182;</a>
+              </div>
+              <p>Check</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> compiledNodes = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._compiledNodeList );
+        <span class="hljs-keyword">var</span> activeNodes = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._activeNodeList );
+        activeNodes.filter( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> i </span>) </span>{
+            <span class="hljs-keyword">var</span> found = compiledNodes.indexOf( i ) !== <span class="hljs-number">-1</span>;
+            <span class="hljs-keyword">if</span> ( !found ) {
+                <span class="hljs-keyword">var</span> node = <span class="hljs-keyword">this</span>._activeNodeList[ i ];
+                <span class="hljs-keyword">var</span> name = node.getName();
+                <span class="hljs-keyword">if</span> ( name === <span class="hljs-string">'Variable'</span> ) name += <span class="hljs-string">' '</span> + node.getVariable() + <span class="hljs-string">' ('</span> + node.getType() + <span class="hljs-string">')'</span>;
+                Notify.warn( <span class="hljs-string">'Nodes requested, but not compiled: '</span> + i + <span class="hljs-string">' '</span> + name + <span class="hljs-string">' '</span> + node.toString() );
+            }
+            <span class="hljs-keyword">return</span> found;
+        }, <span class="hljs-keyword">this</span> );
+        <span class="hljs-comment">/*develblock:end*/</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-108">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-108">&#182;</a>
+              </div>
+              <p>return the complete shader string.
+now is compilable by gl driver</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">return</span> shader;
+    },
+    createVertexShader: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-109">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-109">&#182;</a>
+              </div>
+              <p>start with clean slate</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>._variables = {};
+        <span class="hljs-keyword">this</span>._activeNodeList = {};
+        <span class="hljs-keyword">this</span>._fragmentShaderMode = <span class="hljs-literal">false</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-110">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-110">&#182;</a>
+              </div>
+              <p>Call to specialised inhenrited shader Compiler</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> roots = <span class="hljs-keyword">this</span>.createVertexShaderGraph();
+        <span class="hljs-keyword">var</span> vname = <span class="hljs-keyword">this</span>.getVertexShaderName();
+        <span class="hljs-keyword">if</span> ( vname )
+            roots.push( <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Define'</span>, <span class="hljs-string">'SHADER_NAME'</span> ).setValue( vname ) );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-111">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-111">&#182;</a>
+              </div>
+              <p>call the graph compiler itself</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> shader = <span class="hljs-keyword">this</span>.createShaderFromGraphs( roots, <span class="hljs-string">'vertex'</span> );
+
+        Notify.debug( shader );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-112">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-112">&#182;</a>
+              </div>
+              <p>reset for next, but not empty, keep varyings</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>._variables = {};
+        <span class="hljs-keyword">this</span>._activeNodeList = {};
+        <span class="hljs-keyword">this</span>._fragmentShaderMode = <span class="hljs-literal">true</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-113">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-113">&#182;</a>
+              </div>
+              <p>we want to keep list of varying
+to be able to validate fragment shader
+requiring varyings</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> vars = <span class="hljs-built_in">window</span>.Object.keys( <span class="hljs-keyword">this</span>._varyings );
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> j = <span class="hljs-number">0</span>, jl = vars.length; j &lt; jl; j++ ) {
+            <span class="hljs-keyword">var</span> varying = <span class="hljs-keyword">this</span>._varyings[ vars[ j ] ];
+            <span class="hljs-keyword">if</span> ( varying !== <span class="hljs-literal">undefined</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-114">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-114">&#182;</a>
+              </div>
+              <p>make sure we clean input/output
+of varying for fragment shader graph</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                varying.reset();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-115">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-115">&#182;</a>
+              </div>
+              <p>add it back to variables list
+so that we can detect
+when varing is computed in VS but not in FS</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">this</span>._activeNodeList[ varying.getID() ] = varying;
+                <span class="hljs-keyword">this</span>._variables[ varying.getID() ] = varying;
+            }
+        }
+
+
+        <span class="hljs-keyword">return</span> shader;
+    },
+    evaluateDefines: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> roots </span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.evaluateAndGatherField( roots, <span class="hljs-string">'getDefines'</span> );
+    },
+    evaluateExtensions: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> roots </span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.evaluateAndGatherField( roots, <span class="hljs-string">'getExtensions'</span> );
+    },
+    createFragmentShader: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-116">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-116">&#182;</a>
+              </div>
+              <p>start with clean slate</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._customVertexShader ) {
+            <span class="hljs-keyword">this</span>._variables = {};
+            <span class="hljs-keyword">this</span>._activeNodeList = {};
+        }
+        <span class="hljs-keyword">this</span>._fragmentShaderMode = <span class="hljs-literal">true</span>;
+
+        <span class="hljs-keyword">this</span>.declareTextures();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-117">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-117">&#182;</a>
+              </div>
+              <p>Call to specialised inhenrited shader Compiler</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> roots = <span class="hljs-keyword">this</span>.createFragmentShaderGraph();
+        <span class="hljs-keyword">var</span> fname = <span class="hljs-keyword">this</span>.getFragmentShaderName();
+        <span class="hljs-keyword">if</span> ( fname )
+            roots.push( <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Define'</span>, <span class="hljs-string">'SHADER_NAME'</span> ).setValue( fname ) );
+
+        <span class="hljs-keyword">var</span> shader = <span class="hljs-keyword">this</span>.createShaderFromGraphs( roots, <span class="hljs-string">'fragment'</span> );
+        Notify.debug( shader );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-118">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-118">&#182;</a>
+              </div>
+              <p>reset for next</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>._variables = {};
+        <span class="hljs-keyword">this</span>._fragmentShaderMode = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">this</span>._activeNodeList = {};
+
+        <span class="hljs-keyword">return</span> shader;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-119">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-119">&#182;</a>
+              </div>
+              <p>This function is used when no material
+is present. If you inherit from this Compiler
+you could change the default behavior</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createDefaultFragmentShaderGraph: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> fofd = <span class="hljs-keyword">this</span>.getOrCreateConstant( <span class="hljs-string">'vec4'</span>, <span class="hljs-string">'fofd'</span> ).setValue( <span class="hljs-string">'vec4(1.0, 0.0, 1.0, 0.7)'</span> );
+        <span class="hljs-keyword">var</span> fragCol = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'glFragColor'</span> );
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'SetFromNode'</span> ).inputs( fofd ).outputs( fragCol );
+        <span class="hljs-keyword">return</span> fragCol;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-120">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-120">&#182;</a>
+              </div>
+              <p>this is the main function that will generate the
+fragment shader. If you need to improve / add your own
+you could inherit and override this function</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    createFragmentShaderGraph: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-121">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-121">&#182;</a>
+              </div>
+              <p>shader graph can have multiple output (glPointsize, varyings)
+here named roots
+all outputs must be pushed inside</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> roots = [];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-122">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-122">&#182;</a>
+              </div>
+              <p>no material then return a default shader</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>._material ) {
+            roots.push( <span class="hljs-keyword">this</span>.createDefaultFragmentShaderGraph() );
+            <span class="hljs-keyword">return</span> roots;
+        }
+
+        <span class="hljs-keyword">var</span> materialUniforms = <span class="hljs-keyword">this</span>.getOrCreateStateAttributeUniforms( <span class="hljs-keyword">this</span>._material );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-123">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-123">&#182;</a>
+              </div>
+              <p>diffuse color</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> diffuseColor = <span class="hljs-keyword">this</span>.getDiffuseColorFromTextures();
+
+        <span class="hljs-keyword">if</span> ( diffuseColor === <span class="hljs-literal">undefined</span> ) {
+
+            diffuseColor = materialUniforms.diffuse;
+
+        } <span class="hljs-keyword">else</span> {
+
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( <span class="hljs-string">'%color.rgb *= %diffuse.rgb;'</span> ).inputs( {
+                diffuse: materialUniforms.diffuse
+            } ).outputs( {
+                color: diffuseColor
+            } );
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-124">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-124">&#182;</a>
+              </div>
+              <p>vertex color needs to be computed to diffuse</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        diffuseColor = <span class="hljs-keyword">this</span>.getVertexColor( diffuseColor );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-125">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-125">&#182;</a>
+              </div>
+              <p>compute alpha</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> alpha = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'float'</span> );
+
+        <span class="hljs-keyword">var</span> textureTexel = <span class="hljs-keyword">this</span>.getFirstValidTexture();
+
+        <span class="hljs-keyword">var</span> alphaCompute;
+        <span class="hljs-keyword">if</span> ( textureTexel ) <span class="hljs-comment">// use alpha of the first valid texture if has texture</span>
+            alphaCompute = <span class="hljs-string">'%alpha = %color.a * %texelAlpha.a;'</span>;
+        <span class="hljs-keyword">else</span>
+            alphaCompute = <span class="hljs-string">'%alpha = %color.a;'</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-126">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-126">&#182;</a>
+              </div>
+              <p>Discard fragments totally transparents when rendering billboards</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._isBillboard )
+            alphaCompute += <span class="hljs-string">'if ( %alpha == 0.0) discard;'</span>;
+
+        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'InlineCode'</span> ).code( alphaCompute ).inputs( {
+            color: materialUniforms.diffuse,
+            texelAlpha: textureTexel
+        } ).outputs( {
+            alpha: alpha
+        } );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-127">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-127">&#182;</a>
+              </div>
+              <p>2 codes path
+if we have light we compute a subgraph that will generate
+color from lights contribution…
+if we dont have light we will use the diffuse color found as default
+fallback</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> finalColor;
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._lights.length &gt; <span class="hljs-number">0</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-128">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-128">&#182;</a>
+              </div>
+              <p>creates lights nodes</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> lightedOutput = <span class="hljs-keyword">this</span>.createLighting( {
+                materialdiffuse: diffuseColor
+            } );
+            finalColor = lightedOutput;
+
+        } <span class="hljs-keyword">else</span> {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-129">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-129">&#182;</a>
+              </div>
+              <p>no light, no emssion use diffuse color</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            finalColor = diffuseColor;
+        }
+
+        <span class="hljs-keyword">if</span> ( materialUniforms.emission ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-130">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-130">&#182;</a>
+              </div>
+              <p>add emission if any</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> outputDiffEm = <span class="hljs-keyword">this</span>.createVariable( <span class="hljs-string">'vec3'</span> ).setValue( <span class="hljs-string">'vec3(0.0)'</span> );
+            <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'Add'</span> ).inputs( finalColor, materialUniforms.emission ).outputs( outputDiffEm );
+            finalColor = outputDiffEm;
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-131">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-131">&#182;</a>
+              </div>
+              <p>premult alpha</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        finalColor = <span class="hljs-keyword">this</span>.getPremultAlpha( finalColor, alpha );
+
+        <span class="hljs-keyword">var</span> fragColor = <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'glFragColor'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-132">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-132">&#182;</a>
+              </div>
+              <p>todo add gamma corrected color, but it would also
+mean to handle correctly srgb texture. So it should be done
+at the same time. see osg.Tetxure to implement srgb</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.getNode( <span class="hljs-string">'SetAlpha'</span> ).inputs( {
+            color: finalColor,
+            alpha: alpha
+        } ).outputs( {
+            color: fragColor
+        } );
+
+        roots.push( fragColor );
+
+        <span class="hljs-keyword">return</span> roots;
+    },
+    getFragmentShaderName: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._material ? <span class="hljs-string">'CompilerOSGJS'</span> : <span class="hljs-string">'NoMaterialCompilerOSGJS'</span>;
+    },
+    getVertexShaderName: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.getFragmentShaderName();
+    }
+};
+
+<span class="hljs-built_in">module</span>.exports = Compiler;</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>CullVisitor.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="OSG.html">
+                OSG.js
+              </a>
+            
+              
+              <a class="source" href="BillboardAttribute.html">
+                BillboardAttribute.js
+              </a>
+            
+              
+              <a class="source" href="BlendColor.html">
+                BlendColor.js
+              </a>
+            
+              
+              <a class="source" href="BlendFunc.html">
+                BlendFunc.js
+              </a>
+            
+              
+              <a class="source" href="BoundingBox.html">
+                BoundingBox.js
+              </a>
+            
+              
+              <a class="source" href="BoundingSphere.html">
+                BoundingSphere.js
+              </a>
+            
+              
+              <a class="source" href="BufferArray.html">
+                BufferArray.js
+              </a>
+            
+              
+              <a class="source" href="BufferArrayProxy.html">
+                BufferArrayProxy.js
+              </a>
+            
+              
+              <a class="source" href="Camera.html">
+                Camera.js
+              </a>
+            
+              
+              <a class="source" href="ColorMask.html">
+                ColorMask.js
+              </a>
+            
+              
+              <a class="source" href="ComputeBoundsVisitor.html">
+                ComputeBoundsVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ComputeMatrixFromNodePath.html">
+                ComputeMatrixFromNodePath.js
+              </a>
+            
+              
+              <a class="source" href="CullFace.html">
+                CullFace.js
+              </a>
+            
+              
+              <a class="source" href="CullSettings.html">
+                CullSettings.js
+              </a>
+            
+              
+              <a class="source" href="CullStack.html">
+                CullStack.js
+              </a>
+            
+              
+              <a class="source" href="CullVisitor.html">
+                CullVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CullingSet.html">
+                CullingSet.js
+              </a>
+            
+              
+              <a class="source" href="Depth.html">
+                Depth.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrayLengths.html">
+                DrawArrayLengths.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrays.html">
+                DrawArrays.js
+              </a>
+            
+              
+              <a class="source" href="DrawElements.html">
+                DrawElements.js
+              </a>
+            
+              
+              <a class="source" href="EllipsoidModel.html">
+                EllipsoidModel.js
+              </a>
+            
+              
+              <a class="source" href="FrameBufferObject.html">
+                FrameBufferObject.js
+              </a>
+            
+              
+              <a class="source" href="FrameStamp.html">
+                FrameStamp.js
+              </a>
+            
+              
+              <a class="source" href="GLObject.html">
+                GLObject.js
+              </a>
+            
+              
+              <a class="source" href="Geometry.html">
+                Geometry.js
+              </a>
+            
+              
+              <a class="source" href="Image.html">
+                Image.js
+              </a>
+            
+              
+              <a class="source" href="ImageStream.html">
+                ImageStream.js
+              </a>
+            
+              
+              <a class="source" href="KdTree.html">
+                KdTree.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeBuilder.html">
+                KdTreeBuilder.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeRayIntersector.html">
+                KdTreeRayIntersector.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeSphereIntersector.html">
+                KdTreeSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="Light.html">
+                Light.js
+              </a>
+            
+              
+              <a class="source" href="LightSource.html">
+                LightSource.js
+              </a>
+            
+              
+              <a class="source" href="LineWidth.html">
+                LineWidth.js
+              </a>
+            
+              
+              <a class="source" href="Lod.html">
+                Lod.js
+              </a>
+            
+              
+              <a class="source" href="Map.html">
+                Map.js
+              </a>
+            
+              
+              <a class="source" href="Material.html">
+                Material.js
+              </a>
+            
+              
+              <a class="source" href="Math.html">
+                Math.js
+              </a>
+            
+              
+              <a class="source" href="Matrix.html">
+                Matrix.js
+              </a>
+            
+              
+              <a class="source" href="MatrixMemoryPool.html">
+                MatrixMemoryPool.js
+              </a>
+            
+              
+              <a class="source" href="MatrixTransform.html">
+                MatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="NodeVisitor.html">
+                NodeVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Notify.html">
+                Notify.js
+              </a>
+            
+              
+              <a class="source" href="Object.html">
+                Object.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="PagedLOD.html">
+                PagedLOD.js
+              </a>
+            
+              
+              <a class="source" href="Plane.html">
+                Plane.js
+              </a>
+            
+              
+              <a class="source" href="Polytope.html">
+                Polytope.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveFunctor.html">
+                PrimitiveFunctor.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveSet.html">
+                PrimitiveSet.js
+              </a>
+            
+              
+              <a class="source" href="Program.html">
+                Program.js
+              </a>
+            
+              
+              <a class="source" href="Projection.html">
+                Projection.js
+              </a>
+            
+              
+              <a class="source" href="Quat.html">
+                Quat.js
+              </a>
+            
+              
+              <a class="source" href="RenderBin.html">
+                RenderBin.js
+              </a>
+            
+              
+              <a class="source" href="RenderLeaf.html">
+                RenderLeaf.js
+              </a>
+            
+              
+              <a class="source" href="RenderStage.html">
+                RenderStage.js
+              </a>
+            
+              
+              <a class="source" href="Shader.html">
+                Shader.js
+              </a>
+            
+              
+              <a class="source" href="Shape.html">
+                Shape.js
+              </a>
+            
+              
+              <a class="source" href="Stack.html">
+                Stack.js
+              </a>
+            
+              
+              <a class="source" href="State.html">
+                State.js
+              </a>
+            
+              
+              <a class="source" href="StateAttribute.html">
+                StateAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StateGraph.html">
+                StateGraph.js
+              </a>
+            
+              
+              <a class="source" href="StateSet.html">
+                StateSet.js
+              </a>
+            
+              
+              <a class="source" href="Texture.html">
+                Texture.js
+              </a>
+            
+              
+              <a class="source" href="TextureCubeMap.html">
+                TextureCubeMap.js
+              </a>
+            
+              
+              <a class="source" href="TextureManager.html">
+                TextureManager.js
+              </a>
+            
+              
+              <a class="source" href="Timer.html">
+                Timer.js
+              </a>
+            
+              
+              <a class="source" href="Transform.html">
+                Transform.js
+              </a>
+            
+              
+              <a class="source" href="TransformEnums.html">
+                TransformEnums.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIndexFunctor.html">
+                TriangleIndexFunctor.js
+              </a>
+            
+              
+              <a class="source" href="Uniform.html">
+                Uniform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateVisitor.html">
+                UpdateVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Utils.html">
+                Utils.js
+              </a>
+            
+              
+              <a class="source" href="Vec2.html">
+                Vec2.js
+              </a>
+            
+              
+              <a class="source" href="Vec3.html">
+                Vec3.js
+              </a>
+            
+              
+              <a class="source" href="Vec4.html">
+                Vec4.js
+              </a>
+            
+              
+              <a class="source" href="Viewport.html">
+                Viewport.js
+              </a>
+            
+              
+              <a class="source" href="WebGLCaps.html">
+                WebGLCaps.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="Animation.html">
+                Animation.js
+              </a>
+            
+              
+              <a class="source" href="AnimationUpdateCallback.html">
+                AnimationUpdateCallback.js
+              </a>
+            
+              
+              <a class="source" href="BasicAnimationManager.html">
+                BasicAnimationManager.js
+              </a>
+            
+              
+              <a class="source" href="Bone.html">
+                Bone.js
+              </a>
+            
+              
+              <a class="source" href="Channel.html">
+                Channel.js
+              </a>
+            
+              
+              <a class="source" href="CollectAnimationUpdateCallbackVisitor.html">
+                CollectAnimationUpdateCallbackVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CollectBoneVisitor.html">
+                CollectBoneVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Easing.html">
+                Easing.js
+              </a>
+            
+              
+              <a class="source" href="FindNearestParentSkeleton.html">
+                FindNearestParentSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="Interpolator.html">
+                Interpolator.js
+              </a>
+            
+              
+              <a class="source" href="MorphAttribute.html">
+                MorphAttribute.js
+              </a>
+            
+              
+              <a class="source" href="MorphGeometry.html">
+                MorphGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigGeometry.html">
+                RigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigTransformHardware.html">
+                RigTransformHardware.js
+              </a>
+            
+              
+              <a class="source" href="Skeleton.html">
+                Skeleton.js
+              </a>
+            
+              
+              <a class="source" href="SkinningAttribute.html">
+                SkinningAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StackedMatrix.html">
+                StackedMatrix.js
+              </a>
+            
+              
+              <a class="source" href="StackedQuaternion.html">
+                StackedQuaternion.js
+              </a>
+            
+              
+              <a class="source" href="StackedRotateAxis.html">
+                StackedRotateAxis.js
+              </a>
+            
+              
+              <a class="source" href="StackedScale.html">
+                StackedScale.js
+              </a>
+            
+              
+              <a class="source" href="StackedTranslate.html">
+                StackedTranslate.js
+              </a>
+            
+              
+              <a class="source" href="Target.html">
+                Target.js
+              </a>
+            
+              
+              <a class="source" href="UpdateBone.html">
+                UpdateBone.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMatrixTransform.html">
+                UpdateMatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMorph.html">
+                UpdateMorph.js
+              </a>
+            
+              
+              <a class="source" href="UpdateRigGeometry.html">
+                UpdateRigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="UpdateSkeleton.html">
+                UpdateSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="channelType.html">
+                channelType.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="DatabasePager.html">
+                DatabasePager.js
+              </a>
+            
+              
+              <a class="source" href="Input.html">
+                Input.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="ReaderParser.html">
+                ReaderParser.js
+              </a>
+            
+              
+              <a class="source" href="osgDB.html">
+                osgDB.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulator.html">
+                FirstPersonManipulator.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorDeviceOrientationController.html">
+                FirstPersonManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorHammerController.html">
+                FirstPersonManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorStandardMouseKeyboardController.html">
+                FirstPersonManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorWebVRController.html">
+                FirstPersonManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="Manipulator.html">
+                Manipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulator.html">
+                OrbitManipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorDeviceOrientationController.html">
+                OrbitManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorEnums.html">
+                OrbitManipulatorEnums.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorGamePadController.html">
+                OrbitManipulatorGamePadController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorHammerController.html">
+                OrbitManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorLeapMotionController.html">
+                OrbitManipulatorLeapMotionController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorStandardMouseKeyboardController.html">
+                OrbitManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorWebVRController.html">
+                OrbitManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="SwitchManipulator.html">
+                SwitchManipulator.js
+              </a>
+            
+              
+              <a class="source" href="osgGA.html">
+                osgGA.js
+              </a>
+            
+              
+              <a class="source" href="osgNameSpace.html">
+                osgNameSpace.js
+              </a>
+            
+              
+              <a class="source" href="Compiler.html">
+                Compiler.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGenerator.html">
+                ShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGeneratorProxy.html">
+                ShaderGeneratorProxy.js
+              </a>
+            
+              
+              <a class="source" href="ShaderProcessor.html">
+                ShaderProcessor.js
+              </a>
+            
+              
+              <a class="source" href="node.html">
+                node.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="data.html">
+                data.js
+              </a>
+            
+              
+              <a class="source" href="functions.html">
+                functions.js
+              </a>
+            
+              
+              <a class="source" href="lights.html">
+                lights.js
+              </a>
+            
+              
+              <a class="source" href="morph.html">
+                morph.js
+              </a>
+            
+              
+              <a class="source" href="operations.html">
+                operations.js
+              </a>
+            
+              
+              <a class="source" href="shadows.html">
+                shadows.js
+              </a>
+            
+              
+              <a class="source" href="skinning.html">
+                skinning.js
+              </a>
+            
+              
+              <a class="source" href="textures.html">
+                textures.js
+              </a>
+            
+              
+              <a class="source" href="nodeFactory.html">
+                nodeFactory.js
+              </a>
+            
+              
+              <a class="source" href="osgShader.html">
+                osgShader.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="utils.html">
+                utils.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastAttribute.html">
+                ShadowCastAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastCompiler.html">
+                ShadowCastCompiler.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastShaderGenerator.html">
+                ShadowCastShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCasterVisitor.html">
+                ShadowCasterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ShadowFrustumIntersection.html">
+                ShadowFrustumIntersection.js
+              </a>
+            
+              
+              <a class="source" href="ShadowMap.html">
+                ShadowMap.js
+              </a>
+            
+              
+              <a class="source" href="ShadowReceiveAttribute.html">
+                ShadowReceiveAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowSettings.html">
+                ShadowSettings.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTechnique.html">
+                ShadowTechnique.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTexture.html">
+                ShadowTexture.js
+              </a>
+            
+              
+              <a class="source" href="ShadowedScene.html">
+                ShadowedScene.js
+              </a>
+            
+              
+              <a class="source" href="osgShadow.html">
+                osgShadow.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="Text.html">
+                Text.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+              
+              <a class="source" href="Composer.html">
+                Composer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGeometryVisitor.html">
+                DisplayGeometryVisitor.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraph.html">
+                DisplayGraph.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphNode.html">
+                DisplayGraphNode.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphRenderer.html">
+                DisplayGraphRenderer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayNormalVisitor.html">
+                DisplayNormalVisitor.js
+              </a>
+            
+              
+              <a class="source" href="GizmoGeometry.html">
+                GizmoGeometry.js
+              </a>
+            
+              
+              <a class="source" href="IntersectionVisitor.html">
+                IntersectionVisitor.js
+              </a>
+            
+              
+              <a class="source" href="LineSegmentIntersector.html">
+                LineSegmentIntersector.js
+              </a>
+            
+              
+              <a class="source" href="NodeGizmo.html">
+                NodeGizmo.js
+              </a>
+            
+              
+              <a class="source" href="ParameterVisitor.html">
+                ParameterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="PolytopeIntersector.html">
+                PolytopeIntersector.js
+              </a>
+            
+              
+              <a class="source" href="PolytopePrimitiveIntersector.html">
+                PolytopePrimitiveIntersector.js
+              </a>
+            
+              
+              <a class="source" href="SphereIntersector.html">
+                SphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TangentSpaceGenerator.html">
+                TangentSpaceGenerator.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIntersector.html">
+                TriangleIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TriangleSphereIntersector.html">
+                TriangleSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="WebVRCustom.html">
+                WebVRCustom.js
+              </a>
+            
+              
+              <a class="source" href="osgPool.html">
+                osgPool.js
+              </a>
+            
+              
+              <a class="source" href="osgUtil.html">
+                osgUtil.js
+              </a>
+            
+              
+              <a class="source" href="Renderer.html">
+                Renderer.js
+              </a>
+            
+              
+              <a class="source" href="Scene.html">
+                Scene.js
+              </a>
+            
+              
+              <a class="source" href="View.html">
+                View.js
+              </a>
+            
+              
+              <a class="source" href="Viewer.html">
+                Viewer.js
+              </a>
+            
+              
+              <a class="source" href="createStats.html">
+                createStats.js
+              </a>
+            
+              
+              <a class="source" href="DeviceOrientation.html">
+                DeviceOrientation.js
+              </a>
+            
+              
+              <a class="source" href="EventProxy.html">
+                EventProxy.js
+              </a>
+            
+              
+              <a class="source" href="GamePad.html">
+                GamePad.js
+              </a>
+            
+              
+              <a class="source" href="Hammer.html">
+                Hammer.js
+              </a>
+            
+              
+              <a class="source" href="LeapMotion.html">
+                LeapMotion.js
+              </a>
+            
+              
+              <a class="source" href="StandardMouseKeyboard.html">
+                StandardMouseKeyboard.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="osgViewer.html">
+                osgViewer.js
+              </a>
+            
+              
+              <a class="source" href="webgl-debug.html">
+                webgl-debug.js
+              </a>
+            
+              
+              <a class="source" href="webgl-utils.html">
+                webgl-utils.js
+              </a>
+            
+              
+              <a class="source" href="osgWrappers.html">
+                osgWrappers.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>CullVisitor.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">'use strict'</span>;
+<span class="hljs-keyword">var</span> Notify = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Notify'</span> );
+<span class="hljs-keyword">var</span> MACROUTILS = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Utils'</span> );
+<span class="hljs-keyword">var</span> osgMath = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Math'</span> );
+<span class="hljs-keyword">var</span> NodeVisitor = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/NodeVisitor'</span> );
+<span class="hljs-keyword">var</span> CullSettings = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/CullSettings'</span> );
+<span class="hljs-keyword">var</span> CullStack = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/CullStack'</span> );
+<span class="hljs-keyword">var</span> Matrix = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Matrix'</span> );
+<span class="hljs-keyword">var</span> MatrixTransform = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/MatrixTransform'</span> );
+<span class="hljs-keyword">var</span> Projection = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Projection'</span> );
+<span class="hljs-keyword">var</span> LightSource = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/LightSource'</span> );
+<span class="hljs-keyword">var</span> Geometry = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Geometry'</span> );
+<span class="hljs-keyword">var</span> RenderLeaf = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/RenderLeaf'</span> );
+<span class="hljs-keyword">var</span> RenderStage = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/RenderStage'</span> );
+<span class="hljs-keyword">var</span> Node = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Node'</span> );
+<span class="hljs-keyword">var</span> Lod = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Lod'</span> );
+<span class="hljs-keyword">var</span> PagedLOD = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/PagedLOD'</span> );
+<span class="hljs-keyword">var</span> Camera = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Camera'</span> );
+<span class="hljs-keyword">var</span> TransformEnums = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/TransformEnums'</span> );
+<span class="hljs-keyword">var</span> Vec3 = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Vec3'</span> );
+<span class="hljs-keyword">var</span> Skeleton = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osgAnimation/Skeleton'</span> );
+<span class="hljs-keyword">var</span> RigGeometry = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osgAnimation/RigGeometry'</span> );
+<span class="hljs-keyword">var</span> Bone = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osgAnimation/Bone'</span> );
+<span class="hljs-keyword">var</span> MorphGeometry = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osgAnimation/MorphGeometry'</span> );
+
+<span class="hljs-comment">/**
+ * CullVisitor traverse the tree and collect Matrix/State for the rendering traverse
+ * @class CullVisitor
+ */</span>
+<span class="hljs-keyword">var</span> CullVisitor = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    NodeVisitor.call( <span class="hljs-keyword">this</span>, NodeVisitor.TRAVERSE_ACTIVE_CHILDREN );
+    CullSettings.call( <span class="hljs-keyword">this</span> );
+    CullStack.call( <span class="hljs-keyword">this</span> );
+
+    <span class="hljs-keyword">this</span>._rootStateGraph = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._currentStateGraph = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._currentRenderBin = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._currentRenderStage = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._rootRenderStage = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._computedNear = <span class="hljs-built_in">Number</span>.POSITIVE_INFINITY;
+    <span class="hljs-keyword">this</span>._computedFar = <span class="hljs-built_in">Number</span>.NEGATIVE_INFINITY;
+
+    <span class="hljs-keyword">var</span> lookVector = Vec3.createAndSet( <span class="hljs-number">0.0</span>, <span class="hljs-number">0.0</span>, <span class="hljs-number">-1.0</span> );
+    <span class="hljs-keyword">this</span>._camera = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-comment">/*jshint bitwise: false */</span>
+    <span class="hljs-keyword">this</span>._bbCornerFar = ( lookVector[ <span class="hljs-number">0</span> ] &gt;= <span class="hljs-number">0</span> ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span> ) | ( lookVector[ <span class="hljs-number">1</span> ] &gt;= <span class="hljs-number">0</span> ? <span class="hljs-number">2</span> : <span class="hljs-number">0</span> ) | ( lookVector[ <span class="hljs-number">2</span> ] &gt;= <span class="hljs-number">0</span> ? <span class="hljs-number">4</span> : <span class="hljs-number">0</span> );
+    <span class="hljs-keyword">this</span>._bbCornerNear = ( ~<span class="hljs-keyword">this</span>._bbCornerFar ) &amp; <span class="hljs-number">7</span>;
+    <span class="hljs-comment">/*jshint bitwise: true */</span>
+
+    <span class="hljs-keyword">this</span>._reserveLeafStack = [ <span class="hljs-keyword">new</span> RenderLeaf() ];
+    <span class="hljs-keyword">this</span>._reserveLeafStackCurrent = <span class="hljs-number">0</span>;
+
+    <span class="hljs-keyword">this</span>._reserveCullSettingsStack = [ <span class="hljs-keyword">new</span> CullSettings() ];
+    <span class="hljs-keyword">this</span>._reserveCullSettingsStackCurrent = <span class="hljs-number">0</span>;
+
+    <span class="hljs-keyword">this</span>._renderBinStack = [];
+    <span class="hljs-keyword">this</span>.visitorType = NodeVisitor.CULL_VISITOR;
+
+    <span class="hljs-keyword">this</span>._identityMatrix = Matrix.create();
+
+    <span class="hljs-keyword">this</span>._renderer = <span class="hljs-literal">undefined</span>;
+    <span class="hljs-keyword">this</span>._renderStageType = RenderStage;
+
+    <span class="hljs-keyword">this</span>._numCamera = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">this</span>._numMatrixTransform = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">this</span>._numProjection = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">this</span>._numNode = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">this</span>._numLightSource = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">this</span>._numGeometry = <span class="hljs-number">0</span>;
+
+};
+
+<span class="hljs-comment">/** @lends CullVisitor.prototype */</span>
+CullVisitor.prototype = MACROUTILS.objectInherit( CullStack.prototype, MACROUTILS.objectInherit( NodeVisitor.prototype, {
+    distance: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> coord, matrix </span>) </span>{
+        <span class="hljs-keyword">return</span> -( coord[ <span class="hljs-number">0</span> ] * matrix[ <span class="hljs-number">2</span> ] + coord[ <span class="hljs-number">1</span> ] * matrix[ <span class="hljs-number">6</span> ] + coord[ <span class="hljs-number">2</span> ] * matrix[ <span class="hljs-number">10</span> ] + matrix[ <span class="hljs-number">14</span> ] );
+    },
+
+    getComputedNear: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._computedNear;
+    },
+
+    getComputedFar: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._computedFar;
+    },
+
+    resetStats: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>._numCamera = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>._numMatrixTransform = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>._numProjection = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>._numNode = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>._numLightSource = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">this</span>._numGeometry = <span class="hljs-number">0</span>;
+    },
+
+    handleCullCallbacksAndTraverse: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+        <span class="hljs-keyword">var</span> ccb = node.getCullCallback();
+        <span class="hljs-keyword">if</span> ( ccb &amp;&amp; !ccb.cull( node, <span class="hljs-keyword">this</span> ) )
+            <span class="hljs-keyword">return</span>;
+        <span class="hljs-keyword">this</span>.traverse( node );
+    },
+
+    getCurrentCamera: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._currentRenderBin.getStage().getCamera();
+    },
+
+    updateCalculatedNearFar: ( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> nearVec = Vec3.create();
+        <span class="hljs-keyword">var</span> farVec = Vec3.create();
+
+        <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> matrix, drawable </span>) </span>{
+
+            <span class="hljs-keyword">var</span> bb = drawable.getBoundingBox();
+            <span class="hljs-keyword">var</span> dNear, dFar;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>efficient computation of near and far, only taking into account the nearest and furthest
+corners of the bounding box.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            dNear = <span class="hljs-keyword">this</span>.distance( bb.corner( <span class="hljs-keyword">this</span>._bbCornerNear, nearVec ), matrix );
+            dFar = <span class="hljs-keyword">this</span>.distance( bb.corner( <span class="hljs-keyword">this</span>._bbCornerFar, farVec ), matrix );
+
+            <span class="hljs-keyword">if</span> ( dNear &gt; dFar ) {
+                <span class="hljs-keyword">var</span> tmp = dNear;
+                dNear = dFar;
+                dFar = tmp;
+            }
+
+            <span class="hljs-keyword">if</span> ( dFar &lt; <span class="hljs-number">0.0</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>whole object behind the eye point so discard</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+            }
+
+            <span class="hljs-keyword">if</span> ( dNear &lt; <span class="hljs-keyword">this</span>._computedNear ) {
+                <span class="hljs-keyword">this</span>._computedNear = dNear;
+            }
+
+            <span class="hljs-keyword">if</span> ( dFar &gt; <span class="hljs-keyword">this</span>._computedFar ) {
+                <span class="hljs-keyword">this</span>._computedFar = dFar;
+            }
+
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+
+        };
+    } )(),
+
+
+    setStateGraph: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> sg </span>) </span>{
+        <span class="hljs-keyword">this</span>._rootStateGraph = sg;
+        <span class="hljs-keyword">this</span>._currentStateGraph = sg;
+    },
+    setRenderStage: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> rg </span>) </span>{
+        <span class="hljs-keyword">this</span>._rootRenderStage = rg;
+        <span class="hljs-keyword">this</span>._currentRenderBin = rg;
+    },
+    setRenderer: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> renderer </span>) </span>{
+        <span class="hljs-keyword">this</span>._renderer = renderer;
+    },
+    getRenderer: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._renderer;
+    },
+
+    reset: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        CullStack.prototype.reset.call( <span class="hljs-keyword">this</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>Reset the stack before reseting the current leaf index.
+Reseting elements and refilling them later is faster than create new elements
+That’s the reason to have a leafStack, see <a href="http://jsperf.com/refill/2">http://jsperf.com/refill/2</a></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">this</span>.resetRenderLeafStack();
+        <span class="hljs-keyword">this</span>._reserveLeafStackCurrent = <span class="hljs-number">0</span>;
+
+        <span class="hljs-keyword">this</span>.resetCullSettingsStack();
+        <span class="hljs-keyword">this</span>._reserveCullSettingsStackCurrent = <span class="hljs-number">0</span>;
+
+        <span class="hljs-keyword">this</span>._computedNear = <span class="hljs-built_in">Number</span>.POSITIVE_INFINITY;
+        <span class="hljs-keyword">this</span>._computedFar = <span class="hljs-built_in">Number</span>.NEGATIVE_INFINITY;
+    },
+
+    getCurrentRenderBin: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>._currentRenderBin;
+    },
+
+    setCurrentRenderBin: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> rb </span>) </span>{
+        <span class="hljs-keyword">this</span>._currentRenderBin = rb;
+    },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>mimic the osg implementation
+in osg you can push 0, in this case an identity matrix will be loaded</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    addPositionedAttribute: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> matrix, attribute </span>) </span>{
+
+        <span class="hljs-keyword">var</span> m = matrix ? matrix : <span class="hljs-keyword">this</span>._identityMatrix;
+        <span class="hljs-keyword">this</span>._currentRenderBin.getStage().positionedAttribute.push( [ m, attribute ] );
+
+    },
+
+    pushStateSet: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> stateset </span>) </span>{
+        <span class="hljs-keyword">this</span>._currentStateGraph = <span class="hljs-keyword">this</span>._currentStateGraph.findOrInsert( stateset );
+        <span class="hljs-keyword">if</span> ( stateset.getBinName() !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">var</span> renderBinStack = <span class="hljs-keyword">this</span>._renderBinStack;
+            <span class="hljs-keyword">var</span> currentRenderBin = <span class="hljs-keyword">this</span>._currentRenderBin;
+            renderBinStack.push( currentRenderBin );
+            <span class="hljs-keyword">this</span>._currentRenderBin = currentRenderBin.getStage().findOrInsert( stateset.getBinNumber(), stateset.getBinName() );
+        }
+    },
+
+    <span class="hljs-comment">/** Pop the top state set and hence associated state group.
+     * Move the current state group to the parent of the popped
+     * state group.
+     */</span>
+    popStateSet: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> currentStateGraph = <span class="hljs-keyword">this</span>._currentStateGraph;
+        <span class="hljs-keyword">var</span> stateset = currentStateGraph.getStateSet();
+        <span class="hljs-keyword">this</span>._currentStateGraph = currentStateGraph.parent;
+        <span class="hljs-keyword">if</span> ( stateset.getBinName() !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">var</span> renderBinStack = <span class="hljs-keyword">this</span>._renderBinStack;
+            <span class="hljs-keyword">if</span> ( renderBinStack.length === <span class="hljs-number">0</span> ) {
+                <span class="hljs-keyword">this</span>._currentRenderBin = <span class="hljs-keyword">this</span>._currentRenderBin.getStage();
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">this</span>._currentRenderBin = renderBinStack.pop();
+            }
+        }
+    },
+
+    popProjectionMatrix: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._computeNearFar === <span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-keyword">this</span>._computedFar &gt;= <span class="hljs-keyword">this</span>._computedNear ) {
+            <span class="hljs-keyword">var</span> m = <span class="hljs-keyword">this</span>.getCurrentProjectionMatrix();
+            Matrix.clampProjectionMatrix( m, <span class="hljs-keyword">this</span>._computedNear, <span class="hljs-keyword">this</span>._computedFar, <span class="hljs-keyword">this</span>._nearFarRatio );
+        }
+        CullStack.prototype.popProjectionMatrix.call( <span class="hljs-keyword">this</span> );
+    },
+
+    popCameraModelViewProjectionMatrix: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.popModelViewMatrix();
+        <span class="hljs-keyword">this</span>.popProjectionMatrix();
+    },
+
+    pushCameraModelViewProjectionMatrix: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> camera, modelview, projection </span>) </span>{
+        <span class="hljs-keyword">this</span>.pushModelViewMatrix( modelview );
+        <span class="hljs-keyword">this</span>.pushProjectionMatrix( projection );
+    },
+
+    apply: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+        <span class="hljs-keyword">this</span>[ node.typeID ]( node );
+    },
+
+    createOrReuseRenderLeaf: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> l = <span class="hljs-keyword">this</span>._reserveLeafStack[ <span class="hljs-keyword">this</span>._reserveLeafStackCurrent++ ];
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._reserveLeafStackCurrent === <span class="hljs-keyword">this</span>._reserveLeafStack.length ) {
+            <span class="hljs-keyword">this</span>._reserveLeafStack.push( <span class="hljs-keyword">new</span> RenderLeaf() );
+        }
+        <span class="hljs-keyword">return</span> l;
+    },
+
+    resetRenderLeafStack: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, j = <span class="hljs-keyword">this</span>._reserveLeafStackCurrent; i &lt;= j; i++ ) {
+            <span class="hljs-keyword">this</span>._reserveLeafStack[ i ].reset();
+        }
+    },
+
+    createOrReuseCullSettings: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> l = <span class="hljs-keyword">this</span>._reserveCullSettingsStack[ <span class="hljs-keyword">this</span>._reserveCullSettingsStackCurrent++ ];
+
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._reserveCullSettingsStackCurrent === <span class="hljs-keyword">this</span>._reserveCullSettingsStack.length ) {
+
+            <span class="hljs-keyword">this</span>._reserveCullSettingsStack.push( <span class="hljs-keyword">new</span> CullSettings() );
+
+        }
+        <span class="hljs-keyword">return</span> l;
+    },
+
+    resetCullSettingsStack: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, j = <span class="hljs-keyword">this</span>._reserveCullSettingsStackCurrent; i &lt;= j; i++ ) {
+            <span class="hljs-keyword">this</span>._reserveCullSettingsStack[ i ].reset();
+        }
+    }
+
+
+} ) );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>Camera cull visitor call
+ANY CHANGE, any change : double check in rendere Camera code
+for the first camera</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>CullVisitor.prototype[ Camera.typeID ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> camera </span>) </span>{
+    <span class="hljs-keyword">this</span>._numCamera++;
+
+    <span class="hljs-keyword">var</span> stateset = camera.getStateSet();
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+    <span class="hljs-keyword">var</span> modelview = <span class="hljs-keyword">this</span>._reservedMatrixStack.get();
+    <span class="hljs-keyword">var</span> projection = <span class="hljs-keyword">this</span>._reservedMatrixStack.get();
+
+    <span class="hljs-keyword">if</span> ( camera.getReferenceFrame() === TransformEnums.RELATIVE_RF ) {
+
+        <span class="hljs-keyword">var</span> lastProjectionMatrix = <span class="hljs-keyword">this</span>.getCurrentProjectionMatrix();
+        Matrix.mult( lastProjectionMatrix, camera.getProjectionMatrix(), projection );
+
+        <span class="hljs-keyword">var</span> lastViewMatrix = <span class="hljs-keyword">this</span>.getCurrentModelViewMatrix();
+        Matrix.mult( lastViewMatrix, camera.getViewMatrix(), modelview );
+
+    } <span class="hljs-keyword">else</span> {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>absolute</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        Matrix.copy( camera.getViewMatrix(), modelview );
+        Matrix.copy( camera.getProjectionMatrix(), projection );
+
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>save current state of the camera</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">var</span> previousZnear = <span class="hljs-keyword">this</span>._computedNear;
+    <span class="hljs-keyword">var</span> previousZfar = <span class="hljs-keyword">this</span>._computedFar;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>save cullSettings
+TODO Perf: why it’s not a stack
+and is pollutin  GC ?</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">var</span> previousCullsettings = <span class="hljs-keyword">this</span>.createOrReuseCullSettings();
+    previousCullsettings.setCullSettings( <span class="hljs-keyword">this</span> );
+
+    <span class="hljs-keyword">this</span>._computedNear = <span class="hljs-built_in">Number</span>.POSITIVE_INFINITY;
+    <span class="hljs-keyword">this</span>._computedFar = <span class="hljs-built_in">Number</span>.NEGATIVE_INFINITY;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+    <span class="hljs-keyword">this</span>.setCullSettings( camera );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>global override
+upon who setted the parameter
+if it’s cullvisitor
+it’s an OVERRIDER for enableFrustumCulling
+allowing for global EnableFrustimCulling</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> ( previousCullsettings.getSettingSourceOverrider() === <span class="hljs-keyword">this</span> &amp;&amp; previousCullsettings.getEnableFrustumCulling() ) {
+        <span class="hljs-keyword">this</span>.setEnableFrustumCulling( <span class="hljs-literal">true</span> );
+    }
+
+
+    <span class="hljs-keyword">this</span>.pushCameraModelViewProjectionMatrix( camera, modelview, projection );
+
+    <span class="hljs-keyword">if</span> ( camera.getViewport() ) {
+        <span class="hljs-keyword">this</span>.pushViewport( camera.getViewport() );
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>nested camera</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> ( camera.getRenderOrder() === Camera.NESTED_RENDER ) {
+
+        <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( camera );
+
+    } <span class="hljs-keyword">else</span> {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>not tested</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-keyword">var</span> renderBin = <span class="hljs-keyword">this</span>.getCurrentRenderBin();
+        <span class="hljs-keyword">var</span> previousStage = renderBin.getStage();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>use render to texture stage</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> rtts = <span class="hljs-keyword">this</span>._rootRenderStage ? <span class="hljs-keyword">this</span>._rootRenderStage.cloneType() : <span class="hljs-keyword">new</span> RenderStage();
+        rtts.setCamera( camera );
+        rtts.setClearDepth( camera.getClearDepth() );
+        rtts.setClearColor( camera.getClearColor() );
+
+        rtts.setClearMask( camera.getClearMask() );
+
+        <span class="hljs-keyword">var</span> vp;
+        <span class="hljs-keyword">if</span> ( camera.getViewport() === <span class="hljs-literal">undefined</span> ) {
+            vp = previousStage.getViewport();
+        } <span class="hljs-keyword">else</span> {
+            vp = camera.getViewport();
+        }
+        rtts.setViewport( vp );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>skip positional state for now
+…</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-keyword">this</span>.setCurrentRenderBin( rtts );
+
+        <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( camera );
+
+        <span class="hljs-keyword">this</span>.setCurrentRenderBin( renderBin );
+
+        <span class="hljs-keyword">if</span> ( camera.getRenderOrder() === Camera.PRE_RENDER ) {
+            <span class="hljs-keyword">this</span>.getCurrentRenderBin().getStage().addPreRenderStage( rtts, camera.renderOrderNum );
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">this</span>.getCurrentRenderBin().getStage().addPostRenderStage( rtts, camera.renderOrderNum );
+        }
+    }
+
+    <span class="hljs-keyword">this</span>.popCameraModelViewProjectionMatrix( camera );
+
+    <span class="hljs-keyword">if</span> ( camera.getViewport() ) {
+        <span class="hljs-keyword">this</span>.popViewport();
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>restore previous state of the camera</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.setCullSettings( previousCullsettings );
+    <span class="hljs-keyword">this</span>._computedNear = previousZnear;
+    <span class="hljs-keyword">this</span>._computedFar = previousZfar;
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();
+
+};
+
+
+CullVisitor.prototype[ MatrixTransform.typeID ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+    <span class="hljs-keyword">this</span>._numMatrixTransform++;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <p>Camera and lights must enlarge node parent bounding boxes for this not to cull</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>.isCulled( node, <span class="hljs-keyword">this</span>.nodePath ) ) {
+        <span class="hljs-keyword">return</span>;
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>push the culling mode.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.pushCurrentMask();
+
+    <span class="hljs-keyword">var</span> matrix = <span class="hljs-keyword">this</span>._reservedMatrixStack.get();
+
+    <span class="hljs-keyword">if</span> ( node.getReferenceFrame() === TransformEnums.RELATIVE_RF ) {
+
+        <span class="hljs-keyword">var</span> lastMatrixStack = <span class="hljs-keyword">this</span>.getCurrentModelViewMatrix();
+        Matrix.mult( lastMatrixStack, node.getMatrix(), matrix );
+
+    } <span class="hljs-keyword">else</span> {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>absolute</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        Matrix.copy( node.getMatrix(), matrix );
+    }
+    <span class="hljs-keyword">this</span>.pushModelViewMatrix( matrix );
+
+
+    <span class="hljs-keyword">var</span> stateset = node.getStateSet();
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+    <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( node );
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();
+
+
+    <span class="hljs-keyword">this</span>.popModelViewMatrix();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>pop the culling mode.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.popCurrentMask();
+};
+
+CullVisitor.prototype[ Projection.typeID ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+    <span class="hljs-keyword">this</span>._numProjection++;
+
+    <span class="hljs-keyword">var</span> lastMatrixStack = <span class="hljs-keyword">this</span>.getCurrentProjectionMatrix();
+    <span class="hljs-keyword">var</span> matrix = <span class="hljs-keyword">this</span>._reservedMatrixStack.get();
+    Matrix.mult( lastMatrixStack, node.getProjectionMatrix(), matrix );
+    <span class="hljs-keyword">this</span>.pushProjectionMatrix( matrix );
+
+    <span class="hljs-keyword">var</span> stateset = node.getStateSet();
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+    <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( node );
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();
+
+    <span class="hljs-keyword">this</span>.popProjectionMatrix();
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>here it’s treated as a group node for culling
+as there’s isn’t any in osgjs
+so frustumCulling is done here</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>CullVisitor.prototype[ Node.typeID ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+    <span class="hljs-keyword">this</span>._numNode++;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>Camera and lights must enlarge node parent bounding boxes for this not to cull</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>.isCulled( node, <span class="hljs-keyword">this</span>.nodePath ) ) {
+        <span class="hljs-keyword">return</span>;
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>push the culling mode.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.pushCurrentMask();
+
+    <span class="hljs-keyword">var</span> stateset = node.getStateSet();
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+    <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( node );
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <p>pop the culling mode.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-keyword">this</span>.popCurrentMask();
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              <p>same code like Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>CullVisitor.prototype[ Lod.typeID ] = CullVisitor.prototype[ Node.typeID ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-26">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-26">&#182;</a>
+              </div>
+              <p>same code like Node</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>CullVisitor.prototype[ PagedLOD.typeID ] = CullVisitor.prototype[ Node.typeID ];
+
+
+CullVisitor.prototype[ LightSource.typeID ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+    <span class="hljs-keyword">this</span>._numLightSource++;
+
+    <span class="hljs-keyword">var</span> stateset = node.getStateSet();
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+    <span class="hljs-keyword">var</span> light = node.getLight();
+    <span class="hljs-keyword">if</span> ( light ) <span class="hljs-keyword">this</span>.addPositionedAttribute( <span class="hljs-keyword">this</span>.getCurrentModelViewMatrix(), light );
+
+    <span class="hljs-keyword">this</span>.handleCullCallbacksAndTraverse( node );
+
+    <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-27">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-27">&#182;</a>
+              </div>
+              <p>function call after the push state in the geometry apply function
+the idea is to avoid heavy copy-paste for the rigGeometry apply
+since the only difference is that we want to push an additional state
+Maybe it will be useful when we’ll add morph target geometry or something…</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">var</span> postPushGeometry = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> cull, node </span>) </span>{
+
+    <span class="hljs-keyword">var</span> sourceGeometry;
+    <span class="hljs-keyword">var</span> geometryStateSetAnimation;
+
+    <span class="hljs-keyword">if</span> ( node <span class="hljs-keyword">instanceof</span> RigGeometry ) {
+
+        geometryStateSetAnimation = node.getStateSetAnimation();
+        <span class="hljs-keyword">if</span> ( geometryStateSetAnimation ) cull.pushStateSet( geometryStateSetAnimation );
+
+        sourceGeometry = node.getSourceGeometry();
+
+        <span class="hljs-keyword">if</span> ( sourceGeometry <span class="hljs-keyword">instanceof</span> MorphGeometry ) {
+
+            geometryStateSetAnimation = sourceGeometry.getStateSetAnimation();
+            <span class="hljs-keyword">if</span> ( geometryStateSetAnimation ) cull.pushStateSet( geometryStateSetAnimation );
+
+        }
+
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( node <span class="hljs-keyword">instanceof</span> MorphGeometry ) {
+
+        geometryStateSetAnimation = node.getStateSetAnimation();
+        <span class="hljs-keyword">if</span> ( geometryStateSetAnimation ) cull.pushStateSet( geometryStateSetAnimation );
+
+    }
+
+};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-28">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-28">&#182;</a>
+              </div>
+              <p>same comment as above (postPushGeometry)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">var</span> prePopGeometry = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> cull, node </span>) </span>{
+
+    <span class="hljs-keyword">if</span> ( node <span class="hljs-keyword">instanceof</span> RigGeometry ) {
+
+        <span class="hljs-keyword">var</span> sourceGeometry = node.getSourceGeometry();
+
+        <span class="hljs-keyword">if</span> ( sourceGeometry <span class="hljs-keyword">instanceof</span> MorphGeometry ) {
+
+            <span class="hljs-keyword">if</span> ( sourceGeometry.getStateSetAnimation() ) cull.popStateSet();
+
+        }
+
+        <span class="hljs-keyword">if</span> ( node.getStateSetAnimation() ) cull.popStateSet();
+
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( node <span class="hljs-keyword">instanceof</span> MorphGeometry &amp;&amp; node.getStateSetAnimation() ) {
+
+        cull.popStateSet();
+
+    }
+
+};
+
+CullVisitor.prototype[ Geometry.typeID ] = ( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+    <span class="hljs-keyword">var</span> tempVec = Vec3.create();
+    <span class="hljs-keyword">var</span> loggedOnce = <span class="hljs-literal">false</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+
+        <span class="hljs-keyword">this</span>._numGeometry++;
+
+        <span class="hljs-keyword">var</span> modelview = <span class="hljs-keyword">this</span>.getCurrentModelViewMatrix();
+        <span class="hljs-keyword">var</span> bb = node.getBoundingBox();
+        <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">this</span>._computeNearFar &amp;&amp; bb.valid() ) {
+            <span class="hljs-keyword">if</span> ( !<span class="hljs-keyword">this</span>.updateCalculatedNearFar( modelview, node ) ) {
+                <span class="hljs-keyword">return</span>;
+            }
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-29">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-29">&#182;</a>
+              </div>
+              <p>using modelview is not a pb because geometry
+is a leaf node, else traversing the graph would be an
+issue because we use modelview after</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> ccb = node.getCullCallback();
+        <span class="hljs-keyword">if</span> ( ccb &amp;&amp; !ccb.cull( node, <span class="hljs-keyword">this</span> ) )
+            <span class="hljs-keyword">return</span>;
+
+        <span class="hljs-keyword">var</span> stateset = node.getStateSet();
+        <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.pushStateSet( stateset );
+
+        postPushGeometry( <span class="hljs-keyword">this</span>, node );
+
+        <span class="hljs-keyword">var</span> leafs = <span class="hljs-keyword">this</span>._currentStateGraph.leafs;
+        <span class="hljs-keyword">if</span> ( leafs.length === <span class="hljs-number">0</span> ) {
+            <span class="hljs-keyword">this</span>._currentRenderBin.addStateGraph( <span class="hljs-keyword">this</span>._currentStateGraph );
+        }
+
+        <span class="hljs-keyword">var</span> leaf = <span class="hljs-keyword">this</span>.createOrReuseRenderLeaf();
+        <span class="hljs-keyword">var</span> depth = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">if</span> ( bb.valid() ) {
+            depth = <span class="hljs-keyword">this</span>.distance( bb.center( tempVec ), modelview );
+        }
+        <span class="hljs-keyword">if</span> ( osgMath.isNaN( depth ) ) {
+
+            <span class="hljs-keyword">if</span> ( !loggedOnce ) {
+                Notify.warn( <span class="hljs-string">'warning geometry has a NaN depth, '</span> + modelview + <span class="hljs-string">' center '</span> + tempVec );
+                loggedOnce = <span class="hljs-literal">true</span>;
+            }
+
+        } <span class="hljs-keyword">else</span> {
+
+            leaf.init( <span class="hljs-keyword">this</span>._currentStateGraph,
+                node,
+                <span class="hljs-keyword">this</span>.getCurrentProjectionMatrix(),
+                <span class="hljs-keyword">this</span>.getCurrentViewMatrix(),
+                <span class="hljs-keyword">this</span>.getCurrentModelViewMatrix(),
+                <span class="hljs-keyword">this</span>.getCurrentModelWorldMatrix(),
+                depth );
+
+            leafs.push( leaf );
+        }
+
+        prePopGeometry( <span class="hljs-keyword">this</span>, node );
+        <span class="hljs-keyword">if</span> ( stateset ) <span class="hljs-keyword">this</span>.popStateSet();
+    };
+} )();
+
+CullVisitor.prototype[ Skeleton.typeID ] = CullVisitor.prototype[ MatrixTransform.typeID ];
+
+CullVisitor.prototype[ RigGeometry.typeID ] = CullVisitor.prototype[ Geometry.typeID ];
+
+CullVisitor.prototype[ MorphGeometry.typeID ] = CullVisitor.prototype[ Geometry.typeID ];
+
+CullVisitor.prototype[ Bone.typeID ] = CullVisitor.prototype[ MatrixTransform.typeID ];
+
+<span class="hljs-built_in">module</span>.exports = CullVisitor;</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

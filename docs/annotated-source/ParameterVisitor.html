@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>ParameterVisitor.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="OSG.html">
+                OSG.js
+              </a>
+            
+              
+              <a class="source" href="BillboardAttribute.html">
+                BillboardAttribute.js
+              </a>
+            
+              
+              <a class="source" href="BlendColor.html">
+                BlendColor.js
+              </a>
+            
+              
+              <a class="source" href="BlendFunc.html">
+                BlendFunc.js
+              </a>
+            
+              
+              <a class="source" href="BoundingBox.html">
+                BoundingBox.js
+              </a>
+            
+              
+              <a class="source" href="BoundingSphere.html">
+                BoundingSphere.js
+              </a>
+            
+              
+              <a class="source" href="BufferArray.html">
+                BufferArray.js
+              </a>
+            
+              
+              <a class="source" href="BufferArrayProxy.html">
+                BufferArrayProxy.js
+              </a>
+            
+              
+              <a class="source" href="Camera.html">
+                Camera.js
+              </a>
+            
+              
+              <a class="source" href="ColorMask.html">
+                ColorMask.js
+              </a>
+            
+              
+              <a class="source" href="ComputeBoundsVisitor.html">
+                ComputeBoundsVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ComputeMatrixFromNodePath.html">
+                ComputeMatrixFromNodePath.js
+              </a>
+            
+              
+              <a class="source" href="CullFace.html">
+                CullFace.js
+              </a>
+            
+              
+              <a class="source" href="CullSettings.html">
+                CullSettings.js
+              </a>
+            
+              
+              <a class="source" href="CullStack.html">
+                CullStack.js
+              </a>
+            
+              
+              <a class="source" href="CullVisitor.html">
+                CullVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CullingSet.html">
+                CullingSet.js
+              </a>
+            
+              
+              <a class="source" href="Depth.html">
+                Depth.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrayLengths.html">
+                DrawArrayLengths.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrays.html">
+                DrawArrays.js
+              </a>
+            
+              
+              <a class="source" href="DrawElements.html">
+                DrawElements.js
+              </a>
+            
+              
+              <a class="source" href="EllipsoidModel.html">
+                EllipsoidModel.js
+              </a>
+            
+              
+              <a class="source" href="FrameBufferObject.html">
+                FrameBufferObject.js
+              </a>
+            
+              
+              <a class="source" href="FrameStamp.html">
+                FrameStamp.js
+              </a>
+            
+              
+              <a class="source" href="GLObject.html">
+                GLObject.js
+              </a>
+            
+              
+              <a class="source" href="Geometry.html">
+                Geometry.js
+              </a>
+            
+              
+              <a class="source" href="Image.html">
+                Image.js
+              </a>
+            
+              
+              <a class="source" href="ImageStream.html">
+                ImageStream.js
+              </a>
+            
+              
+              <a class="source" href="KdTree.html">
+                KdTree.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeBuilder.html">
+                KdTreeBuilder.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeRayIntersector.html">
+                KdTreeRayIntersector.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeSphereIntersector.html">
+                KdTreeSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="Light.html">
+                Light.js
+              </a>
+            
+              
+              <a class="source" href="LightSource.html">
+                LightSource.js
+              </a>
+            
+              
+              <a class="source" href="LineWidth.html">
+                LineWidth.js
+              </a>
+            
+              
+              <a class="source" href="Lod.html">
+                Lod.js
+              </a>
+            
+              
+              <a class="source" href="Map.html">
+                Map.js
+              </a>
+            
+              
+              <a class="source" href="Material.html">
+                Material.js
+              </a>
+            
+              
+              <a class="source" href="Math.html">
+                Math.js
+              </a>
+            
+              
+              <a class="source" href="Matrix.html">
+                Matrix.js
+              </a>
+            
+              
+              <a class="source" href="MatrixMemoryPool.html">
+                MatrixMemoryPool.js
+              </a>
+            
+              
+              <a class="source" href="MatrixTransform.html">
+                MatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="NodeVisitor.html">
+                NodeVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Notify.html">
+                Notify.js
+              </a>
+            
+              
+              <a class="source" href="Object.html">
+                Object.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="PagedLOD.html">
+                PagedLOD.js
+              </a>
+            
+              
+              <a class="source" href="Plane.html">
+                Plane.js
+              </a>
+            
+              
+              <a class="source" href="Polytope.html">
+                Polytope.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveFunctor.html">
+                PrimitiveFunctor.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveSet.html">
+                PrimitiveSet.js
+              </a>
+            
+              
+              <a class="source" href="Program.html">
+                Program.js
+              </a>
+            
+              
+              <a class="source" href="Projection.html">
+                Projection.js
+              </a>
+            
+              
+              <a class="source" href="Quat.html">
+                Quat.js
+              </a>
+            
+              
+              <a class="source" href="RenderBin.html">
+                RenderBin.js
+              </a>
+            
+              
+              <a class="source" href="RenderLeaf.html">
+                RenderLeaf.js
+              </a>
+            
+              
+              <a class="source" href="RenderStage.html">
+                RenderStage.js
+              </a>
+            
+              
+              <a class="source" href="Shader.html">
+                Shader.js
+              </a>
+            
+              
+              <a class="source" href="Shape.html">
+                Shape.js
+              </a>
+            
+              
+              <a class="source" href="Stack.html">
+                Stack.js
+              </a>
+            
+              
+              <a class="source" href="State.html">
+                State.js
+              </a>
+            
+              
+              <a class="source" href="StateAttribute.html">
+                StateAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StateGraph.html">
+                StateGraph.js
+              </a>
+            
+              
+              <a class="source" href="StateSet.html">
+                StateSet.js
+              </a>
+            
+              
+              <a class="source" href="Texture.html">
+                Texture.js
+              </a>
+            
+              
+              <a class="source" href="TextureCubeMap.html">
+                TextureCubeMap.js
+              </a>
+            
+              
+              <a class="source" href="TextureManager.html">
+                TextureManager.js
+              </a>
+            
+              
+              <a class="source" href="Timer.html">
+                Timer.js
+              </a>
+            
+              
+              <a class="source" href="Transform.html">
+                Transform.js
+              </a>
+            
+              
+              <a class="source" href="TransformEnums.html">
+                TransformEnums.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIndexFunctor.html">
+                TriangleIndexFunctor.js
+              </a>
+            
+              
+              <a class="source" href="Uniform.html">
+                Uniform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateVisitor.html">
+                UpdateVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Utils.html">
+                Utils.js
+              </a>
+            
+              
+              <a class="source" href="Vec2.html">
+                Vec2.js
+              </a>
+            
+              
+              <a class="source" href="Vec3.html">
+                Vec3.js
+              </a>
+            
+              
+              <a class="source" href="Vec4.html">
+                Vec4.js
+              </a>
+            
+              
+              <a class="source" href="Viewport.html">
+                Viewport.js
+              </a>
+            
+              
+              <a class="source" href="WebGLCaps.html">
+                WebGLCaps.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="Animation.html">
+                Animation.js
+              </a>
+            
+              
+              <a class="source" href="AnimationUpdateCallback.html">
+                AnimationUpdateCallback.js
+              </a>
+            
+              
+              <a class="source" href="BasicAnimationManager.html">
+                BasicAnimationManager.js
+              </a>
+            
+              
+              <a class="source" href="Bone.html">
+                Bone.js
+              </a>
+            
+              
+              <a class="source" href="Channel.html">
+                Channel.js
+              </a>
+            
+              
+              <a class="source" href="CollectAnimationUpdateCallbackVisitor.html">
+                CollectAnimationUpdateCallbackVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CollectBoneVisitor.html">
+                CollectBoneVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Easing.html">
+                Easing.js
+              </a>
+            
+              
+              <a class="source" href="FindNearestParentSkeleton.html">
+                FindNearestParentSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="Interpolator.html">
+                Interpolator.js
+              </a>
+            
+              
+              <a class="source" href="MorphAttribute.html">
+                MorphAttribute.js
+              </a>
+            
+              
+              <a class="source" href="MorphGeometry.html">
+                MorphGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigGeometry.html">
+                RigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigTransformHardware.html">
+                RigTransformHardware.js
+              </a>
+            
+              
+              <a class="source" href="Skeleton.html">
+                Skeleton.js
+              </a>
+            
+              
+              <a class="source" href="SkinningAttribute.html">
+                SkinningAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StackedMatrix.html">
+                StackedMatrix.js
+              </a>
+            
+              
+              <a class="source" href="StackedQuaternion.html">
+                StackedQuaternion.js
+              </a>
+            
+              
+              <a class="source" href="StackedRotateAxis.html">
+                StackedRotateAxis.js
+              </a>
+            
+              
+              <a class="source" href="StackedScale.html">
+                StackedScale.js
+              </a>
+            
+              
+              <a class="source" href="StackedTranslate.html">
+                StackedTranslate.js
+              </a>
+            
+              
+              <a class="source" href="Target.html">
+                Target.js
+              </a>
+            
+              
+              <a class="source" href="UpdateBone.html">
+                UpdateBone.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMatrixTransform.html">
+                UpdateMatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMorph.html">
+                UpdateMorph.js
+              </a>
+            
+              
+              <a class="source" href="UpdateRigGeometry.html">
+                UpdateRigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="UpdateSkeleton.html">
+                UpdateSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="channelType.html">
+                channelType.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="DatabasePager.html">
+                DatabasePager.js
+              </a>
+            
+              
+              <a class="source" href="Input.html">
+                Input.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="ReaderParser.html">
+                ReaderParser.js
+              </a>
+            
+              
+              <a class="source" href="osgDB.html">
+                osgDB.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulator.html">
+                FirstPersonManipulator.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorDeviceOrientationController.html">
+                FirstPersonManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorHammerController.html">
+                FirstPersonManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorStandardMouseKeyboardController.html">
+                FirstPersonManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorWebVRController.html">
+                FirstPersonManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="Manipulator.html">
+                Manipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulator.html">
+                OrbitManipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorDeviceOrientationController.html">
+                OrbitManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorEnums.html">
+                OrbitManipulatorEnums.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorGamePadController.html">
+                OrbitManipulatorGamePadController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorHammerController.html">
+                OrbitManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorLeapMotionController.html">
+                OrbitManipulatorLeapMotionController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorStandardMouseKeyboardController.html">
+                OrbitManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorWebVRController.html">
+                OrbitManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="SwitchManipulator.html">
+                SwitchManipulator.js
+              </a>
+            
+              
+              <a class="source" href="osgGA.html">
+                osgGA.js
+              </a>
+            
+              
+              <a class="source" href="osgNameSpace.html">
+                osgNameSpace.js
+              </a>
+            
+              
+              <a class="source" href="Compiler.html">
+                Compiler.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGenerator.html">
+                ShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGeneratorProxy.html">
+                ShaderGeneratorProxy.js
+              </a>
+            
+              
+              <a class="source" href="ShaderProcessor.html">
+                ShaderProcessor.js
+              </a>
+            
+              
+              <a class="source" href="node.html">
+                node.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="data.html">
+                data.js
+              </a>
+            
+              
+              <a class="source" href="functions.html">
+                functions.js
+              </a>
+            
+              
+              <a class="source" href="lights.html">
+                lights.js
+              </a>
+            
+              
+              <a class="source" href="morph.html">
+                morph.js
+              </a>
+            
+              
+              <a class="source" href="operations.html">
+                operations.js
+              </a>
+            
+              
+              <a class="source" href="shadows.html">
+                shadows.js
+              </a>
+            
+              
+              <a class="source" href="skinning.html">
+                skinning.js
+              </a>
+            
+              
+              <a class="source" href="textures.html">
+                textures.js
+              </a>
+            
+              
+              <a class="source" href="nodeFactory.html">
+                nodeFactory.js
+              </a>
+            
+              
+              <a class="source" href="osgShader.html">
+                osgShader.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="utils.html">
+                utils.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastAttribute.html">
+                ShadowCastAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastCompiler.html">
+                ShadowCastCompiler.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastShaderGenerator.html">
+                ShadowCastShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCasterVisitor.html">
+                ShadowCasterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ShadowFrustumIntersection.html">
+                ShadowFrustumIntersection.js
+              </a>
+            
+              
+              <a class="source" href="ShadowMap.html">
+                ShadowMap.js
+              </a>
+            
+              
+              <a class="source" href="ShadowReceiveAttribute.html">
+                ShadowReceiveAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowSettings.html">
+                ShadowSettings.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTechnique.html">
+                ShadowTechnique.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTexture.html">
+                ShadowTexture.js
+              </a>
+            
+              
+              <a class="source" href="ShadowedScene.html">
+                ShadowedScene.js
+              </a>
+            
+              
+              <a class="source" href="osgShadow.html">
+                osgShadow.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="Text.html">
+                Text.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+              
+              <a class="source" href="Composer.html">
+                Composer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGeometryVisitor.html">
+                DisplayGeometryVisitor.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraph.html">
+                DisplayGraph.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphNode.html">
+                DisplayGraphNode.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphRenderer.html">
+                DisplayGraphRenderer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayNormalVisitor.html">
+                DisplayNormalVisitor.js
+              </a>
+            
+              
+              <a class="source" href="GizmoGeometry.html">
+                GizmoGeometry.js
+              </a>
+            
+              
+              <a class="source" href="IntersectionVisitor.html">
+                IntersectionVisitor.js
+              </a>
+            
+              
+              <a class="source" href="LineSegmentIntersector.html">
+                LineSegmentIntersector.js
+              </a>
+            
+              
+              <a class="source" href="NodeGizmo.html">
+                NodeGizmo.js
+              </a>
+            
+              
+              <a class="source" href="ParameterVisitor.html">
+                ParameterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="PolytopeIntersector.html">
+                PolytopeIntersector.js
+              </a>
+            
+              
+              <a class="source" href="PolytopePrimitiveIntersector.html">
+                PolytopePrimitiveIntersector.js
+              </a>
+            
+              
+              <a class="source" href="SphereIntersector.html">
+                SphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TangentSpaceGenerator.html">
+                TangentSpaceGenerator.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIntersector.html">
+                TriangleIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TriangleSphereIntersector.html">
+                TriangleSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="WebVRCustom.html">
+                WebVRCustom.js
+              </a>
+            
+              
+              <a class="source" href="osgPool.html">
+                osgPool.js
+              </a>
+            
+              
+              <a class="source" href="osgUtil.html">
+                osgUtil.js
+              </a>
+            
+              
+              <a class="source" href="Renderer.html">
+                Renderer.js
+              </a>
+            
+              
+              <a class="source" href="Scene.html">
+                Scene.js
+              </a>
+            
+              
+              <a class="source" href="View.html">
+                View.js
+              </a>
+            
+              
+              <a class="source" href="Viewer.html">
+                Viewer.js
+              </a>
+            
+              
+              <a class="source" href="createStats.html">
+                createStats.js
+              </a>
+            
+              
+              <a class="source" href="DeviceOrientation.html">
+                DeviceOrientation.js
+              </a>
+            
+              
+              <a class="source" href="EventProxy.html">
+                EventProxy.js
+              </a>
+            
+              
+              <a class="source" href="GamePad.html">
+                GamePad.js
+              </a>
+            
+              
+              <a class="source" href="Hammer.html">
+                Hammer.js
+              </a>
+            
+              
+              <a class="source" href="LeapMotion.html">
+                LeapMotion.js
+              </a>
+            
+              
+              <a class="source" href="StandardMouseKeyboard.html">
+                StandardMouseKeyboard.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="osgViewer.html">
+                osgViewer.js
+              </a>
+            
+              
+              <a class="source" href="webgl-debug.html">
+                webgl-debug.js
+              </a>
+            
+              
+              <a class="source" href="webgl-utils.html">
+                webgl-utils.js
+              </a>
+            
+              
+              <a class="source" href="osgWrappers.html">
+                osgWrappers.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>ParameterVisitor.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">'use strict'</span>;
+<span class="hljs-keyword">var</span> MACROUTILS = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Utils'</span> );
+<span class="hljs-keyword">var</span> Notify = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Notify'</span> );
+<span class="hljs-keyword">var</span> Uniform = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Uniform'</span> );
+<span class="hljs-keyword">var</span> NodeVisitor = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/NodeVisitor'</span> );
+
+<span class="hljs-keyword">var</span> ArraySlider = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> params </span>) </span>{
+    <span class="hljs-keyword">if</span> ( params !== <span class="hljs-literal">undefined</span> ) {
+        <span class="hljs-keyword">if</span> ( params.object !== <span class="hljs-literal">undefined</span> &amp;&amp; params.field !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">this</span>.createInternalSlider( params );
+        }
+        <span class="hljs-keyword">this</span>._uniform = <span class="hljs-keyword">this</span>.createInternalSliderUniform( params );
+    }
+};
+
+ArraySlider.prototype = {
+    setTargetHTML: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> target </span>) </span>{
+        <span class="hljs-keyword">this</span>.parent = target;
+    },
+    addToDom: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> content </span>) </span>{
+        <span class="hljs-keyword">var</span> mydiv = <span class="hljs-built_in">document</span>.createElement( <span class="hljs-string">'div'</span> );
+        mydiv.innerHTML = content;
+        <span class="hljs-keyword">this</span>.parent.appendChild( mydiv );
+    },
+
+    getValue: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> name </span>) </span>{
+        <span class="hljs-keyword">if</span> ( <span class="hljs-built_in">window</span>.localStorage ) {
+            <span class="hljs-keyword">var</span> value = <span class="hljs-built_in">window</span>.localStorage.getItem( name );
+            <span class="hljs-keyword">return</span> value;
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;
+    },
+    setValue: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> name, value </span>) </span>{
+        <span class="hljs-keyword">if</span> ( <span class="hljs-built_in">window</span>.localStorage ) {
+            <span class="hljs-built_in">window</span>.localStorage.setItem( name, value );
+        }
+    },
+    createHTMLSlider: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param, value, nameIndex, cbnameIndex </span>) </span>{
+        <span class="hljs-keyword">var</span> input = <span class="hljs-string">'&lt;div&gt;NAME [ MIN - MAX ] &lt;input type="range" min="MIN" max="MAX" value="VALUE" step="STEP" onchange="ONCHANGE" /&gt;&lt;span id="UPDATE"&gt;&lt;/span&gt;&lt;/div&gt;'</span>;
+        <span class="hljs-keyword">var</span> min = param.min;
+        <span class="hljs-keyword">var</span> max = param.max;
+        <span class="hljs-keyword">var</span> step = param.step;
+        <span class="hljs-keyword">var</span> name = nameIndex;
+        <span class="hljs-keyword">var</span> cbname = cbnameIndex;
+        <span class="hljs-keyword">var</span> onchange = cbname + <span class="hljs-string">'(this.value)'</span>;
+        input = input.replace( <span class="hljs-regexp">/MIN/g</span>, min );
+        input = input.replace( <span class="hljs-regexp">/MAX/g</span>, ( max + step ) );
+        input = input.replace( <span class="hljs-string">'STEP'</span>, step );
+        input = input.replace( <span class="hljs-string">'VALUE'</span>, value );
+        input = input.replace( <span class="hljs-regexp">/NAME/g</span>, name );
+        input = input.replace( <span class="hljs-regexp">/UPDATE/g</span>, cbname );
+        input = input.replace( <span class="hljs-string">'ONCHANGE'</span>, onchange );
+        <span class="hljs-keyword">return</span> input;
+    },
+
+    createUniformFunction: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param, name, index, uniform, cbnameIndex </span>) </span>{
+        <span class="hljs-keyword">var</span> self = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">return</span> ( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">var</span> cname = name;
+            <span class="hljs-keyword">var</span> cindex = index;
+            <span class="hljs-keyword">var</span> cuniform = uniform;
+            <span class="hljs-keyword">var</span> id = cbnameIndex;
+            <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> value </span>) </span>{
+                cuniform.get()[ cindex ] = value;
+                cuniform.dirty();
+                Notify.debug( cname + <span class="hljs-string">' value '</span> + value );
+                <span class="hljs-built_in">document</span>.getElementById( cbnameIndex ).innerHTML = <span class="hljs-built_in">Number</span>( value ).toFixed( <span class="hljs-number">4</span> );
+                self.setValue( id, value );
+                <span class="hljs-keyword">if</span> ( param.onchange !== <span class="hljs-literal">undefined</span> ) {
+                    param.onchange( cuniform.get() );
+                }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>store the value to localstorage</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            };
+            <span class="hljs-keyword">return</span> func;
+        } )();
+    },
+
+    createFunction: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param, name, index, object, field, cbnameIndex </span>) </span>{
+        <span class="hljs-keyword">var</span> self = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">return</span> ( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">var</span> cname = name;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>var cindex = index;</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> cfield = field;
+            <span class="hljs-keyword">var</span> id = cbnameIndex;
+            <span class="hljs-keyword">var</span> obj = object;
+            <span class="hljs-keyword">var</span> func = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> value </span>) </span>{
+                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ( value ) === <span class="hljs-string">'string'</span> ) {
+                    value = <span class="hljs-built_in">parseFloat</span>( value );
+                }
+
+                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ( object[ cfield ] ) === <span class="hljs-string">'number'</span> ) {
+                    obj[ cfield ] = value;
+                } <span class="hljs-keyword">else</span> {
+                    obj[ cfield ][ index ] = value;
+                }
+                Notify.debug( cname + <span class="hljs-string">' value '</span> + value );
+                <span class="hljs-built_in">document</span>.getElementById( cbnameIndex ).innerHTML = <span class="hljs-built_in">Number</span>( value ).toFixed( <span class="hljs-number">4</span> );
+                self.setValue( id, value );
+                <span class="hljs-keyword">if</span> ( param.onchange !== <span class="hljs-literal">undefined</span> ) {
+                    param.onchange( obj[ cfield ] );
+                }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>store the value to localstorage</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            };
+            <span class="hljs-keyword">return</span> func;
+        } )();
+    },
+
+    getCallbackName: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> name, prgId </span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">'change_'</span> + prgId + <span class="hljs-string">'_'</span> + name;
+    },
+
+    copyDefaultValue: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param </span>) </span>{
+        <span class="hljs-keyword">var</span> uvalue = param.value;
+        <span class="hljs-keyword">if</span> ( <span class="hljs-built_in">Array</span>.isArray( param.value ) ) {
+            uvalue = param.value.slice();
+        } <span class="hljs-keyword">else</span> {
+            uvalue = [ uvalue ];
+        }
+        <span class="hljs-keyword">return</span> uvalue;
+    },
+
+    createInternalSliderUniform: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param </span>) </span>{
+        <span class="hljs-keyword">var</span> uvalue = param.value;
+        <span class="hljs-keyword">var</span> uniform = param.uniform;
+        <span class="hljs-keyword">if</span> ( uniform === <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">var</span> type = param.type;
+            type = type.charAt( <span class="hljs-number">0</span> ).toUpperCase() + type.slice( <span class="hljs-number">1</span> );
+            uniform = Uniform[ <span class="hljs-string">'create'</span> + type ]( uvalue, param.name );
+        }
+
+        <span class="hljs-keyword">var</span> cbname = <span class="hljs-keyword">this</span>.getCallbackName( param.name, param.id );
+        <span class="hljs-keyword">var</span> dim = uvalue.length;
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; dim; i++ ) {
+
+            <span class="hljs-keyword">var</span> istring = i.toString();
+            <span class="hljs-keyword">var</span> nameIndex = param.name + istring;
+            <span class="hljs-keyword">var</span> cbnameIndex = cbname + istring;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>default value</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> value = uvalue[ i ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>read local storage value if it exist</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> readValue = <span class="hljs-keyword">this</span>.getValue( cbnameIndex );
+            <span class="hljs-keyword">if</span> ( readValue !== <span class="hljs-literal">null</span> ) {
+                value = readValue;
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( param.uniform &amp;&amp; param.uniform.get()[ i ] !== <span class="hljs-literal">undefined</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>read value from original uniform</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                value = param.uniform.get()[ i ];
+            }
+
+            <span class="hljs-keyword">var</span> dom = <span class="hljs-keyword">this</span>.createHTMLSlider( param, value, nameIndex, cbnameIndex );
+            <span class="hljs-keyword">this</span>.addToDom( dom );
+            <span class="hljs-built_in">window</span>[ cbnameIndex ] = <span class="hljs-keyword">this</span>.createUniformFunction( param, nameIndex, i, uniform, cbnameIndex );
+            Notify.log( nameIndex + <span class="hljs-string">' '</span> + value );
+            <span class="hljs-built_in">window</span>[ cbnameIndex ]( value );
+        }
+        <span class="hljs-keyword">this</span>.uniform = uniform;
+        <span class="hljs-keyword">return</span> uniform;
+    },
+
+    createInternalSlider: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param </span>) </span>{
+        <span class="hljs-keyword">var</span> uvalue = param.value;
+        <span class="hljs-keyword">var</span> name = param.name;
+        <span class="hljs-keyword">var</span> id = param.id;
+        <span class="hljs-keyword">var</span> dim = uvalue.length;
+        <span class="hljs-keyword">var</span> cbname = <span class="hljs-keyword">this</span>.getCallbackName( name, id );
+        <span class="hljs-keyword">var</span> object = param.object;
+        <span class="hljs-keyword">var</span> field = param.field;
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; dim; i++ ) {
+
+            <span class="hljs-keyword">var</span> istring = i.toString();
+            <span class="hljs-keyword">var</span> nameIndex = name + istring;
+            <span class="hljs-keyword">var</span> cbnameIndex = cbname + istring;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>default value</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> value = uvalue[ i ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>read local storage value if it exist</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> readValue = <span class="hljs-keyword">this</span>.getValue( cbnameIndex );
+            <span class="hljs-keyword">if</span> ( readValue !== <span class="hljs-literal">null</span> ) {
+                value = readValue;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> object[ field ] === <span class="hljs-string">'number'</span> ) {
+                    value = object[ field ];
+                } <span class="hljs-keyword">else</span> {
+                    value = object[ field ][ i ];
+                }
+            }
+
+            <span class="hljs-keyword">var</span> dom = <span class="hljs-keyword">this</span>.createHTMLSlider( param, value, nameIndex, cbnameIndex );
+            <span class="hljs-keyword">this</span>.addToDom( dom );
+            <span class="hljs-built_in">window</span>[ cbnameIndex ] = <span class="hljs-keyword">this</span>.createFunction( param, nameIndex, i, object, field, cbnameIndex );
+            Notify.log( nameIndex + <span class="hljs-string">' '</span> + value );
+            <span class="hljs-built_in">window</span>[ cbnameIndex ]( value );
+        }
+    },
+
+    createSlider: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param </span>) </span>{
+        <span class="hljs-keyword">if</span> ( param.html !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">this</span>.setTargetHTML( param.html );
+        }
+        <span class="hljs-keyword">if</span> ( param.id === <span class="hljs-literal">undefined</span> ) {
+            param.id = param.name;
+        }
+        param.value = <span class="hljs-keyword">this</span>.copyDefaultValue( param );
+        <span class="hljs-keyword">if</span> ( param.type !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.createInternalSliderUniform( param );
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> ( param.object === <span class="hljs-literal">undefined</span> ) {
+                param.object = {
+                    <span class="hljs-string">'data'</span>: param.value
+                };
+                param.field = <span class="hljs-string">'data'</span>;
+            }
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.createInternalSlider( param );
+        }
+    }
+};
+
+
+<span class="hljs-keyword">var</span> ParameterVisitor = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    NodeVisitor.call( <span class="hljs-keyword">this</span> );
+
+    <span class="hljs-keyword">this</span>.arraySlider = <span class="hljs-keyword">new</span> ArraySlider();
+    <span class="hljs-keyword">this</span>.setTargetHTML( <span class="hljs-built_in">document</span>.body );
+};
+
+ParameterVisitor.createSlider = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> param </span>) </span>{
+    ( <span class="hljs-keyword">new</span> ArraySlider() ).createSlider( param );
+};
+
+ParameterVisitor.prototype = MACROUTILS.objectInherit( NodeVisitor.prototype, {
+
+    setTargetHTML: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> html </span>) </span>{
+        <span class="hljs-keyword">this</span>.targetHTML = html;
+        <span class="hljs-keyword">this</span>.arraySlider.setTargetHTML( <span class="hljs-keyword">this</span>.targetHTML );
+    },
+
+    getUniformList: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> str, map </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>var txt=’uniform float Power; // { min: 0.1, max: 2.0, step: 0.1, value: [0,0,0]  }’;</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-keyword">var</span> re1 = <span class="hljs-string">'(uniform)'</span>; <span class="hljs-comment">// Word 1</span>
+        <span class="hljs-keyword">var</span> re2 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re3 = <span class="hljs-string">'((?:[a-z][a-z]+))'</span>; <span class="hljs-comment">// Word 2</span>
+        <span class="hljs-keyword">var</span> re4 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re5 = <span class="hljs-string">'((?:[a-z][a-z]+))'</span>; <span class="hljs-comment">// Word 3</span>
+        <span class="hljs-keyword">var</span> re6 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re7 = <span class="hljs-string">'.'</span>; <span class="hljs-comment">// Uninteresting: c</span>
+        <span class="hljs-keyword">var</span> re8 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re9 = <span class="hljs-string">'.'</span>; <span class="hljs-comment">// Uninteresting: c</span>
+        <span class="hljs-keyword">var</span> re10 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re11 = <span class="hljs-string">'(.)'</span>; <span class="hljs-comment">// Any Single Character 1</span>
+        <span class="hljs-keyword">var</span> re12 = <span class="hljs-string">'(.)'</span>; <span class="hljs-comment">// Any Single Character 2</span>
+        <span class="hljs-keyword">var</span> re13 = <span class="hljs-string">'.*?'</span>; <span class="hljs-comment">// Non-greedy match on filler</span>
+        <span class="hljs-keyword">var</span> re14 = <span class="hljs-string">'(\\{.*?\\})'</span>; <span class="hljs-comment">// Curly Braces 1</span>
+
+        <span class="hljs-keyword">var</span> p = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>( re1 + re2 + re3 + re4 + re5 + re6 + re7 + re8 + re9 + re10 + re11 + re12 + re13 + re14, [ <span class="hljs-string">'g'</span> ] );
+        <span class="hljs-keyword">var</span> r = str.match( p );
+        <span class="hljs-keyword">var</span> list = map;
+
+        <span class="hljs-keyword">var</span> createGetter = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> value </span>) </span>{
+            <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                <span class="hljs-keyword">return</span> value;
+            };
+        };
+
+        <span class="hljs-keyword">if</span> ( r !== <span class="hljs-literal">null</span> ) {
+            <span class="hljs-keyword">var</span> re = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>( re1 + re2 + re3 + re4 + re5 + re6 + re7 + re8 + re9 + re10 + re11 + re12 + re13 + re14, [ <span class="hljs-string">'i'</span> ] );
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, l = r.length; i &lt; l; i++ ) {
+                <span class="hljs-keyword">var</span> result = r[ i ].match( re );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>var result = p.exec(str);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">if</span> ( result !== <span class="hljs-literal">null</span> ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>var word1 = result[ 1 ];</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                    <span class="hljs-keyword">var</span> type = result[ <span class="hljs-number">2</span> ];
+                    <span class="hljs-keyword">var</span> name = result[ <span class="hljs-number">3</span> ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>var c1 = result[ 4 ];
+var c2 = result[ 5 ];</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                    <span class="hljs-keyword">var</span> json = result[ <span class="hljs-number">6</span> ];
+
+                    <span class="hljs-keyword">var</span> param = <span class="hljs-built_in">JSON</span>.parse( json );
+                    param.type = type;
+                    param.name = name;
+                    <span class="hljs-keyword">var</span> value = param.value;
+                    param.value = createGetter( value );
+                    list[ name ] = param;
+                }
+            }
+        }
+        <span class="hljs-keyword">return</span> list;
+    },
+
+    getUniformFromStateSet: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> stateSet, uniformMap </span>) </span>{
+        <span class="hljs-keyword">var</span> maps = stateSet.getUniformList();
+        <span class="hljs-keyword">if</span> ( !maps ) {
+            <span class="hljs-keyword">return</span>;
+        }
+        <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( uniformMap );
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, l = keys.length; i &lt; l; i++ ) {
+            <span class="hljs-keyword">var</span> k = keys[ i ];</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>get the first one found in the tree</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">if</span> ( maps[ k ] !== <span class="hljs-literal">undefined</span> &amp;&amp; uniformMap[ k ].uniform === <span class="hljs-literal">undefined</span> ) {
+                uniformMap[ k ].uniform = maps[ k ].object;
+            }
+        }
+    },
+
+    findExistingUniform: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node, uniformMap </span>) </span>{
+        <span class="hljs-keyword">var</span> BackVisitor = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            NodeVisitor.call( <span class="hljs-keyword">this</span>, NodeVisitor.TRAVERSE_PARENTS );
+        };
+        BackVisitor.prototype = MACROUTILS.objectInherit( NodeVisitor.prototype, {
+            setUniformMap: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> map </span>) </span>{
+                <span class="hljs-keyword">this</span>.uniformMap = map;
+            },
+            apply: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+                <span class="hljs-keyword">var</span> stateSet = node.getStateSet();
+                <span class="hljs-keyword">if</span> ( stateSet ) {
+                    ParameterVisitor.prototype.getUniformFromStateSet( stateSet, <span class="hljs-keyword">this</span>.uniformMap );
+                }
+                <span class="hljs-keyword">this</span>.traverse( node );
+            }
+        } );
+        <span class="hljs-keyword">var</span> visitor = <span class="hljs-keyword">new</span> BackVisitor();
+        visitor.setUniformMap( uniformMap );
+        node.accept( visitor );
+    },
+
+    applyProgram: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node, stateset </span>) </span>{
+        <span class="hljs-keyword">var</span> program = stateset.getAttribute( <span class="hljs-string">'Program'</span> );
+        <span class="hljs-keyword">var</span> programName = program.getName();</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>var string = program.getVertexShader().getText();</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> uniformMap = {};
+        <span class="hljs-keyword">this</span>.getUniformList( program.getVertexShader().getText(), uniformMap );
+        <span class="hljs-keyword">this</span>.getUniformList( program.getFragmentShader().getText(), uniformMap );
+
+
+        <span class="hljs-keyword">var</span> keys = <span class="hljs-built_in">window</span>.Object.keys( uniformMap );
+
+        <span class="hljs-keyword">if</span> ( programName === <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">var</span> hashCode = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> str </span>) </span>{
+                <span class="hljs-keyword">var</span> hash = <span class="hljs-number">0</span>;
+                <span class="hljs-keyword">var</span> chara = <span class="hljs-number">0</span>;
+                <span class="hljs-keyword">if</span> ( str.length === <span class="hljs-number">0</span> ) {
+                    <span class="hljs-keyword">return</span> hash;
+                }
+                <span class="hljs-keyword">for</span> ( i = <span class="hljs-number">0</span>; i &lt; str.length; i++ ) {
+                    chara = str.charCodeAt( i );
+                    <span class="hljs-comment">/*jshint bitwise: false */</span>
+                    hash = ( ( hash &lt;&lt; <span class="hljs-number">5</span> ) - hash ) + chara;
+                    hash = hash &amp; hash; <span class="hljs-comment">// Convert to 32bit integer</span>
+                    <span class="hljs-comment">/*jshint bitwise: true */</span>
+                }
+                <span class="hljs-keyword">if</span> ( hash &lt; <span class="hljs-number">0</span> ) {
+                    hash = -hash;
+                }
+                <span class="hljs-keyword">return</span> hash;
+            };
+            <span class="hljs-keyword">var</span> str = keys.join( <span class="hljs-string">''</span> );
+            programName = hashCode( str ).toString();
+        }
+
+        <span class="hljs-keyword">this</span>.findExistingUniform( node, uniformMap );
+
+        <span class="hljs-keyword">var</span> addedSlider = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; keys.length; i++ ) {
+            <span class="hljs-keyword">var</span> k = keys[ i ];
+            <span class="hljs-keyword">var</span> entry = uniformMap[ k ];
+            <span class="hljs-keyword">var</span> type = entry.type;
+            <span class="hljs-keyword">var</span> name = entry.name;
+            entry.id = programName;
+            <span class="hljs-keyword">var</span> uniform = <span class="hljs-keyword">this</span>.arraySlider.createSlider( entry );
+            <span class="hljs-keyword">if</span> ( <span class="hljs-literal">false</span> ) {
+                uniform = <span class="hljs-keyword">this</span>.arraySlider.createSlider( {
+                    name: name,
+                    type: type,
+                    id: programName,
+                    uniform: entry.uniform
+                } );
+            }
+            <span class="hljs-keyword">if</span> ( entry.uniform === <span class="hljs-literal">undefined</span> &amp;&amp; uniform ) {
+                stateset.addUniform( uniform );
+            }
+            addedSlider = <span class="hljs-literal">true</span>;
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>add a separator</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( addedSlider ) {
+            <span class="hljs-keyword">var</span> mydiv = <span class="hljs-built_in">document</span>.createElement( <span class="hljs-string">'div'</span> );
+            mydiv.innerHTML = <span class="hljs-string">'&lt;p&gt; &lt;/p&gt;'</span>;
+            <span class="hljs-keyword">this</span>.targetHTML.appendChild( mydiv );
+        }
+
+        Notify.log( uniformMap );
+    },
+
+
+    applyStateSet: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node, stateset </span>) </span>{
+        <span class="hljs-keyword">if</span> ( stateset.getAttribute( <span class="hljs-string">'Program'</span> ) !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">this</span>.applyProgram( node, stateset );
+        }
+    },
+
+    apply: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> node </span>) </span>{
+        <span class="hljs-keyword">var</span> element = <span class="hljs-keyword">this</span>.targetHTML;
+        <span class="hljs-keyword">if</span> ( element === <span class="hljs-literal">undefined</span> || element === <span class="hljs-literal">null</span> ) {
+            <span class="hljs-keyword">return</span>;
+        }
+
+        <span class="hljs-keyword">var</span> st = node.getStateSet();
+        <span class="hljs-keyword">if</span> ( st !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">this</span>.applyStateSet( node, st );
+        }
+
+        <span class="hljs-keyword">this</span>.traverse( node );
+    }
+} );
+
+<span class="hljs-built_in">module</span>.exports = ParameterVisitor;</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2447 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>webgl-debug.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="OSG.html">
+                OSG.js
+              </a>
+            
+              
+              <a class="source" href="BillboardAttribute.html">
+                BillboardAttribute.js
+              </a>
+            
+              
+              <a class="source" href="BlendColor.html">
+                BlendColor.js
+              </a>
+            
+              
+              <a class="source" href="BlendFunc.html">
+                BlendFunc.js
+              </a>
+            
+              
+              <a class="source" href="BoundingBox.html">
+                BoundingBox.js
+              </a>
+            
+              
+              <a class="source" href="BoundingSphere.html">
+                BoundingSphere.js
+              </a>
+            
+              
+              <a class="source" href="BufferArray.html">
+                BufferArray.js
+              </a>
+            
+              
+              <a class="source" href="BufferArrayProxy.html">
+                BufferArrayProxy.js
+              </a>
+            
+              
+              <a class="source" href="Camera.html">
+                Camera.js
+              </a>
+            
+              
+              <a class="source" href="ColorMask.html">
+                ColorMask.js
+              </a>
+            
+              
+              <a class="source" href="ComputeBoundsVisitor.html">
+                ComputeBoundsVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ComputeMatrixFromNodePath.html">
+                ComputeMatrixFromNodePath.js
+              </a>
+            
+              
+              <a class="source" href="CullFace.html">
+                CullFace.js
+              </a>
+            
+              
+              <a class="source" href="CullSettings.html">
+                CullSettings.js
+              </a>
+            
+              
+              <a class="source" href="CullStack.html">
+                CullStack.js
+              </a>
+            
+              
+              <a class="source" href="CullVisitor.html">
+                CullVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CullingSet.html">
+                CullingSet.js
+              </a>
+            
+              
+              <a class="source" href="Depth.html">
+                Depth.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrayLengths.html">
+                DrawArrayLengths.js
+              </a>
+            
+              
+              <a class="source" href="DrawArrays.html">
+                DrawArrays.js
+              </a>
+            
+              
+              <a class="source" href="DrawElements.html">
+                DrawElements.js
+              </a>
+            
+              
+              <a class="source" href="EllipsoidModel.html">
+                EllipsoidModel.js
+              </a>
+            
+              
+              <a class="source" href="FrameBufferObject.html">
+                FrameBufferObject.js
+              </a>
+            
+              
+              <a class="source" href="FrameStamp.html">
+                FrameStamp.js
+              </a>
+            
+              
+              <a class="source" href="GLObject.html">
+                GLObject.js
+              </a>
+            
+              
+              <a class="source" href="Geometry.html">
+                Geometry.js
+              </a>
+            
+              
+              <a class="source" href="Image.html">
+                Image.js
+              </a>
+            
+              
+              <a class="source" href="ImageStream.html">
+                ImageStream.js
+              </a>
+            
+              
+              <a class="source" href="KdTree.html">
+                KdTree.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeBuilder.html">
+                KdTreeBuilder.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeRayIntersector.html">
+                KdTreeRayIntersector.js
+              </a>
+            
+              
+              <a class="source" href="KdTreeSphereIntersector.html">
+                KdTreeSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="Light.html">
+                Light.js
+              </a>
+            
+              
+              <a class="source" href="LightSource.html">
+                LightSource.js
+              </a>
+            
+              
+              <a class="source" href="LineWidth.html">
+                LineWidth.js
+              </a>
+            
+              
+              <a class="source" href="Lod.html">
+                Lod.js
+              </a>
+            
+              
+              <a class="source" href="Map.html">
+                Map.js
+              </a>
+            
+              
+              <a class="source" href="Material.html">
+                Material.js
+              </a>
+            
+              
+              <a class="source" href="Math.html">
+                Math.js
+              </a>
+            
+              
+              <a class="source" href="Matrix.html">
+                Matrix.js
+              </a>
+            
+              
+              <a class="source" href="MatrixMemoryPool.html">
+                MatrixMemoryPool.js
+              </a>
+            
+              
+              <a class="source" href="MatrixTransform.html">
+                MatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="NodeVisitor.html">
+                NodeVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Notify.html">
+                Notify.js
+              </a>
+            
+              
+              <a class="source" href="Object.html">
+                Object.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="PagedLOD.html">
+                PagedLOD.js
+              </a>
+            
+              
+              <a class="source" href="Plane.html">
+                Plane.js
+              </a>
+            
+              
+              <a class="source" href="Polytope.html">
+                Polytope.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveFunctor.html">
+                PrimitiveFunctor.js
+              </a>
+            
+              
+              <a class="source" href="PrimitiveSet.html">
+                PrimitiveSet.js
+              </a>
+            
+              
+              <a class="source" href="Program.html">
+                Program.js
+              </a>
+            
+              
+              <a class="source" href="Projection.html">
+                Projection.js
+              </a>
+            
+              
+              <a class="source" href="Quat.html">
+                Quat.js
+              </a>
+            
+              
+              <a class="source" href="RenderBin.html">
+                RenderBin.js
+              </a>
+            
+              
+              <a class="source" href="RenderLeaf.html">
+                RenderLeaf.js
+              </a>
+            
+              
+              <a class="source" href="RenderStage.html">
+                RenderStage.js
+              </a>
+            
+              
+              <a class="source" href="Shader.html">
+                Shader.js
+              </a>
+            
+              
+              <a class="source" href="Shape.html">
+                Shape.js
+              </a>
+            
+              
+              <a class="source" href="Stack.html">
+                Stack.js
+              </a>
+            
+              
+              <a class="source" href="State.html">
+                State.js
+              </a>
+            
+              
+              <a class="source" href="StateAttribute.html">
+                StateAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StateGraph.html">
+                StateGraph.js
+              </a>
+            
+              
+              <a class="source" href="StateSet.html">
+                StateSet.js
+              </a>
+            
+              
+              <a class="source" href="Texture.html">
+                Texture.js
+              </a>
+            
+              
+              <a class="source" href="TextureCubeMap.html">
+                TextureCubeMap.js
+              </a>
+            
+              
+              <a class="source" href="TextureManager.html">
+                TextureManager.js
+              </a>
+            
+              
+              <a class="source" href="Timer.html">
+                Timer.js
+              </a>
+            
+              
+              <a class="source" href="Transform.html">
+                Transform.js
+              </a>
+            
+              
+              <a class="source" href="TransformEnums.html">
+                TransformEnums.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIndexFunctor.html">
+                TriangleIndexFunctor.js
+              </a>
+            
+              
+              <a class="source" href="Uniform.html">
+                Uniform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateVisitor.html">
+                UpdateVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Utils.html">
+                Utils.js
+              </a>
+            
+              
+              <a class="source" href="Vec2.html">
+                Vec2.js
+              </a>
+            
+              
+              <a class="source" href="Vec3.html">
+                Vec3.js
+              </a>
+            
+              
+              <a class="source" href="Vec4.html">
+                Vec4.js
+              </a>
+            
+              
+              <a class="source" href="Viewport.html">
+                Viewport.js
+              </a>
+            
+              
+              <a class="source" href="WebGLCaps.html">
+                WebGLCaps.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="Animation.html">
+                Animation.js
+              </a>
+            
+              
+              <a class="source" href="AnimationUpdateCallback.html">
+                AnimationUpdateCallback.js
+              </a>
+            
+              
+              <a class="source" href="BasicAnimationManager.html">
+                BasicAnimationManager.js
+              </a>
+            
+              
+              <a class="source" href="Bone.html">
+                Bone.js
+              </a>
+            
+              
+              <a class="source" href="Channel.html">
+                Channel.js
+              </a>
+            
+              
+              <a class="source" href="CollectAnimationUpdateCallbackVisitor.html">
+                CollectAnimationUpdateCallbackVisitor.js
+              </a>
+            
+              
+              <a class="source" href="CollectBoneVisitor.html">
+                CollectBoneVisitor.js
+              </a>
+            
+              
+              <a class="source" href="Easing.html">
+                Easing.js
+              </a>
+            
+              
+              <a class="source" href="FindNearestParentSkeleton.html">
+                FindNearestParentSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="Interpolator.html">
+                Interpolator.js
+              </a>
+            
+              
+              <a class="source" href="MorphAttribute.html">
+                MorphAttribute.js
+              </a>
+            
+              
+              <a class="source" href="MorphGeometry.html">
+                MorphGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigGeometry.html">
+                RigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="RigTransformHardware.html">
+                RigTransformHardware.js
+              </a>
+            
+              
+              <a class="source" href="Skeleton.html">
+                Skeleton.js
+              </a>
+            
+              
+              <a class="source" href="SkinningAttribute.html">
+                SkinningAttribute.js
+              </a>
+            
+              
+              <a class="source" href="StackedMatrix.html">
+                StackedMatrix.js
+              </a>
+            
+              
+              <a class="source" href="StackedQuaternion.html">
+                StackedQuaternion.js
+              </a>
+            
+              
+              <a class="source" href="StackedRotateAxis.html">
+                StackedRotateAxis.js
+              </a>
+            
+              
+              <a class="source" href="StackedScale.html">
+                StackedScale.js
+              </a>
+            
+              
+              <a class="source" href="StackedTranslate.html">
+                StackedTranslate.js
+              </a>
+            
+              
+              <a class="source" href="Target.html">
+                Target.js
+              </a>
+            
+              
+              <a class="source" href="UpdateBone.html">
+                UpdateBone.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMatrixTransform.html">
+                UpdateMatrixTransform.js
+              </a>
+            
+              
+              <a class="source" href="UpdateMorph.html">
+                UpdateMorph.js
+              </a>
+            
+              
+              <a class="source" href="UpdateRigGeometry.html">
+                UpdateRigGeometry.js
+              </a>
+            
+              
+              <a class="source" href="UpdateSkeleton.html">
+                UpdateSkeleton.js
+              </a>
+            
+              
+              <a class="source" href="channelType.html">
+                channelType.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="DatabasePager.html">
+                DatabasePager.js
+              </a>
+            
+              
+              <a class="source" href="Input.html">
+                Input.js
+              </a>
+            
+              
+              <a class="source" href="Options.html">
+                Options.js
+              </a>
+            
+              
+              <a class="source" href="ReaderParser.html">
+                ReaderParser.js
+              </a>
+            
+              
+              <a class="source" href="osgDB.html">
+                osgDB.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulator.html">
+                FirstPersonManipulator.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorDeviceOrientationController.html">
+                FirstPersonManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorHammerController.html">
+                FirstPersonManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorStandardMouseKeyboardController.html">
+                FirstPersonManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="FirstPersonManipulatorWebVRController.html">
+                FirstPersonManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="Manipulator.html">
+                Manipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulator.html">
+                OrbitManipulator.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorDeviceOrientationController.html">
+                OrbitManipulatorDeviceOrientationController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorEnums.html">
+                OrbitManipulatorEnums.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorGamePadController.html">
+                OrbitManipulatorGamePadController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorHammerController.html">
+                OrbitManipulatorHammerController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorLeapMotionController.html">
+                OrbitManipulatorLeapMotionController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorStandardMouseKeyboardController.html">
+                OrbitManipulatorStandardMouseKeyboardController.js
+              </a>
+            
+              
+              <a class="source" href="OrbitManipulatorWebVRController.html">
+                OrbitManipulatorWebVRController.js
+              </a>
+            
+              
+              <a class="source" href="SwitchManipulator.html">
+                SwitchManipulator.js
+              </a>
+            
+              
+              <a class="source" href="osgGA.html">
+                osgGA.js
+              </a>
+            
+              
+              <a class="source" href="osgNameSpace.html">
+                osgNameSpace.js
+              </a>
+            
+              
+              <a class="source" href="Compiler.html">
+                Compiler.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGenerator.html">
+                ShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShaderGeneratorProxy.html">
+                ShaderGeneratorProxy.js
+              </a>
+            
+              
+              <a class="source" href="ShaderProcessor.html">
+                ShaderProcessor.js
+              </a>
+            
+              
+              <a class="source" href="node.html">
+                node.js
+              </a>
+            
+              
+              <a class="source" href="Node.html">
+                Node.js
+              </a>
+            
+              
+              <a class="source" href="data.html">
+                data.js
+              </a>
+            
+              
+              <a class="source" href="functions.html">
+                functions.js
+              </a>
+            
+              
+              <a class="source" href="lights.html">
+                lights.js
+              </a>
+            
+              
+              <a class="source" href="morph.html">
+                morph.js
+              </a>
+            
+              
+              <a class="source" href="operations.html">
+                operations.js
+              </a>
+            
+              
+              <a class="source" href="shadows.html">
+                shadows.js
+              </a>
+            
+              
+              <a class="source" href="skinning.html">
+                skinning.js
+              </a>
+            
+              
+              <a class="source" href="textures.html">
+                textures.js
+              </a>
+            
+              
+              <a class="source" href="nodeFactory.html">
+                nodeFactory.js
+              </a>
+            
+              
+              <a class="source" href="osgShader.html">
+                osgShader.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="utils.html">
+                utils.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastAttribute.html">
+                ShadowCastAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastCompiler.html">
+                ShadowCastCompiler.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCastShaderGenerator.html">
+                ShadowCastShaderGenerator.js
+              </a>
+            
+              
+              <a class="source" href="ShadowCasterVisitor.html">
+                ShadowCasterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="ShadowFrustumIntersection.html">
+                ShadowFrustumIntersection.js
+              </a>
+            
+              
+              <a class="source" href="ShadowMap.html">
+                ShadowMap.js
+              </a>
+            
+              
+              <a class="source" href="ShadowReceiveAttribute.html">
+                ShadowReceiveAttribute.js
+              </a>
+            
+              
+              <a class="source" href="ShadowSettings.html">
+                ShadowSettings.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTechnique.html">
+                ShadowTechnique.js
+              </a>
+            
+              
+              <a class="source" href="ShadowTexture.html">
+                ShadowTexture.js
+              </a>
+            
+              
+              <a class="source" href="ShadowedScene.html">
+                ShadowedScene.js
+              </a>
+            
+              
+              <a class="source" href="osgShadow.html">
+                osgShadow.js
+              </a>
+            
+              
+              <a class="source" href="shaderLib.html">
+                shaderLib.js
+              </a>
+            
+              
+              <a class="source" href="Text.html">
+                Text.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+              
+              <a class="source" href="Composer.html">
+                Composer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGeometryVisitor.html">
+                DisplayGeometryVisitor.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraph.html">
+                DisplayGraph.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphNode.html">
+                DisplayGraphNode.js
+              </a>
+            
+              
+              <a class="source" href="DisplayGraphRenderer.html">
+                DisplayGraphRenderer.js
+              </a>
+            
+              
+              <a class="source" href="DisplayNormalVisitor.html">
+                DisplayNormalVisitor.js
+              </a>
+            
+              
+              <a class="source" href="GizmoGeometry.html">
+                GizmoGeometry.js
+              </a>
+            
+              
+              <a class="source" href="IntersectionVisitor.html">
+                IntersectionVisitor.js
+              </a>
+            
+              
+              <a class="source" href="LineSegmentIntersector.html">
+                LineSegmentIntersector.js
+              </a>
+            
+              
+              <a class="source" href="NodeGizmo.html">
+                NodeGizmo.js
+              </a>
+            
+              
+              <a class="source" href="ParameterVisitor.html">
+                ParameterVisitor.js
+              </a>
+            
+              
+              <a class="source" href="PolytopeIntersector.html">
+                PolytopeIntersector.js
+              </a>
+            
+              
+              <a class="source" href="PolytopePrimitiveIntersector.html">
+                PolytopePrimitiveIntersector.js
+              </a>
+            
+              
+              <a class="source" href="SphereIntersector.html">
+                SphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TangentSpaceGenerator.html">
+                TangentSpaceGenerator.js
+              </a>
+            
+              
+              <a class="source" href="TriangleIntersector.html">
+                TriangleIntersector.js
+              </a>
+            
+              
+              <a class="source" href="TriangleSphereIntersector.html">
+                TriangleSphereIntersector.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="WebVRCustom.html">
+                WebVRCustom.js
+              </a>
+            
+              
+              <a class="source" href="osgPool.html">
+                osgPool.js
+              </a>
+            
+              
+              <a class="source" href="osgUtil.html">
+                osgUtil.js
+              </a>
+            
+              
+              <a class="source" href="Renderer.html">
+                Renderer.js
+              </a>
+            
+              
+              <a class="source" href="Scene.html">
+                Scene.js
+              </a>
+            
+              
+              <a class="source" href="View.html">
+                View.js
+              </a>
+            
+              
+              <a class="source" href="Viewer.html">
+                Viewer.js
+              </a>
+            
+              
+              <a class="source" href="createStats.html">
+                createStats.js
+              </a>
+            
+              
+              <a class="source" href="DeviceOrientation.html">
+                DeviceOrientation.js
+              </a>
+            
+              
+              <a class="source" href="EventProxy.html">
+                EventProxy.js
+              </a>
+            
+              
+              <a class="source" href="GamePad.html">
+                GamePad.js
+              </a>
+            
+              
+              <a class="source" href="Hammer.html">
+                Hammer.js
+              </a>
+            
+              
+              <a class="source" href="LeapMotion.html">
+                LeapMotion.js
+              </a>
+            
+              
+              <a class="source" href="StandardMouseKeyboard.html">
+                StandardMouseKeyboard.js
+              </a>
+            
+              
+              <a class="source" href="WebVR.html">
+                WebVR.js
+              </a>
+            
+              
+              <a class="source" href="osgViewer.html">
+                osgViewer.js
+              </a>
+            
+              
+              <a class="source" href="webgl-debug.html">
+                webgl-debug.js
+              </a>
+            
+              
+              <a class="source" href="webgl-utils.html">
+                webgl-utils.js
+              </a>
+            
+              
+              <a class="source" href="osgWrappers.html">
+                osgWrappers.js
+              </a>
+            
+              
+              <a class="source" href="osg.html">
+                osg.js
+              </a>
+            
+              
+              <a class="source" href="osgAnimation.html">
+                osgAnimation.js
+              </a>
+            
+              
+              <a class="source" href="osgText.html">
+                osgText.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>webgl-debug.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <p>jshint ignore: start</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">
+'use strict'</span>;
+<span class="hljs-keyword">var</span> Notify = <span class="hljs-built_in">require</span>( <span class="hljs-string">'osg/Notify'</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Copyright (c) 2009 The Chromium Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.</p>
+
+            </div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Various functions for helping debug WebGL apps.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+<span class="hljs-keyword">var</span> WebGLDebugUtils = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+
+    <span class="hljs-comment">/**
+     * Which arguements are enums.
+     * @type {!Object.&lt;number, string&gt;}
+     */</span>
+    <span class="hljs-keyword">var</span> glValidEnumContexts = {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>Generic setters and getters</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'enable'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'disable'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getParameter'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p>Rendering</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'drawArrays'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'drawElements'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>Shaders</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'createShader'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getShaderParameter'</span>: {
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getProgramParameter'</span>: {
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>Vertex attributes</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'getVertexAttrib'</span>: {
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'vertexAttribPointer'</span>: {
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>Textures</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'bindTexture'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'activeTexture'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getTexParameter'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'texParameterf'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'texParameteri'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'texImage2D'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">6</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">7</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'texSubImage2D'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">6</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">7</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'copyTexImage2D'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'copyTexSubImage2D'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'generateMipmap'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p>Buffer objects</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'bindBuffer'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'bufferData'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'bufferSubData'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getBufferParameter'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>Renderbuffers and framebuffers</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'pixelStorei'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'readPixels'</span>: {
+            <span class="hljs-number">4</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">5</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'bindRenderbuffer'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'bindFramebuffer'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'checkFramebufferStatus'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'framebufferRenderbuffer'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'framebufferTexture2D'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getFramebufferAttachmentParameter'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'getRenderbufferParameter'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'renderbufferStorage'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-11">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-11">&#182;</a>
+              </div>
+              <p>Frame buffer operations (clear, blend, depth test, stencil)</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'clear'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'depthFunc'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'blendFunc'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'blendFuncSeparate'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">3</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'blendEquation'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'blendEquationSeparate'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'stencilFunc'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'stencilFuncSeparate'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'stencilMaskSeparate'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'stencilOp'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'stencilOpSeparate'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">1</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">2</span>: <span class="hljs-literal">true</span>,
+            <span class="hljs-number">3</span>: <span class="hljs-literal">true</span>
+        },</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-12">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-12">&#182;</a>
+              </div>
+              <p>Culling</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+        <span class="hljs-string">'cullFace'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        },
+        <span class="hljs-string">'frontFace'</span>: {
+            <span class="hljs-number">0</span>: <span class="hljs-literal">true</span>
+        }
+    };
+
+    <span class="hljs-comment">/**
+     * Map of numbers to names.
+     * @type {Object}
+     */</span>
+    <span class="hljs-keyword">var</span> glEnums = <span class="hljs-literal">null</span>;
+
+    <span class="hljs-comment">/**
+     * Initializes this module. Safe to call more than once.
+     * @param {!WebGLRenderingContext} ctx A WebGL context. If
+     *    you have more than one context it doesn't matter which one
+     *    you pass in, it is only used to pull out constants.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">init</span>(<span class="hljs-params"> ctx </span>) </span>{
+        <span class="hljs-keyword">if</span> ( glEnums === <span class="hljs-literal">null</span> ) {
+            glEnums = {};
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> propertyName <span class="hljs-keyword">in</span> ctx ) {
+                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ctx[ propertyName ] === <span class="hljs-string">'number'</span> ) {
+                    glEnums[ ctx[ propertyName ] ] = propertyName;
+                }
+            }
+        }
+    }
+
+    <span class="hljs-comment">/**
+     * Checks the utils have been initialized.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkInit</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">if</span> ( glEnums === <span class="hljs-literal">null</span> ) {
+            <span class="hljs-keyword">throw</span> <span class="hljs-string">'WebGLDebugUtils.init(ctx) not called'</span>;
+        }
+    }
+
+    <span class="hljs-comment">/**
+     * Returns true or false if value matches any WebGL enum
+     * @param {*} value Value to check if it might be an enum.
+     * @return {boolean} True if value matches one of the WebGL defined enums
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mightBeEnum</span>(<span class="hljs-params"> value </span>) </span>{
+        checkInit();
+        <span class="hljs-keyword">return</span> ( glEnums[ value ] !== <span class="hljs-literal">undefined</span> );
+    }
+
+    <span class="hljs-comment">/**
+     * Gets an string version of an WebGL enum.
+     *
+     * Example:
+     *   var str = WebGLDebugUtil.glEnumToString(ctx.getError());
+     *
+     * @param {number} value Value to return an enum for
+     * @return {string} The string version of the enum.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">glEnumToString</span>(<span class="hljs-params"> value </span>) </span>{
+        checkInit();
+        <span class="hljs-keyword">var</span> name = glEnums[ value ];
+        <span class="hljs-keyword">return</span> ( name !== <span class="hljs-literal">undefined</span> ) ? name :
+            ( <span class="hljs-string">'*UNKNOWN WebGL ENUM (0x'</span> + value.toString( <span class="hljs-number">16</span> ) + <span class="hljs-string">')'</span> );
+    }
+
+    <span class="hljs-comment">/**
+     * Returns the string version of a WebGL argument.
+     * Attempts to convert enum arguments to strings.
+     * @param {string} functionName the name of the WebGL function.
+     * @param {number} argumentIndx the index of the argument.
+     * @param {*} value The value of the argument.
+     * @return {string} The value as a string.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">glFunctionArgToString</span>(<span class="hljs-params"> functionName, argumentIndex, value </span>) </span>{
+        <span class="hljs-keyword">var</span> funcInfo = glValidEnumContexts[ functionName ];
+        <span class="hljs-keyword">if</span> ( funcInfo !== <span class="hljs-literal">undefined</span> ) {
+            <span class="hljs-keyword">if</span> ( funcInfo[ argumentIndex ] ) {
+                <span class="hljs-keyword">return</span> glEnumToString( value );
+            }
+        }
+        <span class="hljs-keyword">return</span> value.toString();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makePropertyWrapper</span>(<span class="hljs-params"> wrapper, original, propertyName </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-13">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-13">&#182;</a>
+              </div>
+              <p>Notify.log(“wrap prop: “ + propertyName);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        wrapper.__defineGetter__( propertyName, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">return</span> original[ propertyName ];
+        } );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-14">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-14">&#182;</a>
+              </div>
+              <p>TODO(gmane): this needs to handle properties that take more than
+one value?</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        wrapper.__defineSetter__( propertyName, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> value </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-15">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-15">&#182;</a>
+              </div>
+              <p>Notify.log(“set: “ + propertyName);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            original[ propertyName ] = value;
+        } );
+    }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-16">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-16">&#182;</a>
+              </div>
+              <p>Makes a function that calls a function on another object.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeFunctionWrapper</span>(<span class="hljs-params"> original, functionName </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-17">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-17">&#182;</a>
+              </div>
+              <p>Notify.log(“wrap fn: “ + functionName);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> f = original[ functionName ];
+        <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-18">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-18">&#182;</a>
+              </div>
+              <p>Notify.log(“call: “ + functionName);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> result = f.apply( original, <span class="hljs-built_in">arguments</span> );
+            <span class="hljs-keyword">return</span> result;
+        };
+    }
+
+    <span class="hljs-comment">/**
+     * Given a WebGL context returns a wrapped context that calls
+     * gl.getError after every command and calls a function if the
+     * result is not gl.NO_ERROR.
+     *
+     * @param {!WebGLRenderingContext} ctx The webgl context to
+     *        wrap.
+     * @param {!function(err, funcName, args): void} opt_onErrorFunc
+     *        The function to call when gl.getError returns an
+     *        error. If not specified the default function calls
+     *        Notify.log with a message.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeDebugContext</span>(<span class="hljs-params"> ctx, opt_onErrorFunc </span>) </span>{
+        init( ctx );
+        opt_onErrorFunc = opt_onErrorFunc || <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> err, functionName, args </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-19">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-19">&#182;</a>
+              </div>
+              <p>apparently we can’t do args.join(“,”);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">var</span> argStr = <span class="hljs-string">""</span>;
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; args.length; ++ii ) {
+                argStr += ( ( ii === <span class="hljs-number">0</span> ) ? <span class="hljs-string">''</span> : <span class="hljs-string">', '</span> ) +
+                    glFunctionArgToString( functionName, ii, args[ ii ] );
+            }
+            Notify.log( <span class="hljs-string">"WebGL error "</span> + glEnumToString( err ) + <span class="hljs-string">" in "</span> + functionName +
+                <span class="hljs-string">"("</span> + argStr + <span class="hljs-string">")"</span> );
+        };</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-20">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-20">&#182;</a>
+              </div>
+              <p>Holds booleans for each GL error so after we get the error ourselves
+we can still return it to the client app.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> glErrorShadow = {};</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-21">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-21">&#182;</a>
+              </div>
+              <p>Makes a function that calls a WebGL function and then calls getError.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeErrorWrapper</span>(<span class="hljs-params"> ctx, functionName </span>) </span>{
+            <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                <span class="hljs-keyword">var</span> result = ctx[ functionName ].apply( ctx, <span class="hljs-built_in">arguments</span> );
+                <span class="hljs-keyword">var</span> err = ctx.getError();
+                <span class="hljs-keyword">if</span> ( err !== <span class="hljs-number">0</span> ) {
+                    glErrorShadow[ err ] = <span class="hljs-literal">true</span>;
+                    opt_onErrorFunc( err, functionName, <span class="hljs-built_in">arguments</span> );
+                }
+                <span class="hljs-keyword">return</span> result;
+            };
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-22">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-22">&#182;</a>
+              </div>
+              <p>Make a an object that has a copy of every property of the WebGL context
+but wraps all functions.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> wrapper = {};
+        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> propertyName <span class="hljs-keyword">in</span> ctx ) {
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ctx[ propertyName ] == <span class="hljs-string">'function'</span> ) {
+                wrapper[ propertyName ] = makeErrorWrapper( ctx, propertyName );
+            } <span class="hljs-keyword">else</span> {
+                makePropertyWrapper( wrapper, ctx, propertyName );
+            }
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-23">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-23">&#182;</a>
+              </div>
+              <p>Override the getError function with one that returns our saved results.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        wrapper.getError = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> err <span class="hljs-keyword">in</span> glErrorShadow ) {
+                <span class="hljs-keyword">if</span> ( glErrorShadow[ err ] ) {
+                    glErrorShadow[ err ] = <span class="hljs-literal">false</span>;
+                    <span class="hljs-keyword">return</span> err;
+                }
+            }
+            <span class="hljs-keyword">return</span> ctx.NO_ERROR;
+        };
+
+        <span class="hljs-keyword">return</span> wrapper;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">resetToInitialState</span>(<span class="hljs-params"> ctx </span>) </span>{
+        <span class="hljs-keyword">var</span> numAttribs = ctx.getParameter( ctx.MAX_VERTEX_ATTRIBS );
+        <span class="hljs-keyword">var</span> tmp = ctx.createBuffer();
+        ctx.bindBuffer( ctx.ARRAY_BUFFER, tmp );
+        <span class="hljs-keyword">var</span> ii;
+        <span class="hljs-keyword">for</span> ( ii = <span class="hljs-number">0</span>; ii &lt; numAttribs; ++ii ) {
+            ctx.disableVertexAttribArray( ii );
+            ctx.vertexAttribPointer( ii, <span class="hljs-number">4</span>, ctx.FLOAT, <span class="hljs-literal">false</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span> );
+            ctx.vertexAttrib1f( ii, <span class="hljs-number">0</span> );
+        }
+        ctx.deleteBuffer( tmp );
+
+        <span class="hljs-keyword">var</span> numTextureUnits = ctx.getParameter( ctx.MAX_TEXTURE_IMAGE_UNITS );
+        <span class="hljs-keyword">for</span> ( ii = <span class="hljs-number">0</span>; ii &lt; numTextureUnits; ++ii ) {
+            ctx.activeTexture( ctx.TEXTURE0 + ii );
+            ctx.bindTexture( ctx.TEXTURE_CUBE_MAP, <span class="hljs-literal">null</span> );
+            ctx.bindTexture( ctx.TEXTURE_2D, <span class="hljs-literal">null</span> );
+        }
+
+        ctx.activeTexture( ctx.TEXTURE0 );
+        ctx.useProgram( <span class="hljs-literal">null</span> );
+        ctx.bindBuffer( ctx.ARRAY_BUFFER, <span class="hljs-literal">null</span> );
+        ctx.bindBuffer( ctx.ELEMENT_ARRAY_BUFFER, <span class="hljs-literal">null</span> );
+        ctx.bindFramebuffer( ctx.FRAMEBUFFER, <span class="hljs-literal">null</span> );
+        ctx.bindRenderbuffer( ctx.RENDERBUFFER, <span class="hljs-literal">null</span> );
+        ctx.disable( ctx.BLEND );
+        ctx.disable( ctx.CULL_FACE );
+        ctx.disable( ctx.DEPTH_TEST );
+        ctx.disable( ctx.DITHER );
+        ctx.disable( ctx.SCISSOR_TEST );
+        ctx.blendColor( <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span> );
+        ctx.blendEquation( ctx.FUNC_ADD );
+        ctx.blendFunc( ctx.ONE, ctx.ZERO );
+        ctx.clearColor( <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span> );
+        ctx.clearDepth( <span class="hljs-number">1</span> );
+        ctx.clearStencil( <span class="hljs-number">-1</span> );
+        ctx.colorMask( <span class="hljs-literal">true</span>, <span class="hljs-literal">true</span>, <span class="hljs-literal">true</span>, <span class="hljs-literal">true</span> );
+        ctx.cullFace( ctx.BACK );
+        ctx.depthFunc( ctx.LESS );
+        ctx.depthMask( <span class="hljs-literal">true</span> );
+        ctx.depthRange( <span class="hljs-number">0</span>, <span class="hljs-number">1</span> );
+        ctx.frontFace( ctx.CCW );
+        ctx.hint( ctx.GENERATE_MIPMAP_HINT, ctx.DONT_CARE );
+        ctx.lineWidth( <span class="hljs-number">1</span> );
+        ctx.pixelStorei( ctx.PACK_ALIGNMENT, <span class="hljs-number">4</span> );
+        ctx.pixelStorei( ctx.UNPACK_ALIGNMENT, <span class="hljs-number">4</span> );
+        ctx.pixelStorei( ctx.UNPACK_FLIP_Y_WEBGL, <span class="hljs-literal">false</span> );
+        ctx.pixelStorei( ctx.UNPACK_PREMULTIPLY_ALPHA_WEBGL, <span class="hljs-literal">false</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-24">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-24">&#182;</a>
+              </div>
+              <p>TODO: Delete this IF.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">if</span> ( ctx.UNPACK_COLORSPACE_CONVERSION_WEBGL ) {
+            ctx.pixelStorei( ctx.UNPACK_COLORSPACE_CONVERSION_WEBGL, ctx.BROWSER_DEFAULT_WEBGL );
+        }
+        ctx.polygonOffset( <span class="hljs-number">0</span>, <span class="hljs-number">0</span> );
+        ctx.sampleCoverage( <span class="hljs-number">1</span>, <span class="hljs-literal">false</span> );
+        ctx.scissor( <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, ctx.canvas.width, ctx.canvas.height );
+        ctx.stencilFunc( ctx.ALWAYS, <span class="hljs-number">0</span>, <span class="hljs-number">0xFFFFFFFF</span> );
+        ctx.stencilMask( <span class="hljs-number">0xFFFFFFFF</span> );
+        ctx.stencilOp( ctx.KEEP, ctx.KEEP, ctx.KEEP );
+        ctx.viewport( <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, ctx.canvas.width, ctx.canvas.height );
+        ctx.clear( ctx.COLOR_BUFFER_BIT | ctx.DEPTH_BUFFER_BIT | ctx.STENCIL_BUFFER_BIT );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-25">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-25">&#182;</a>
+              </div>
+              <p>TODO: This should NOT be needed but Firefox fails with ‘hint’</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">while</span> ( ctx.getError() ) {}
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeLostContextSimulatingCanvas</span>(<span class="hljs-params"> canvas </span>) </span>{
+        <span class="hljs-keyword">var</span> unwrappedContext_;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-26">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-26">&#182;</a>
+              </div>
+              <p>var wrappedContext_;</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> onLost_ = [];
+        <span class="hljs-keyword">var</span> onRestored_ = [];
+        <span class="hljs-keyword">var</span> wrappedContext_ = {};
+        <span class="hljs-keyword">var</span> contextId_ = <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">var</span> contextLost_ = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">var</span> resourceId_ = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">var</span> resourceDb_ = [];
+        <span class="hljs-keyword">var</span> numCallsToLoseContext_ = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">var</span> numCalls_ = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">var</span> canRestore_ = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">var</span> restoreTimeout_ = <span class="hljs-number">0</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-27">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-27">&#182;</a>
+              </div>
+              <p>Holds booleans for each GL error so can simulate errors.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">var</span> glErrorShadow_ = {};
+
+        canvas.getContext = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+            <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                <span class="hljs-keyword">var</span> ctx = f.apply( canvas, <span class="hljs-built_in">arguments</span> );</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-28">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-28">&#182;</a>
+              </div>
+              <p>Did we get a context and is it a WebGL context?</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">if</span> ( ctx <span class="hljs-keyword">instanceof</span> WebGLRenderingContext ) {
+                    <span class="hljs-keyword">if</span> ( ctx != unwrappedContext_ ) {
+                        <span class="hljs-keyword">if</span> ( unwrappedContext_ ) {
+                            <span class="hljs-keyword">throw</span> <span class="hljs-string">"got different context"</span>;
+                        }
+                        unwrappedContext_ = ctx;
+                        wrappedContext_ = makeLostContextSimulatingContext( unwrappedContext_ );
+                    }
+                    <span class="hljs-keyword">return</span> wrappedContext_;
+                }
+                <span class="hljs-keyword">return</span> ctx;
+            };
+        }( canvas.getContext );
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">wrapEvent</span>(<span class="hljs-params"> listener </span>) </span>{
+            <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ( listener ) == <span class="hljs-string">"function"</span> ) {
+                <span class="hljs-keyword">return</span> listener;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> info </span>) </span>{
+                    listener.handleEvent( info );
+                };
+            }
+        }
+
+        <span class="hljs-keyword">var</span> addOnContextLostListener = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> listener </span>) </span>{
+            onLost_.push( wrapEvent( listener ) );
+        };
+
+        <span class="hljs-keyword">var</span> addOnContextRestoredListener = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> listener </span>) </span>{
+            onRestored_.push( wrapEvent( listener ) );
+        };
+
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">wrapAddEventListener</span>(<span class="hljs-params"> canvas </span>) </span>{
+            <span class="hljs-keyword">var</span> f = canvas.addEventListener;
+            canvas.addEventListener = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> type, listener, bubble </span>) </span>{
+                <span class="hljs-keyword">switch</span> ( type ) {
+                <span class="hljs-keyword">case</span> <span class="hljs-string">'webglcontextlost'</span>:
+                    addOnContextLostListener( listener );
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">case</span> <span class="hljs-string">'webglcontextrestored'</span>:
+                    addOnContextRestoredListener( listener );
+                    <span class="hljs-keyword">break</span>;
+                <span class="hljs-keyword">default</span>:
+                    f.apply( canvas, <span class="hljs-built_in">arguments</span> );
+                }
+            };
+        }
+
+        wrapAddEventListener( canvas );
+
+        canvas.loseContext = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">if</span> ( !contextLost_ ) {
+                contextLost_ = <span class="hljs-literal">true</span>;
+                numCallsToLoseContext_ = <span class="hljs-number">0</span>;
+                ++contextId_;
+                <span class="hljs-keyword">while</span> ( unwrappedContext_.getError() ) {}
+                clearErrors();
+                glErrorShadow_[ unwrappedContext_.CONTEXT_LOST_WEBGL ] = <span class="hljs-literal">true</span>;
+                <span class="hljs-keyword">var</span> event = makeWebGLContextEvent( <span class="hljs-string">"context lost"</span> );
+                <span class="hljs-keyword">var</span> callbacks = onLost_.slice();
+                setTimeout( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-29">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-29">&#182;</a>
+              </div>
+              <p>Notify.log(“numCallbacks:” + callbacks.length);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                    <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; callbacks.length; ++ii ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-30">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-30">&#182;</a>
+              </div>
+              <p>Notify.log(“calling callback:” + ii);</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                        callbacks[ ii ]( event );
+                    }
+                    <span class="hljs-keyword">if</span> ( restoreTimeout_ &gt;= <span class="hljs-number">0</span> ) {
+                        setTimeout( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                            canvas.restoreContext();
+                        }, restoreTimeout_ );
+                    }
+                }, <span class="hljs-number">0</span> );
+            }
+        };
+
+        canvas.restoreContext = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                <span class="hljs-keyword">if</span> ( onRestored_.length ) {
+                    setTimeout( <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                        <span class="hljs-keyword">if</span> ( !canRestore_ ) {
+                            <span class="hljs-keyword">throw</span> <span class="hljs-string">"can not restore. webglcontestlost listener did not call event.preventDefault"</span>;
+                        }
+                        freeResources();
+                        resetToInitialState( unwrappedContext_ );
+                        contextLost_ = <span class="hljs-literal">false</span>;
+                        numCalls_ = <span class="hljs-number">0</span>;
+                        canRestore_ = <span class="hljs-literal">false</span>;
+                        <span class="hljs-keyword">var</span> callbacks = onRestored_.slice();
+                        <span class="hljs-keyword">var</span> event = makeWebGLContextEvent( <span class="hljs-string">"context restored"</span> );
+                        <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; callbacks.length; ++ii ) {
+                            callbacks[ ii ]( event );
+                        }
+                    }, <span class="hljs-number">0</span> );
+                }
+            }
+        };
+
+        canvas.loseContextInNCalls = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> numCalls </span>) </span>{
+            <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                <span class="hljs-keyword">throw</span> <span class="hljs-string">"You can not ask a lost contet to be lost"</span>;
+            }
+            numCallsToLoseContext_ = numCalls_ + numCalls;
+        };
+
+        canvas.getNumCalls = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">return</span> numCalls_;
+        };
+
+        canvas.setRestoreTimeout = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> timeout </span>) </span>{
+            restoreTimeout_ = timeout;
+        };
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">isWebGLObject</span>(<span class="hljs-params"> obj </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-31">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-31">&#182;</a>
+              </div>
+              <p>return false;</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">return</span> ( obj <span class="hljs-keyword">instanceof</span> WebGLBuffer ||
+                obj <span class="hljs-keyword">instanceof</span> WebGLFramebuffer ||
+                obj <span class="hljs-keyword">instanceof</span> WebGLProgram ||
+                obj <span class="hljs-keyword">instanceof</span> WebGLRenderbuffer ||
+                obj <span class="hljs-keyword">instanceof</span> WebGLShader ||
+                obj <span class="hljs-keyword">instanceof</span> WebGLTexture );
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkResources</span>(<span class="hljs-params"> args </span>) </span>{
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; args.length; ++ii ) {
+                <span class="hljs-keyword">var</span> arg = args[ ii ];
+                <span class="hljs-keyword">if</span> ( isWebGLObject( arg ) ) {
+                    <span class="hljs-keyword">return</span> arg.__webglDebugContextLostId__ == contextId_;
+                }
+            }
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">clearErrors</span>(<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">var</span> k = <span class="hljs-built_in">window</span>.Object.keys( glErrorShadow_ );
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; k.length; ++ii ) {
+                <span class="hljs-keyword">delete</span> glErrorShadow_[ k ];
+            }
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">loseContextIfTime</span>(<span class="hljs-params"></span>) </span>{
+            ++numCalls_;
+            <span class="hljs-keyword">if</span> ( !contextLost_ ) {
+                <span class="hljs-keyword">if</span> ( numCallsToLoseContext_ == numCalls_ ) {
+                    canvas.loseContext();
+                }
+            }
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-32">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-32">&#182;</a>
+              </div>
+              <p>Makes a function that simulates WebGL when out of context.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeLostContextFunctionWrapper</span>(<span class="hljs-params"> ctx, functionName </span>) </span>{
+            <span class="hljs-keyword">var</span> f = ctx[ functionName ];
+            <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-33">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-33">&#182;</a>
+              </div>
+              <p>Notify.log(“calling:” + functionName);
+Only call the functions if the context is not lost.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                loseContextIfTime();
+                <span class="hljs-keyword">if</span> ( !contextLost_ ) {</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-34">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-34">&#182;</a>
+              </div>
+              <p>if (!checkResources(arguments)) {
+ glErrorShadow<em>[wrappedContext</em>.INVALID_OPERATION] = true;
+ return;
+}</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                    <span class="hljs-keyword">var</span> result = f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                    <span class="hljs-keyword">return</span> result;
+                }
+            };
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">freeResources</span>(<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> ii = <span class="hljs-number">0</span>; ii &lt; resourceDb_.length; ++ii ) {
+                <span class="hljs-keyword">var</span> resource = resourceDb_[ ii ];
+                <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLBuffer ) {
+                    unwrappedContext_.deleteBuffer( resource );
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLFramebuffer ) {
+                    unwrappedContext_.deleteFramebuffer( resource );
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLProgram ) {
+                    unwrappedContext_.deleteProgram( resource );
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLRenderbuffer ) {
+                    unwrappedContext_.deleteRenderbuffer( resource );
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLShader ) {
+                    unwrappedContext_.deleteShader( resource );
+                } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( resource <span class="hljs-keyword">instanceof</span> WebGLTexture ) {
+                    unwrappedContext_.deleteTexture( resource );
+                }
+            }
+        }
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeWebGLContextEvent</span>(<span class="hljs-params"> statusMessage </span>) </span>{
+            <span class="hljs-keyword">return</span> {
+                statusMessage: statusMessage,
+                preventDefault: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                    canRestore_ = <span class="hljs-literal">true</span>;
+                }
+            };
+        }
+
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeLostContextSimulatingContext</span>(<span class="hljs-params"> ctx </span>) </span>{</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-35">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-35">&#182;</a>
+              </div>
+              <p>copy all functions and properties to wrapper</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> propertyName <span class="hljs-keyword">in</span> ctx ) {
+                <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> ctx[ propertyName ] == <span class="hljs-string">'function'</span> ) {
+                    wrappedContext_[ propertyName ] = makeLostContextFunctionWrapper(
+                        ctx, propertyName );
+                } <span class="hljs-keyword">else</span> {
+                    makePropertyWrapper( wrappedContext_, ctx, propertyName );
+                }
+            }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-36">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-36">&#182;</a>
+              </div>
+              <p>Wrap a few functions specially.</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            wrappedContext_.getError = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                loseContextIfTime();
+                <span class="hljs-keyword">var</span> err;
+                <span class="hljs-keyword">if</span> ( !contextLost_ ) {
+                    <span class="hljs-keyword">while</span> ( err = unwrappedContext_.getError() ) {
+                        glErrorShadow_[ err ] = <span class="hljs-literal">true</span>;
+                    }
+                }
+                <span class="hljs-keyword">for</span> ( err <span class="hljs-keyword">in</span> glErrorShadow_ ) {
+                    <span class="hljs-keyword">if</span> ( glErrorShadow_[ err ] ) {
+                        <span class="hljs-keyword">delete</span> glErrorShadow_[ err ];
+                        <span class="hljs-keyword">return</span> err;
+                    }
+                }
+                <span class="hljs-keyword">return</span> wrappedContext_.NO_ERROR;
+            };
+
+            <span class="hljs-keyword">var</span> creationFunctions = [
+                <span class="hljs-string">"createBuffer"</span>,
+                <span class="hljs-string">"createFramebuffer"</span>,
+                <span class="hljs-string">"createProgram"</span>,
+                <span class="hljs-string">"createRenderbuffer"</span>,
+                <span class="hljs-string">"createShader"</span>,
+                <span class="hljs-string">"createTexture"</span>
+            ];
+            <span class="hljs-keyword">var</span> functionName, ii;
+            <span class="hljs-keyword">for</span> ( ii = <span class="hljs-number">0</span>; ii &lt; creationFunctions.length; ++ii ) {
+                functionName = creationFunctions[ ii ];
+                wrappedContext_[ functionName ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                        loseContextIfTime();
+                        <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                            <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;
+                        }
+                        <span class="hljs-keyword">var</span> obj = f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                        obj.__webglDebugContextLostId__ = contextId_;
+                        resourceDb_.push( obj );
+                        <span class="hljs-keyword">return</span> obj;
+                    };
+                }( ctx[ functionName ] );
+            }
+
+            <span class="hljs-keyword">var</span> functionsThatShouldReturnNull = [
+                <span class="hljs-string">"getActiveAttrib"</span>,
+                <span class="hljs-string">"getActiveUniform"</span>,
+                <span class="hljs-string">"getBufferParameter"</span>,
+                <span class="hljs-string">"getContextAttributes"</span>,
+                <span class="hljs-string">"getAttachedShaders"</span>,
+                <span class="hljs-string">"getFramebufferAttachmentParameter"</span>,
+                <span class="hljs-string">"getParameter"</span>,
+                <span class="hljs-string">"getProgramParameter"</span>,
+                <span class="hljs-string">"getProgramInfoLog"</span>,
+                <span class="hljs-string">"getRenderbufferParameter"</span>,
+                <span class="hljs-string">"getShaderParameter"</span>,
+                <span class="hljs-string">"getShaderInfoLog"</span>,
+                <span class="hljs-string">"getShaderSource"</span>,
+                <span class="hljs-string">"getTexParameter"</span>,
+                <span class="hljs-string">"getUniform"</span>,
+                <span class="hljs-string">"getUniformLocation"</span>,
+                <span class="hljs-string">"getVertexAttrib"</span>
+            ];
+            <span class="hljs-keyword">for</span> ( ii = <span class="hljs-number">0</span>; ii &lt; functionsThatShouldReturnNull.length; ++ii ) {
+                functionName = functionsThatShouldReturnNull[ ii ];
+                wrappedContext_[ functionName ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                        loseContextIfTime();
+                        <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                            <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;
+                        }
+                        <span class="hljs-keyword">return</span> f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                    };
+                }( wrappedContext_[ functionName ] );
+            }
+
+            <span class="hljs-keyword">var</span> isFunctions = [
+                <span class="hljs-string">"isBuffer"</span>,
+                <span class="hljs-string">"isEnabled"</span>,
+                <span class="hljs-string">"isFramebuffer"</span>,
+                <span class="hljs-string">"isProgram"</span>,
+                <span class="hljs-string">"isRenderbuffer"</span>,
+                <span class="hljs-string">"isShader"</span>,
+                <span class="hljs-string">"isTexture"</span>
+            ];
+            <span class="hljs-keyword">for</span> ( ii = <span class="hljs-number">0</span>; ii &lt; isFunctions.length; ++ii ) {
+                functionName = isFunctions[ ii ];
+                wrappedContext_[ functionName ] = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                        loseContextIfTime();
+                        <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+                        }
+                        <span class="hljs-keyword">return</span> f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                    };
+                }( wrappedContext_[ functionName ] );
+            }
+
+            wrappedContext_.checkFramebufferStatus = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                    loseContextIfTime();
+                    <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                        <span class="hljs-keyword">return</span> wrappedContext_.FRAMEBUFFER_UNSUPPORTED;
+                    }
+                    <span class="hljs-keyword">return</span> f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                };
+            }( wrappedContext_.checkFramebufferStatus );
+
+            wrappedContext_.getAttribLocation = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                    loseContextIfTime();
+                    <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                        <span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;
+                    }
+                    <span class="hljs-keyword">return</span> f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                };
+            }( wrappedContext_.getAttribLocation );
+
+            wrappedContext_.getVertexAttribOffset = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> f </span>) </span>{
+                <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                    loseContextIfTime();
+                    <span class="hljs-keyword">if</span> ( contextLost_ ) {
+                        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+                    }
+                    <span class="hljs-keyword">return</span> f.apply( ctx, <span class="hljs-built_in">arguments</span> );
+                };
+            }( wrappedContext_.getVertexAttribOffset );
+
+            wrappedContext_.isContextLost = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+                <span class="hljs-keyword">return</span> contextLost_;
+            };
+
+            <span class="hljs-keyword">return</span> wrappedContext_;
+        }</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-37">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-37">&#182;</a>
+              </div>
+              <p>TODO: find why this is there ?</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>        <span class="hljs-keyword">return</span> canvas;
+    }
+
+    <span class="hljs-keyword">return</span> {
+        <span class="hljs-comment">/**
+   * Initializes this module. Safe to call more than once.
+   * @param {!WebGLRenderingContext} ctx A WebGL context. If
+  }
+ *    you have more than one context it doesn't matter which one
+ *    you pass in, it is only used to pull out constants.
+ */</span>
+        <span class="hljs-string">'init'</span>: init,
+
+        <span class="hljs-comment">/**
+         * Returns true or false if value matches any WebGL enum
+         * @param {*} value Value to check if it might be an enum.
+         * @return {boolean} True if value matches one of the WebGL defined enums
+         */</span>
+        <span class="hljs-string">'mightBeEnum'</span>: mightBeEnum,
+
+        <span class="hljs-comment">/**
+         * Gets an string version of an WebGL enum.
+         *
+         * Example:
+         *   WebGLDebugUtil.init(ctx);
+         *   var str = WebGLDebugUtil.glEnumToString(ctx.getError());
+         *
+         * @param {number} value Value to return an enum for
+         * @return {string} The string version of the enum.
+         */</span>
+        <span class="hljs-string">'glEnumToString'</span>: glEnumToString,
+
+        <span class="hljs-comment">/**
+         * Converts the argument of a WebGL function to a string.
+         * Attempts to convert enum arguments to strings.
+         *
+         * Example:
+         *   WebGLDebugUtil.init(ctx);
+         *   var str = WebGLDebugUtil.glFunctionArgToString('bindTexture', 0, gl.TEXTURE_2D);
+         *
+         * would return 'TEXTURE_2D'
+         *
+         * @param {string} functionName the name of the WebGL function.
+         * @param {number} argumentIndx the index of the argument.
+         * @param {*} value The value of the argument.
+         * @return {string} The value as a string.
+         */</span>
+        <span class="hljs-string">'glFunctionArgToString'</span>: glFunctionArgToString,
+
+        <span class="hljs-comment">/**
+         * Given a WebGL context returns a wrapped context that calls
+         * gl.getError after every command and calls a function if the
+         * result is not NO_ERROR.
+         *
+         * You can supply your own function if you want. For example, if you'd like
+         * an exception thrown on any GL error you could do this
+         *
+         *    function throwOnGLError(err, funcName, args) {
+         *      throw WebGLDebugUtils.glEnumToString(err) + " was caused by call to" +
+         *            funcName;
+         *    };
+         *
+         *    ctx = WebGLDebugUtils.makeDebugContext(
+         *        canvas.getContext("webgl"), throwOnGLError);
+         *
+         * @param {!WebGLRenderingContext} ctx The webgl context to wrap.
+         * @param {!function(err, funcName, args): void} opt_onErrorFunc The function
+         *     to call when gl.getError returns an error. If not specified the default
+         *     function calls Notify.log with a message.
+         */</span>
+        <span class="hljs-string">'makeDebugContext'</span>: makeDebugContext,
+
+        <span class="hljs-comment">/**
+         * Given a canvas element returns a wrapped canvas element that will
+         * simulate lost context. The canvas returned adds the following functions.
+         *
+         * loseContext:
+         *   simulates a lost context event.
+         *
+         * restoreContext:
+         *   simulates the context being restored.
+         *
+         * lostContextInNCalls:
+         *   loses the context after N gl calls.
+         *
+         * getNumCalls:
+         *   tells you how many gl calls there have been so far.
+         *
+         * setRestoreTimeout:
+         *   sets the number of milliseconds until the context is restored
+         *   after it has been lost. Defaults to 0. Pass -1 to prevent
+         *   automatic restoring.
+         *
+         * @param {!Canvas} canvas The canvas element to wrap.
+         */</span>
+        <span class="hljs-string">'makeLostContextSimulatingCanvas'</span>: makeLostContextSimulatingCanvas,
+
+        <span class="hljs-comment">/**
+         * Resets a context to the initial state.
+         * @param {!WebGLRenderingContext} ctx The webgl context to
+         *     reset.
+         */</span>
+        <span class="hljs-string">'resetToInitialState'</span>: resetToInitialState
+    };
+
+}();
+
+<span class="hljs-built_in">module</span>.exports = WebGLDebugUtils;</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
